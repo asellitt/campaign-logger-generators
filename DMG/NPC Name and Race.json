@@ -1,0 +1,75 @@
+{
+    "name": "DMG NPC Name and Race",
+    "resultPattern": "@\"{nameFirstSyllable}{nameMiddleSyllable}{nameMiddleSyllable}{nameLastSyllable} {nameFirstSyllable}{nameMiddleSyllable}{nameLastSyllable}\" ({gender}, {race})",
+    "tables": [
+        {
+            "name": "nameFirstSyllable",
+            "entries": [
+                "A", "Be", "De",
+                "Ef", "Fa", "Jo",
+                "Ki", "La", "Ma",
+                "Na", "O", "Pa",
+                "Re", "Si", "Ta",
+                "Va"
+            ]
+        }
+        ,{
+            "name": "nameMiddleSyllable",
+            "entries": [
+                "bar", "ched", "dell",
+                "far", "gran", "hal",
+                "jen", "kel", "lim",
+                "mor", "ner", "penn",
+                "quil", "rond", "sark",
+                "shen", "tur", "vash",
+                "yor", "zen", "", ""
+            ]
+        }
+        ,{
+            "name": "nameLastSyllable",
+            "entries": [
+                "a", "ac", "ai",
+                "al", "am", "an",
+                "ar", "ea", "el",
+                "er", "ess", "ett",
+                "ic", "id", "il",
+                "in", "is", "or",
+                "us"
+            ]
+        }
+        ,{
+            "name": "gender",
+            "entries": [
+                "Male",
+                "Female"
+            ]
+        }
+        ,{
+            "name": "race",
+            "entries": [
+                "Hill Dwarf",
+                "Mountain Dwarf",
+                "Shield Dwarf",
+                "Gold Dwarf",
+                "Gray Dwarf",
+                "High Elf",
+                "Wood Elf",
+                "Moon Elf",
+                "Sun Elf",
+                "Dark Elf",
+                "Lightfoot Halfling",
+                "Stout Halfling",
+                "Strongheart Halfling",
+                "Human",
+                "Dragonborn",
+                "Forest Gnome",
+                "Rock Gnome",
+                "Deep Gnome",
+                "Half-Elf",
+                "Half-Orc",
+                "Half-Dwarf",
+                "Tiefling"
+            ]
+        }
+    ]
+}
