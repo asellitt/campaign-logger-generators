@@ -1,0 +1,1117 @@
+resultPattern: ''
+tables:
+  - entries:
+      - m: 1
+        v: Hill Dwarf
+      - m: 1
+        v: Mountain Dwarf
+      - m: 1
+        v: Shield Dwarf
+      - m: 1
+        v: Gold Dwarf
+      - m: 1
+        v: Gray Dwarf
+      - m: 1
+        v: High Elf
+      - m: 1
+        v: Wood Elf
+      - m: 1
+        v: Moon Elf
+      - m: 1
+        v: Sun Elf
+      - m: 1
+        v: Dark Elf
+      - m: 1
+        v: Lightfoot Halfling
+      - m: 1
+        v: Stout Halfling
+      - m: 1
+        v: Strongheart Halfling
+      - m: 1
+        v: Human
+      - m: 1
+        v: Dragonborn
+      - m: 1
+        v: Forest Gnome
+      - m: 1
+        v: Rock Gnome
+      - m: 1
+        v: Deep Gnome
+      - m: 1
+        v: Half-Elf
+      - m: 1
+        v: Half-Orc
+      - m: 1
+        v: Half-Dwarf
+      - m: 1
+        v: Tiefling
+    name: race
+  - entries:
+      - m: 2
+        v: Male
+      - m: 2
+        v: Female
+      - m: 1
+        v: Unknown
+    name: gender
+  - entries:
+      - m: 1
+        v: >-
+          {nameFirstSyllable}{nameMiddleSyllable}{nameMiddleSyllable}{nameLastSyllable}
+    name: firstname
+  - entries:
+      - m: 1
+        v: '{nameFirstSyllable}{nameMiddleSyllable}{nameLastSyllable}'
+    name: lastname
+  - entries:
+      - m: 5
+        v: unremarkable eyes
+      - m: 1
+        v: sleepy eyes
+      - m: 1
+        v: shifty eyes
+      - m: 1
+        v: watery eyes
+      - m: 1
+        v: bright eyes
+      - m: 1
+        v: cold eyes
+      - m: 1
+        v: smiling eyes
+      - m: 1
+        v: close-set eyes
+      - m: 1
+        v: wild eyes
+      - m: 1
+        v: distant eyes
+      - m: 1
+        v: a lazy eye
+      - m: 1
+        v: piercing eyes
+      - m: 1
+        v: watchful eyes
+      - m: 1
+        v: dark eyes
+      - m: 1
+        v: hooded eyes
+      - m: 1
+        v: eyes of two different colors
+      - m: 1
+        v: slightly crossed eyes
+      - m: 1
+        v: wide eyes
+      - m: 1
+        v: beautiful eyes
+      - m: 1
+        v: beady eyes
+      - m: 1
+        v: penetrating eyes
+    name: eyes
+  - entries:
+      - m: 5
+        v: unremarkable ears
+      - m: 1
+        v: over-sized ears
+      - m: 1
+        v: long ear lobes
+      - m: 1
+        v: small ears
+      - m: 1
+        v: uneven ears
+      - m: 1
+        v: hairy ears
+      - m: 1
+        v: pointy ears
+      - m: 1
+        v: short ear lobes
+      - m: 1
+        v: ears that stick out
+      - m: 1
+        v: jug-handle ears
+      - m: 1
+        v: elaborately pierced ears
+      - m: 1
+        v: cauliflower ears
+      - m: 1
+        v: ears with improbable tufts of hair
+    name: ears
+  - entries:
+      - m: 5
+        v: unremarkable mouth
+      - m: 1
+        v: full lips
+      - m: 1
+        v: buck-teeth
+      - m: 1
+        v: thin lips
+      - m: 1
+        v: rotting teeth
+      - m: 1
+        v: crooked teeth
+      - m: 1
+        v: a broken or missing tooth
+      - m: 1
+        v: pursed lips
+      - m: 1
+        v: 'dry, cracked lips'
+      - m: 1
+        v: one or more false teeth
+      - m: 1
+        v: a mouth that hangs open
+    name: mouth
+  - entries:
+      - m: 5
+        v: unremarkable nose
+      - m: 1
+        v: a crooked nose
+      - m: 1
+        v: a bulbous nose
+      - m: 1
+        v: a narrow nose
+      - m: 1
+        v: a button nose
+      - m: 1
+        v: a long nose
+      - m: 1
+        v: a broad nose
+      - m: 1
+        v: an angular nose
+      - m: 1
+        v: a round nose
+      - m: 1
+        v: a broken nose
+      - m: 1
+        v: a hawk-like nose
+      - m: 1
+        v: a wide nose
+      - m: 1
+        v: a delicate nose
+    name: nose
+  - entries:
+      - m: 5
+        v: unremarkable jaw
+      - m: 1
+        v: a pronounced chin
+      - m: 1
+        v: a cleft chin
+      - m: 1
+        v: a dimple on the chin
+      - m: 1
+        v: a rounded chin
+      - m: 1
+        v: a sharp jawline
+      - m: 1
+        v: a square jaw
+      - m: 1
+        v: a round jaw
+      - m: 1
+        v: an underbite
+    name: jaw
+  - entries:
+      - m: 5
+        v: unremarkable hair
+      - m: 1
+        v: thick hair
+      - m: 1
+        v: wispy hair
+      - m: 1
+        v: straight hair
+      - m: 1
+        v: wavy hair
+      - m: 1
+        v: curly hair
+      - m: 1
+        v: wiry hair
+      - m: 1
+        v: oily hair
+      - m: 1
+        v: lush hair
+      - m: 1
+        v: poofy hair
+      - m: 1
+        v: long braids
+      - m: 1
+        v: braids tight against the head
+      - m: 1
+        v: very long hair
+      - m: 1
+        v: greasy hair
+      - m: 1
+        v: unruly hair
+      - m: 1
+        v: an unusual hairstyle
+      - m: 1
+        v: an outdated hairstyle
+      - m: 1
+        v: a high-maintenance hairstyle
+      - m: 1
+        v: short-cropped hair
+      - m: 1
+        v: a shaved head
+      - m: 1
+        v: no hair at all
+    name: hair
+  - entries:
+      - m: 5
+        v: no other feature
+      - m: 1
+        v: high cheekbones
+      - m: 1
+        v: 'tight, drawn cheeks'
+      - m: 1
+        v: chubby cheeks
+      - m: 1
+        v: an unpleasant pustule
+      - m: 1
+        v: a large mole
+      - m: 1
+        v: a beauty mark
+      - m: 1
+        v: freckles
+      - m: 1
+        v: terrible scarring
+    name: otherFacialFeature
+  - entries:
+      - m: 5
+        v: average height
+      - m: 1
+        v: unusually short
+      - m: 1
+        v: short in stature
+      - m: 1
+        v: slightly above average height
+      - m: 1
+        v: well above average height
+      - m: 1
+        v: unusually tall
+    name: height
+  - entries:
+      - m: 5
+        v: of average build
+      - m: 1
+        v: thin and delicate
+      - m: 1
+        v: well-muscled
+      - m: 1
+        v: slightly overweight
+      - m: 1
+        v: grotesquely obese
+      - m: 1
+        v: lean and lanky
+      - m: 1
+        v: lithe and lean
+      - m: 1
+        v: thin and wiry
+      - m: 1
+        v: sinewy and strong
+      - m: 1
+        v: flabby and weak
+      - m: 1
+        v: lumpy or bent
+      - m: 1
+        v: thin and flimsy
+      - m: 1
+        v: soft and chubby
+      - m: 1
+        v: thin and petite
+      - m: 1
+        v: pudgy
+      - m: 1
+        v: big and broad
+      - m: 1
+        v: stocky and strong
+      - m: 1
+        v: bony
+      - m: 1
+        v: wide and ponderous
+      - m: 1
+        v: covered in hair
+    name: body
+  - entries:
+      - m: 5
+        v: unremarkable hands
+      - m: 1
+        v: powerful hands
+      - m: 1
+        v: delicate hands
+      - m: 1
+        v: rough hands
+      - m: 1
+        v: soft hands
+      - m: 1
+        v: a light touch
+      - m: 1
+        v: a heavy touch
+    name: hands
+  - entries:
+      - m: 5
+        v: no scarring
+      - m: 1
+        v: a jagged scar
+      - m: 1
+        v: a dark purple scar
+      - m: 1
+        v: an angry red scar
+      - m: 1
+        v: 'a long, thin scar'
+    name: scar
+  - entries:
+      - m: 5
+        v: no tattoo
+      - m: 1
+        v: a dagger tattoo
+      - m: 1
+        v: an arrow tattoo
+      - m: 1
+        v: an anchor tattoo
+      - m: 1
+        v: a skull tattoo
+      - m: 1
+        v: a pair of crossed bones tattoo
+      - m: 1
+        v: a snake tattoo
+      - m: 1
+        v: a scorpion tattoo
+      - m: 1
+        v: a spider web tattoo
+      - m: 1
+        v: a heart tattoo
+      - m: 1
+        v: a ring of thorns tattoo
+      - m: 1
+        v: a mermaid tattoo
+      - m: 1
+        v: a dragon tattoo
+    name: tattoo
+  - entries:
+      - m: 5
+        v: no jewelry
+      - m: 1
+        v: 'an earring made of {jewelryMadeOf}'
+      - m: 1
+        v: 'two earrings made of {jewelryMadeOf}'
+      - m: 1
+        v: 'a small chain about the neck made of {jewelryMadeOf}'
+      - m: 1
+        v: 'a large chain about the neck made of {jewelryMadeOf}'
+      - m: 1
+        v: 'a tight choker about the neck made of {jewelryMadeOf}'
+      - m: 1
+        v: 'a brooch made of {jewelryMadeOf}'
+      - m: 1
+        v: 'a ring made of {jewelryMadeOf}'
+      - m: 1
+        v: 'several rings made of {jewelryMadeOf}'
+      - m: 1
+        v: 'a bracelet made of {jewelryMadeOf}'
+      - m: 1
+        v: 'a nose ring made of {jewelryMadeOf}'
+      - m: 1
+        v: 'a medallion made of {jewelryMadeOf}'
+      - m: 1
+        v: 'an ornate belt made of {jewelryMadeOf}'
+    name: jewelry
+  - entries:
+      - m: 1
+        v: steel
+      - m: 1
+        v: bronze
+      - m: 1
+        v: pewter
+      - m: 1
+        v: silver
+      - m: 1
+        v: gold
+      - m: 1
+        v: platinum
+      - m: 1
+        v: copper
+      - m: 1
+        v: amethyst
+      - m: 1
+        v: crystal
+      - m: 1
+        v: diamond
+      - m: 1
+        v: emerald
+      - m: 1
+        v: jade
+      - m: 1
+        v: obsidian
+      - m: 1
+        v: opal
+      - m: 1
+        v: pearl
+      - m: 1
+        v: ruby
+      - m: 1
+        v: sapphire
+      - m: 1
+        v: topaz
+      - m: 1
+        v: turquoise
+    name: jewelryMadeOf
+  - entries:
+      - m: 5
+        v: unremarkable clothing
+      - m: 1
+        v: crisp and new
+      - m: 1
+        v: fashionable and hip
+      - m: 1
+        v: a bit old-fashioned
+      - m: 1
+        v: of the highest quality
+      - m: 1
+        v: 'faded, but in good condition'
+      - m: 1
+        v: faded and patched
+      - m: 1
+        v: torn in places; missing buttons
+      - m: 1
+        v: tattered and worn
+    name: clothes
+  - entries:
+      - m: 1
+        v: compassionate
+      - m: 1
+        v: cheerful
+      - m: 1
+        v: reserved
+      - m: 1
+        v: outspoken
+      - m: 1
+        v: uninterested
+      - m: 1
+        v: gruff
+      - m: 1
+        v: eager
+      - m: 1
+        v: deceitful
+      - m: 1
+        v: foolish
+      - m: 1
+        v: strict
+      - m: 1
+        v: agreeable
+      - m: 1
+        v: mischeivious
+      - m: 1
+        v: angry
+      - m: 1
+        v: fearful
+      - m: 1
+        v: manipulative
+      - m: 1
+        v: devout
+      - m: 1
+        v: greedy
+      - m: 1
+        v: funny
+      - m: 1
+        v: dour
+      - m: 1
+        v: fun-loving
+      - m: 1
+        v: lazy
+      - m: 1
+        v: driven
+      - m: 1
+        v: boastful
+      - m: 1
+        v: artistic
+      - m: 1
+        v: assertive
+      - m: 1
+        v: carefree
+      - m: 1
+        v: cautious
+      - m: 1
+        v: confident
+      - m: 1
+        v: thoughtful
+      - m: 1
+        v: loyal
+      - m: 1
+        v: sophisticated
+      - m: 1
+        v: weak-willed
+    name: calm
+  - entries:
+      - m: 1
+        v: withdrawn
+      - m: 1
+        v: murderous
+      - m: 1
+        v: obsessive
+      - m: 1
+        v: authoritarian
+      - m: 1
+        v: determined
+      - m: 1
+        v: brave
+      - m: 1
+        v: spiteful
+      - m: 1
+        v: belligerent
+      - m: 1
+        v: caustic
+      - m: 1
+        v: reckless
+      - m: 1
+        v: argumentative
+      - m: 1
+        v: gluttonous
+      - m: 1
+        v: overly protective
+      - m: 1
+        v: angry
+      - m: 1
+        v: cowardly
+      - m: 1
+        v: meticulous
+      - m: 1
+        v: sarcastic
+      - m: 1
+        v: stubborn
+      - m: 1
+        v: destructive
+      - m: 1
+        v: practical
+      - m: 1
+        v: pushy
+      - m: 1
+        v: fanatical
+      - m: 1
+        v: secretive
+      - m: 1
+        v: scornful
+      - m: 1
+        v: courageous
+      - m: 1
+        v: impractical
+      - m: 1
+        v: calculating
+      - m: 1
+        v: industrious
+      - m: 1
+        v: manipulative
+      - m: 1
+        v: destructive
+      - m: 1
+        v: compulsive
+      - m: 1
+        v: intolerant
+    name: stressed
+  - entries:
+      - m: 1
+        v: agreeable
+      - m: 1
+        v: carefree
+      - m: 1
+        v: curious
+      - m: 1
+        v: eager
+      - m: 1
+        v: friendly
+      - m: 1
+        v: happy
+      - m: 1
+        v: hopeful
+      - m: 1
+        v: upbeat
+      - m: 1
+        v: indifferent
+      - m: 1
+        v: bored
+      - m: 1
+        v: focused
+      - m: 1
+        v: suspicious
+      - m: 1
+        v: tired
+      - m: 1
+        v: withdrawn
+      - m: 1
+        v: disagreeable
+      - m: 1
+        v: agitated
+      - m: 1
+        v: angry
+      - m: 1
+        v: despondent
+      - m: 1
+        v: gloomy
+      - m: 1
+        v: nervous
+    name: currentMood
+  - entries:
+      - m: 5
+        v: a quiet true believer
+      - m: 1
+        v: a casual observer
+      - m: 1
+        v: a critical student
+      - m: 1
+        v: an outspoken cynic
+      - m: 1
+        v: an open-minded seeker
+      - m: 1
+        v: a broken heretic
+      - m: 1
+        v: a cautious listener
+      - m: 1
+        v: a fanatical true believer
+    name: faith
+  - entries:
+      - m: 5
+        v: no prejudice
+      - m: 1
+        v: other genders
+      - m: 1
+        v: children
+      - m: 1
+        v: teenagers
+      - m: 1
+        v: the elderly
+      - m: 1
+        v: the ruling class and authority figures
+      - m: 1
+        v: the powerful rich
+      - m: 1
+        v: the destitute poor
+      - m: 1
+        v: beggars
+      - m: 1
+        v: drunks
+      - m: 1
+        v: drug-users
+      - m: 1
+        v: farmers
+      - m: 1
+        v: artists
+      - m: 1
+        v: the clergy
+      - m: 1
+        v: soldiers
+      - m: 1
+        v: fishers
+      - m: 1
+        v: harlots
+      - m: 1
+        v: miners
+      - m: 1
+        v: merchants
+      - m: 1
+        v: scholars
+      - m: 1
+        v: herders
+      - m: 1
+        v: sailors
+      - m: 1
+        v: mage
+      - m: 1
+        v: dwarves
+      - m: 1
+        v: elves
+      - m: 1
+        v: gnomes
+      - m: 1
+        v: goblins
+      - m: 1
+        v: half-breeds
+      - m: 1
+        v: halflings
+      - m: 1
+        v: humans
+      - m: 1
+        v: orcs
+      - m: 1
+        v: reptilians
+    name: prejudice
+  - entries:
+      - m: 5
+        v: no talent
+      - m: 1
+        v: Plays a musical instrument
+      - m: 1
+        v: Speaks several languages fluently
+      - m: 1
+        v: Unbelievably lucky
+      - m: 1
+        v: Perfect memory
+      - m: 1
+        v: Great with animals
+      - m: 1
+        v: Great with children
+      - m: 1
+        v: Great at solving puzzles
+      - m: 1
+        v: Great at one game
+      - m: 1
+        v: Great at impersonations
+      - m: 1
+        v: Draws beautifully
+      - m: 1
+        v: Paints beautifully
+      - m: 1
+        v: Sings beautifully
+      - m: 1
+        v: Drinks everyone under the table
+      - m: 1
+        v: Expert carpenter
+      - m: 1
+        v: Expert cook
+      - m: 1
+        v: Expert dart thrower and rock skipper
+      - m: 1
+        v: Expert juggler
+      - m: 1
+        v: Skilled actor and master of disguise
+      - m: 1
+        v: Skilled dancer
+      - m: 1
+        v: Knows thieves cant
+    name: talent
+  - entries:
+      - m: 1
+        v: Prone to singing
+      - m: 1
+        v: Prone to whistling
+      - m: 1
+        v: Prone to humming quietly
+      - m: 1
+        v: Speaks in rhyme
+      - m: 1
+        v: Speaks in some peculiar way
+      - m: 1
+        v: Particularly low voice
+      - m: 1
+        v: Particularly high voice
+      - m: 1
+        v: Slurs words
+      - m: 1
+        v: Has a lisp
+      - m: 1
+        v: Has a stutter
+      - m: 1
+        v: Enunciates overly clearly
+      - m: 1
+        v: Speaks loudly
+      - m: 1
+        v: Whispers
+      - m: 1
+        v: Uses flowery speech
+      - m: 1
+        v: Uses long words
+      - m: 1
+        v: Frequently uses the wrong word
+      - m: 1
+        v: Uses colorful oaths and exclamations
+      - m: 1
+        v: Makes constant jokes
+      - m: 1
+        v: Makes constant puns
+      - m: 1
+        v: Prone to predictions of doom
+      - m: 1
+        v: Fidgets
+      - m: 1
+        v: Squints
+      - m: 1
+        v: Stares into the distance
+      - m: 1
+        v: Chews something
+      - m: 1
+        v: Paces
+      - m: 1
+        v: Taps fingers
+      - m: 1
+        v: Bites fingernails
+      - m: 1
+        v: Twirls hair
+      - m: 1
+        v: Tugs beard
+    name: mannerism
+  - entries:
+      - m: 1
+        v: Argumentative
+      - m: 1
+        v: Arrogant
+      - m: 1
+        v: Blustering
+      - m: 1
+        v: Rude
+      - m: 1
+        v: Curious
+      - m: 1
+        v: Friendly
+      - m: 1
+        v: Honest
+      - m: 1
+        v: Hot tempered
+      - m: 1
+        v: Irritable
+      - m: 1
+        v: Ponderous
+      - m: 1
+        v: Quiet
+      - m: 1
+        v: Suspicious
+    name: trait
+  - entries:
+      - m: 1
+        v: Beauty (Good)
+      - m: 1
+        v: Charity (Good)
+      - m: 1
+        v: Greater good (Good)
+      - m: 1
+        v: Life (Good)
+      - m: 1
+        v: Respect (Good)
+      - m: 1
+        v: Self-sacrifice (Good)
+      - m: 1
+        v: Domination (Evil)
+      - m: 1
+        v: Greed (Evil)
+      - m: 1
+        v: Might (Evil)
+      - m: 1
+        v: Pain (Evil)
+      - m: 1
+        v: Retribution (Evil)
+      - m: 1
+        v: Slaughter (Evil)
+      - m: 1
+        v: Community (Lawful)
+      - m: 1
+        v: Fairness (Lawful)
+      - m: 1
+        v: Honor (Lawful)
+      - m: 1
+        v: Logic (Lawful)
+      - m: 1
+        v: Responsibility (Lawful)
+      - m: 1
+        v: Tradition (Lawful)
+      - m: 1
+        v: Change (Chaotic)
+      - m: 1
+        v: Creativity (Chaotic)
+      - m: 1
+        v: Freedom (Chaotic)
+      - m: 1
+        v: Independence (Chaotic)
+      - m: 1
+        v: No limits (Chaotic)
+      - m: 1
+        v: Whimsy (Chaotic)
+      - m: 1
+        v: Balance (Neutral)
+      - m: 1
+        v: Knowledge (Neutral)
+      - m: 1
+        v: Live and let live (Neutral)
+      - m: 1
+        v: Moderation (Neutral)
+      - m: 1
+        v: Neutrality (Neutral)
+      - m: 1
+        v: People (Neutral)
+      - m: 1
+        v: Aspiration (Other)
+      - m: 1
+        v: Discovery (Other)
+      - m: 1
+        v: Glory (Other)
+      - m: 1
+        v: Nation (Other)
+      - m: 1
+        v: Redemption (Other)
+      - m: 1
+        v: Self-knowledge (Other)
+    name: ideal
+  - entries:
+      - m: 1
+        v: Dedicated to fulfilling a personal life goal
+      - m: 1
+        v: Protective of close family members
+      - m: 1
+        v: Protective of colleagues
+      - m: 1
+        v: Protective of compatriots
+      - m: 1
+        v: Loyal to a benefactor
+      - m: 1
+        v: Loyal to a patron
+      - m: 1
+        v: Loyal to a employer
+      - m: 1
+        v: Captivated by a romantic interest
+      - m: 1
+        v: Drawn to a special place
+      - m: 1
+        v: Protective of a sentimental keepsake
+      - m: 1
+        v: Protective of a valuable possession
+      - m: 1
+        v: Out for revenge
+    name: bond
+  - entries:
+      - m: 1
+        v: Forbidden love
+      - m: 1
+        v: Susceptibility to romance
+      - m: 1
+        v: Enjoys decadent pleasures
+      - m: 1
+        v: Arrogance
+      - m: 1
+        v: Envies another creatures possessions
+      - m: 1
+        v: Envies another creatures station
+      - m: 1
+        v: Overpowering greed
+      - m: 1
+        v: Prone to rage
+      - m: 1
+        v: Has a powerful enemy
+      - m: 1
+        v: Specific phobia
+      - m: 1
+        v: Shameful history
+      - m: 1
+        v: Scandalous history
+      - m: 1
+        v: Secret crime
+      - m: 1
+        v: Secret misdeed
+      - m: 1
+        v: Possession of forbidden lore
+      - m: 1
+        v: Foolhardy bravery
+    name: secret
+  - entries:
+      - m: 1
+        v: A
+      - m: 1
+        v: Be
+      - m: 1
+        v: De
+      - m: 1
+        v: Ef
+      - m: 1
+        v: Fa
+      - m: 1
+        v: Jo
+      - m: 1
+        v: Ki
+      - m: 1
+        v: La
+      - m: 1
+        v: Ma
+      - m: 1
+        v: Na
+      - m: 1
+        v: O
+      - m: 1
+        v: Pa
+      - m: 1
+        v: Re
+      - m: 1
+        v: Si
+      - m: 1
+        v: Ta
+      - m: 1
+        v: Va
+    name: nameFirstSyllable
+  - entries:
+      - m: 1
+        v: bar
+      - m: 1
+        v: ched
+      - m: 1
+        v: dell
+      - m: 1
+        v: far
+      - m: 1
+        v: gran
+      - m: 1
+        v: hal
+      - m: 1
+        v: jen
+      - m: 1
+        v: kel
+      - m: 1
+        v: lim
+      - m: 1
+        v: mor
+      - m: 1
+        v: ner
+      - m: 1
+        v: penn
+      - m: 1
+        v: quil
+      - m: 1
+        v: rond
+      - m: 1
+        v: sark
+      - m: 1
+        v: shen
+      - m: 1
+        v: tur
+      - m: 1
+        v: vash
+      - m: 1
+        v: yor
+      - m: 1
+        v: zen
+      - m: 3
+        v: ''
+    name: nameMiddleSyllable
+  - entries:
+      - m: 1
+        v: a
+      - m: 1
+        v: ac
+      - m: 1
+        v: ai
+      - m: 1
+        v: al
+      - m: 1
+        v: am
+      - m: 1
+        v: an
+      - m: 1
+        v: ar
+      - m: 1
+        v: ea
+      - m: 1
+        v: el
+      - m: 1
+        v: er
+      - m: 1
+        v: ess
+      - m: 1
+        v: ett
+      - m: 1
+        v: ic
+      - m: 1
+        v: id
+      - m: 1
+        v: il
+      - m: 1
+        v: in
+      - m: 1
+        v: is
+      - m: 1
+        v: or
+      - m: 1
+        v: us
+    name: nameLastSyllable
+categories:
+  - lib
+explanation: NPC Library
+name: NPC Library

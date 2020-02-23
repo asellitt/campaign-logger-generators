@@ -1,0 +1,6 @@
+resultPattern: >-
+  @"{gen:NPC Library#firstname} {gen:NPC Library#lastname}" ({gen:NPC
+  Library#gender}, {gen:NPC Library#race})
+categories:
+  - NPCs
+name: NPC Name and Race

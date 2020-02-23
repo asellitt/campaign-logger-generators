@@ -1,0 +1,43 @@
+resultPattern: |-
+
+  {gen:NPC Name and Race}
+
+  ==== Facial Features ====
+  {b|Eyes:} {gen:NPC Library#eyes}
+  {b|Ears:} {gen:NPC Library#ears}
+  {b|Mouth:} {gen:NPC Library#mouth}
+  {b|Nose:} {gen:NPC Library#nose}
+  {b|Jaw:} {gen:NPC Library#jaw}
+  {b|Hair:} {gen:NPC Library#hair}
+  {b|Other feature:} {gen:NPC Library#otherFacialFeature}
+
+  ==== Physical Features ====
+  {b|Height:} {gen:NPC Library#height}
+  {b|Body:} {gen:NPC Library#body}
+  {b|Hands:} {gen:NPC Library#hands}
+  {b|Scar:} {gen:NPC Library#scar}
+
+  ==== Accessories ====
+  {b|Tattoo:} {gen:NPC Library#tattoo}
+  {b|Jewelry:} {gen:NPC Library#jewelry}
+  {b|Clothing:} {gen:NPC Library#clothes}
+
+  ==== Emotions ====
+  {b|When calm:}  {gen:NPC Library#calm}
+  {b|When stressed:} {gen:NPC Library#stressed}
+  {b|Current mood:} {gen:NPC Library#currentMood}
+
+  ==== Faith ====
+  {b|Faith:} {gen:NPC Library#faith}
+  {b|Prejudice:} {gen:NPC Library#prejudice}
+
+  ==== Personality ====
+  {b|Trait:} {gen:NPC Library#trait}
+  {b|Ideal:} {gen:NPC Library#ideal}
+  {b|Bond:} {gen:NPC Library#bond}
+  {b|Secret:} {gen:NPC Library#secret}
+  {b|Mannerism:} {gen:NPC Library#mannerism}
+  {b|Talent:} {gen:NPC Library#talent}
+categories:
+  - NPCs
+name: NPC Traits

@@ -1,0 +1,1192 @@
+resultPattern: ''
+tables:
+- entries:
+    - m: 1
+      v: Azurite (opaque mottled deep blue) - $"10GP"
+    - m: 1
+      v: Banded agate (translucent striped brown, blue, white, or red) - $"10GP"
+    - m: 1
+      v: Blue quartz (transparent pale blue) - $"10GP"
+    - m: 1
+      v: Eye agate (translucent circles of gray, white, brown, blue, or green) - $"10GP"
+    - m: 1
+      v: Hematite (opaque gray-black) - $"10GP"
+    - m: 1
+      v: Lapis lazuli (opaque light and dark blue with yellow flecks) - $"10GP"
+    - m: 1
+      v: Malachite (opaque striated light and dark green) - $"10GP"
+    - m: 1
+      v: Moss agate (translucent pink or yellow-white with mossy gray or green markings) - $"10GP"
+    - m: 1
+      v: Obsidian (opaque black) - $"10GP"
+    - m: 1
+      v: Rhodochrosite (opaque light pink) - $"10GP"
+    - m: 1
+      v: Tiger eye (translucent brown with golden center) - $"10GP"
+    - m: 1
+      v: Turquoise (opaque light blue-green) - $"10GP"
+  name: gem10
+- entries:
+    - m: 1
+      v: Bloodstone (opaque dark gray with red flecks) - $"50GP"
+    - m: 1
+      v: Carnelian (opaque orange to red-brown) - $"50GP"
+    - m: 1
+      v: Chalcedony (opaque white) - $"50GP"
+    - m: 1
+      v: Chrysoprase (translucent green) - $"50GP"
+    - m: 1
+      v: Citrine (transparent pale yellow-brown) - $"50GP"
+    - m: 1
+      v: Jasper (opaque blue, black, or brown) - $"50GP"
+    - m: 1
+      v: Moonstone (translucent white with pale blue glow) - $"50GP"
+    - m: 1
+      v: Onyx (opaque bands of black and white, or pure black or white) - $"50GP"
+    - m: 1
+      v: Quartz (transparent white, smoky gray, or yellow) - $"50GP"
+    - m: 1
+      v: Sardonyx (opaque bands of red and white) - $"50GP"
+    - m: 1
+      v: Star rose quartz (translucent rosy stone with white star-shaped center) - $"50GP"
+    - m: 1
+      v: Zircon (transparent pale blue-green) - $"50GP"
+  name: gem50
+- entries:
+    - m: 1
+      v: Amber (transparent watery gold to rich gold) - $"100GP"
+    - m: 1
+      v: Amethyst (transparent deep purple) - $"100GP"
+    - m: 1
+      v: Chrysoberyl (transparent yellow-green to pale green) - $"100GP"
+    - m: 1
+      v: Coral (opaque crimson) - $"100GP"
+    - m: 1
+      v: Garnet (transparent red, brown-green, or violet) - $"100GP"
+    - m: 1
+      v: Jade (translucent light green, deep green, or white) - $"100GP"
+    - m: 1
+      v: Jet (opaque deep black) - $"100GP"
+    - m: 1
+      v: Pearl (opaque lustrous white, yellow, or pink) - $"100GP"
+    - m: 1
+      v: Spinel (transparent red, red-brown, or deep green) - $"100GP"
+    - m: 1
+      v: Tourmaline (transparent pale green, blue, brown, or red) - $"100GP"
+  name: gem100
+- entries:
+    - m: 1
+      v: Alexandrite (transparent dark green) - $"500GP"
+    - m: 1
+      v: Aquamarine (transparent pale blue-green) - $"500GP"
+    - m: 1
+      v: Black pearl (opaque pure black) - $"500GP"
+    - m: 1
+      v: Blue spinel (transparent deep blue) - $"500GP"
+    - m: 1
+      v: Peridot (transparent rich olive green) - $"500GP"
+    - m: 1
+      v: Topaz (transparent golden yellow) - $"500GP"
+  name: gem500
+- entries:
+    - m: 1
+      v: Black opal (translucent dark green with black mottling and golden flecks) - $"1000GP"
+    - m: 1
+      v: Blue sapphire (transparent blue-white to medium blue) - $"1000GP"
+    - m: 1
+      v: Emerald (transparent deep bright green) - $"1000GP"
+    - m: 1
+      v: Fire opal (translucent fiery red) - $"1000GP"
+    - m: 1
+      v: Opal (translucent pale blue with green and golden mottling) - $"1000GP"
+    - m: 1
+      v: Star ruby (translucent ruby with white star-shaped center) - $"1000GP"
+    - m: 1
+      v: Star sapphire (translucent blue sapphire with white star-shaped center) - $"1000GP"
+    - m: 1
+      v: Yellow sapphire (transparent fiery yellow or yellow-green) - $"1000GP"
+  name: gem1000
+- entries:
+    - m: 1
+      v: Black sapphire (translucent lustrous black with glowing highlights) - $"5000GP"
+    - m: 1
+      v: Diamond (transparent blue-white, canary, pink, brown, or blue) - $"5000GP"
+    - m: 1
+      v: Jacinth (transparent fiery orange) - $"5000GP"
+    - m: 1
+      v: Ruby (transparent clear red to deep crimson) - $"5000GP"
+  name: gem5000
+- entries:
+    - m: 1
+      v: Silver ewer - $"25GP"
+    - m: 1
+      v: Carved bone statuette - $"25GP"
+    - m: 1
+      v: Small gold bracelet - $"25GP"
+    - m: 1
+      v: Cloth-of-gold vestments - $"25GP"
+    - m: 1
+      v: Black velvet mask stitched with silver thread - $"25GP"
+    - m: 1
+      v: Copper chalice with silver filigree - $"25GP"
+    - m: 1
+      v: Pair of engraved bone dice - $"25GP"
+    - m: 1
+      v: Small mirror set in a painted wooden frame - $"25GP"
+    - m: 1
+      v: Embroidered silk handkerchief - $"25GP"
+    - m: 1
+      v: Gold locket with a painted portrait inside - $"25GP"
+  name: art25
+- entries:
+    - m: 1
+      v: Gold ring set with bloodstones - $"250GP"
+    - m: 1
+      v: Carved ivory statuette - $"250GP"
+    - m: 1
+      v: Large gold bracelet - $"250GP"
+    - m: 1
+      v: Silver necklace with a gem pendant - $"250GP"
+    - m: 1
+      v: Bronze crown - $"250GP"
+    - m: 1
+      v: Silk robe with gold embroidery - $"250GP"
+    - m: 1
+      v: Large well-made tapestry - $"250GP"
+    - m: 1
+      v: Brass mug with jade inlay - $"250GP"
+    - m: 1
+      v: Box of turquoise animal figurines - $"250GP"
+    - m: 1
+      v: Gold bird cage with electrum filigree - $"250GP"
+  name: art250
+- entries:
+    - m: 1
+      v: Silver chalice set with moonstones - $"750GP"
+    - m: 1
+      v: Silver-plated steel longsword with jet set in hilt - $"750GP"
+    - m: 1
+      v: Carved harp of exotic wood with ivory inlay and zircon gems - $"750GP"
+    - m: 1
+      v: Small gold idol - $"750GP"
+    - m: 1
+      v: Gold dragon comb set with red garnets as eyes - $"750GP"
+    - m: 1
+      v: Bottle stopper cork embossed with gold leaf and set with amethysts - $"750GP"
+    - m: 1
+      v: Ceremonial electrum dagger with a black pearl in the pommel - $"750GP"
+    - m: 1
+      v: Silver and gold brooch - $"750GP"
+    - m: 1
+      v: Obsidian statuette with gold fittings and inlay - $"750GP"
+    - m: 1
+      v: Painted gold war mask - $"750GP"
+  name: art750
+- entries:
+    - m: 1
+      v: Fine gold chain set with a fire opal - $"2500GP"
+    - m: 1
+      v: Old masterpiece painting - $"2500GP"
+    - m: 1
+      v: Embroidered silk and velvet mantle set with numerous moonstones - $"2500GP"
+    - m: 1
+      v: Platinum bracelet set with a sapphire - $"2500GP"
+    - m: 1
+      v: Embroidered glove set with jewel chips - $"2500GP"
+    - m: 1
+      v: Jeweled anklet - $"2500GP"
+    - m: 1
+      v: Gold music box - $"2500GP"
+    - m: 1
+      v: Gold circlet set with four aquamarines - $"2500GP"
+    - m: 1
+      v: Eye patch with a mock eye set in blue sapphire and moonstone - $"2500GP"
+    - m: 1
+      v: A necklace string of small pink pearls - $"2500GP"
+  name: art2500
+- entries:
+    - m: 1
+      v: Jeweled gold crown - $"7500GP"
+    - m: 1
+      v: Jeweled platinum ring - $"7500GP"
+    - m: 1
+      v: Small gold statuette set with rubies - $"7500GP"
+    - m: 1
+      v: Gold cup set with emeralds - $"7500GP"
+    - m: 1
+      v: Gold jewelry box with platinum filigree - $"7500GP"
+    - m: 1
+      v: Painted gold child’s sarcophagus - $"7500GP"
+    - m: 1
+      v: Jade game board with solid gold playing pieces - $"7500GP"
+    - m: 1
+      v: Bejeweled ivory drinking horn with gold filigree - $"7500GP"
+  name: art7500
+- entries:
+    - m: 50
+      v: '!"Potion Of Healing"'
+    - m: 10
+      v: '!"Spell Scroll (Cantrip) ({gen:Spell Library#cantrip})"'
+    - m: 10
+      v: '!"Potion Of Climbing"'
+    - m: 20
+      v: '!"Spell Scroll (1st Level) ({gen:Spell Library#first})"'
+    - m: 4
+      v: '!"Spell Scroll (2nd Level) ({gen:Spell Library#second})"'
+    - m: 4
+      v: '!"Potion Of Greater Healing"'
+    - m: 1
+      v: '!"Bag Of Holding"'
+    - m: 1
+      v: '!"Driftglobe"'
+  name: magicItemTableA
+- entries:
+    - m: 15
+      v: '!"Potion Of Greater Healing"'
+    - m: 7
+      v: '!"Potion Of Fire Breath"'
+    - m: 7
+      v: '!"Potion Of {damageType} Resistance"'
+    - m: 5
+      v: '!"Ammunition, +1 ({ammunition})"'
+    - m: 5
+      v: '!"Potion Of Animal Friendship"'
+    - m: 5
+      v: '!"Potion Of Hill Giant Strength"'
+    - m: 5
+      v: '!"Potion Of Growth"'
+    - m: 5
+      v: '!"Potion Of Water Breathing"'
+    - m: 5
+      v: '!"Spell Scroll (2nd Level) ({gen:Spell Library#second})"'
+    - m: 5
+      v: '!"Spell Scroll (3rd Level) ({gen:Spell Library#third})"'
+    - m: 3
+      v: '!"Bag Of Holding"'
+    - m: 3
+      v: '!"Keoghtoms Ointment"'
+    - m: 3
+      v: '!"Oil Of Slipperiness"'
+    - m: 2
+      v: '!"Dust Of Disappearance"'
+    - m: 2
+      v: '!"Dust Of Dryness"'
+    - m: 2
+      v: '!"Dust Of Sneezing And Choking"'
+    - m: 2
+      v: '!"Elemental Gem ({elementalGem})"'
+    - m: 2
+      v: '!"Philter Of Love"'
+    - m: 1
+      v: '!"Alchemy Jug"'
+    - m: 1
+      v: '!"Cap Of Water Breathing"'
+    - m: 1
+      v: '!"Cloak Of The Manta Ray"'
+    - m: 1
+      v: '!"Driftglobe"'
+    - m: 1
+      v: '!"Goggles Of Night"'
+    - m: 1
+      v: '!"Helm Of Comprehending Languages"'
+    - m: 1
+      v: '!"Immovable Rod"'
+    - m: 1
+      v: '!"Lantern Of Revealing"'
+    - m: 1
+      v: '!"Mariners Armor"'
+    - m: 1
+      v: '!"Mithral Armor"'
+    - m: 1
+      v: '!"Potion Of Poison"'
+    - m: 1
+      v: '!"Ring Of Swimming"'
+    - m: 1
+      v: '!"Robe Of Useful Items"'
+    - m: 1
+      v: '!"Rope Of Climbing"'
+    - m: 1
+      v: '!"Saddle Of The Cavalier"'
+    - m: 1
+      v: '!"Wand Of Magic Detection"'
+    - m: 1
+      v: '!"Wand Of Secrets"'
+  name: magicItemTableB
+- entries:
+    - m: 15
+      v: '!"Potion Of Superior Healing"'
+    - m: 7
+      v: '!"Spell Scroll (4th Level) ({gen:Spell Library#fourth})"'
+    - m: 5
+      v: '!"Ammunition, +2 ({ammunition})"'
+    - m: 5
+      v: '!"Potion Of Clairvoyance"'
+    - m: 5
+      v: '!"Potion Of Diminution"'
+    - m: 5
+      v: '!"Potion Of Gaseous Form"'
+    - m: 5
+      v: '!"Potion Of Frost Giant Strength"'
+    - m: 5
+      v: '!"Potion Of Stone Giant Strength"'
+    - m: 5
+      v: '!"Potion Of Heroism"'
+    - m: 5
+      v: '!"Potion Of Invulnerability"'
+    - m: 5
+      v: '!"Potion Of Mind Reading"'
+    - m: 5
+      v: '!"Spell Scroll (5th Level) ({gen:Spell Library#fifth})"'
+    - m: 3
+      v: '!"Elixir Of Health"'
+    - m: 3
+      v: '!"Oil Of Etherealness"'
+    - m: 3
+      v: '!"Potion Of Fire Giant Strength"'
+    - m: 3
+      v: '!"Quaals Feather Token ({featherToken})"'
+    - m: 3
+      v: '!"Scroll Of {protectionScroll} Protection"'
+    - m: 2
+      v: '!"Bag Of Beans"'
+    - m: 2
+      v: '!"Bead Of Force"'
+    - m: 1
+      v: '!"Chime Of Opening"'
+    - m: 1
+      v: '!"Decanter Of Endless Water"'
+    - m: 1
+      v: '!"Eyes Of Minute Seeing"'
+    - m: 1
+      v: '!"Folding Boat"'
+    - m: 1
+      v: '!"Hewards Handy Haversack"'
+    - m: 1
+      v: '!"Horseshoes Of Speed"'
+    - m: 1
+      v: '!"Necklace Of Fireballs"'
+    - m: 1
+      v: '!"Periapt Of Health"'
+    - m: 1
+      v: '!"Sending Stones"'
+  name: magicItemTableC
+- entries:
+    - m: 20
+      v: '!"Potion Of Supreme Healing"'
+    - m: 10
+      v: '!"Potion Of Invisibility"'
+    - m: 10
+      v: '!"Potion Of Speed"'
+    - m: 10
+      v: '!"Spell Scroll (6th Level) ({gen:Spell Library#sixth})"'
+    - m: 7
+      v: '!"Spell Scroll (7th Level) ({gen:Spell Library#seventh})"'
+    - m: 5
+      v: '!"Ammunition, +3 ({ammunition})"'
+    - m: 5
+      v: '!"Oil Of Sharpness"'
+    - m: 5
+      v: '!"Potion Of Flying"'
+    - m: 5
+      v: '!"Potion Of Cloud Giant Strength"'
+    - m: 5
+      v: '!"Potion Of Longevity"'
+    - m: 5
+      v: '!"Potion Of Vitality"'
+    - m: 5
+      v: '!"Spell Scroll (8th Level) ({gen:Spell Library#eighth})"'
+    - m: 3
+      v: '!"Horseshoes Of A Zephyr"'
+    - m: 3
+      v: '!"Nolzurs Marvelous Pigments"'
+    - m: 1
+      v: '!"Bag Of Devouring"'
+    - m: 1
+      v: '!"Portable Hole"'
+  name: magicItemTableD
+- entries:
+    - m: 30
+      v: '!"Spell Scroll (8th Level) ({gen:Spell Library#eighth})"'
+    - m: 25
+      v: '!"Potion Of Storm Giant Strength"'
+    - m: 15
+      v: '!"Potion Of Supreme Healing"'
+    - m: 15
+      v: '!"Spell Scroll (9th Level) ({gen:Spell Library#ninth})"'
+    - m: 8
+      v: '!"Universal Solvent"'
+    - m: 5
+      v: '!"Arrow Of Slaying"'
+    - m: 2
+      v: '!"Sovereign Glue"'
+  name: magicItemTableE
+- entries:
+    - m: 15
+      v: '!"Weapon, +1 ({weapon})"'
+    - m: 3
+      v: '!"Shield, +1"'
+    - m: 3
+      v: '!"Sentinel Shield"'
+    - m: 2
+      v: '!"Amulet Of Proof Against Detection And Location"'
+    - m: 2
+      v: '!"Boots Of Elvenkind"'
+    - m: 2
+      v: '!"Boots Of Striding And Springing"'
+    - m: 2
+      v: '!"Bracers Of Archery"'
+    - m: 2
+      v: '!"Brooch Of Shielding"'
+    - m: 2
+      v: '!"Broom Of Flying"'
+    - m: 2
+      v: '!"Cloak Of Elvenkind"'
+    - m: 2
+      v: '!"Cloak Of Protection"'
+    - m: 2
+      v: '!"Gauntlets Of Ogre Power"'
+    - m: 2
+      v: '!"Hat Of Disguise"'
+    - m: 2
+      v: '!"Javelin Of Lightning"'
+    - m: 2
+      v: '!"Pearl Of Power"'
+    - m: 2
+      v: '!"Rod Of The Pact Keeper, +1"'
+    - m: 2
+      v: '!"Slippers Of Spider Climbing"'
+    - m: 2
+      v: '!"Staff Of The Adder"'
+    - m: 2
+      v: '!"Staff Of The Python"'
+    - m: 2
+      v: '!"Sword Of Vengeance"'
+    - m: 2
+      v: '!"Trident Of Fish Command"'
+    - m: 2
+      v: '!"Wand Of Magic Missile"'
+    - m: 2
+      v: '!"Wand Of The War Mage, +1"'
+    - m: 2
+      v: '!"Wand Of Web"'
+    - m: 2
+      v: '!"Weapon Of Warning"'
+    - m: 1
+      v: '!"Adamantine Armor (Chain Mail)"'
+    - m: 1
+      v: '!"Adamantine Armor (Chain Shirt)"'
+    - m: 1
+      v: '!"Adamantine Armor (Scale Mail)"'
+    - m: 3
+      v: '!"Bag Of Tricks ({bagOfTricks})"'
+    - m: 1
+      v: '!"Boots Of The Winterlands"'
+    - m: 1
+      v: '!"Circlet Of Blasting"'
+    - m: 1
+      v: '!"Deck Of Illusions"'
+    - m: 1
+      v: '!"Eversmoking Bottle"'
+    - m: 1
+      v: '!"Eyes Of Charming"'
+    - m: 1
+      v: '!"Eyes Of The Eagle"'
+    - m: 1
+      v: '!"Figurine Of Wondrous Power (Silver Raven)"'
+    - m: 1
+      v: '!"Gem Of Brightness"'
+    - m: 1
+      v: '!"Gloves Of Missile Snaring"'
+    - m: 1
+      v: '!"Gloves Of Swimming And Climbing"'
+    - m: 1
+      v: '!"Gloves Of Thievery"'
+    - m: 1
+      v: '!"Headband Of Intellect"'
+    - m: 1
+      v: '!"Helm Of Telepathy"'
+    - m: 1
+      v: '!"Instrument Of The Bards (Doss Lute)"'
+    - m: 1
+      v: '!"Instrument Of The Bards (Fochlucan Bandore)"'
+    - m: 1
+      v: '!"Instrument Of The Bards (Mac-fuimidh Cittern)"'
+    - m: 1
+      v: '!"Medallion Of Thoughts"'
+    - m: 1
+      v: '!"Necklace Of Adaptation"'
+    - m: 1
+      v: '!"Periapt Of Wound Closure"'
+    - m: 1
+      v: '!"Pipes Of Haunting"'
+    - m: 1
+      v: '!"Pipes Of The Sewers"'
+    - m: 1
+      v: '!"Ring Of Jumping"'
+    - m: 1
+      v: '!"Ring Of Mind Shielding"'
+    - m: 1
+      v: '!"Ring Of Warmth"'
+    - m: 1
+      v: '!"Ring Of Water Walking"'
+    - m: 1
+      v: '!"Quiver Of Ehlonna"'
+    - m: 1
+      v: '!"Stone Of Good Luck"'
+    - m: 1
+      v: '!"Wind Fan"'
+    - m: 1
+      v: '!"Winged Boots"'
+  name: magicItemTableF
+- entries:
+    - m: 11
+      v: '!"Weapon, +2 ({weapon})"'
+    - m: 3
+      v: '!"Figurine Of Wondrous Power ({figurineOfWonderousPower})"'
+    - m: 1
+      v: '!"Adamantine Armor (Breastplate)"'
+    - m: 1
+      v: '!"Adamantine Armor (Splint)"'
+    - m: 1
+      v: '!"Amulet Of Health"'
+    - m: 1
+      v: '!"Armor Of Vulnerability"'
+    - m: 1
+      v: '!"Arrow-catching Shield"'
+    - m: 1
+      v: '!"Belt Of Dwarvenkind"'
+    - m: 1
+      v: '!"Belt Of Hill Giant Strength"'
+    - m: 1
+      v: '!"Berserker Axe"'
+    - m: 1
+      v: '!"Boots Of Levitation"'
+    - m: 1
+      v: '!"Boots Of Speed"'
+    - m: 1
+      v: '!"Bowl Of Commanding Water Elementals"'
+    - m: 1
+      v: '!"Bracers Of Defense"'
+    - m: 1
+      v: '!"Brazier Of Commanding Fire Elementals"'
+    - m: 1
+      v: '!"Cape Of The Mountebank"'
+    - m: 1
+      v: '!"Censer Of Controlling Air Elementals"'
+    - m: 1
+      v: '!"Armor, +1 (Chain Mail)"'
+    - m: 1
+      v: '!"Armor Of {damageType} Resistance (Chain Mail)"'
+    - m: 1
+      v: '!"Armor, +1 (Chain Shirt)"'
+    - m: 1
+      v: '!"Armor Of {damageType} Resistance (Chain Shirt)"'
+    - m: 1
+      v: '!"Cloak Of Displacement"'
+    - m: 1
+      v: '!"Cloak Of The Bat"'
+    - m: 1
+      v: '!"Cube Of Force"'
+    - m: 1
+      v: '!"Daerns Instant Fortress"'
+    - m: 1
+      v: '!"Dagger Of Venom"'
+    - m: 1
+      v: '!"Dimensional Shackles"'
+    - m: 1
+      v: '!"Dragon Slayer"'
+    - m: 1
+      v: '!"Elven Chain"'
+    - m: 1
+      v: '!"Flame Tongue"'
+    - m: 1
+      v: '!"Gem Of Seeing"'
+    - m: 1
+      v: '!"Giant Slayer"'
+    - m: 1
+      v: '!"Clamoured Studded Leather"'
+    - m: 1
+      v: '!"Helm Of Teleportation"'
+    - m: 1
+      v: '!"Horn Of Blasting"'
+    - m: 1
+      v: '!"Horn Of Valhalla ({hornOfValhalla})"'
+    - m: 1
+      v: '!"Instrument Of The Bards (Canaith Mandolin)"'
+    - m: 1
+      v: '!"Instrument Of The Bards (Cii Lyre)"'
+    - m: 1
+      v: '!"Loun Stone (Awareness)"'
+    - m: 1
+      v: '!"Loun Stone (Protection)"'
+    - m: 1
+      v: '!"Loun Stone (Reserve)"'
+    - m: 1
+      v: '!"Ioun Stone (Sustenance)"'
+    - m: 1
+      v: '!"Iron Bands Of Bilarro"'
+    - m: 1
+      v: '!"Armor, +1 (Leather)"'
+    - m: 1
+      v: '!"Armor Of {damageType} Resistance (Leather)"'
+    - m: 1
+      v: '!"Mace Of Disruption"'
+    - m: 1
+      v: '!"Mace Of Smiting"'
+    - m: 1
+      v: '!"Mace Of Terror"'
+    - m: 1
+      v: '!"Mantle Of Spell Resistance"'
+    - m: 1
+      v: '!"Necklace Of Prayer Beads"'
+    - m: 1
+      v: '!"Peri Apt Of Proof Against Poison"'
+    - m: 1
+      v: '!"Ring Of Animal Influence"'
+    - m: 1
+      v: '!"Ring Of Evasion"'
+    - m: 1
+      v: '!"Ring Of Feather Falling"'
+    - m: 1
+      v: '!"Ring Of Free Action"'
+    - m: 1
+      v: '!"Ring Of Protection"'
+    - m: 1
+      v: '!"Ring Of Resistance"'
+    - m: 1
+      v: '!"Ring Of Spell Storing"'
+    - m: 1
+      v: '!"Ring Of The Ram"'
+    - m: 1
+      v: '!"Ring Of X-ray Vision"'
+    - m: 1
+      v: '!"Robe Of Eyes"'
+    - m: 1
+      v: '!"Rod Of Rulership"'
+    - m: 1
+      v: '!"Rod Of The Pact Keeper, +2"'
+    - m: 1
+      v: '!"Rope Of Entanglement"'
+    - m: 1
+      v: '!"Armor, +1 (Scale Mail)"'
+    - m: 1
+      v: '!"Armor Of {damageType} Resistance (Scale Mail)"'
+    - m: 1
+      v: '!"Shield, +2"'
+    - m: 1
+      v: '!"Shield Of Missile Attraction"'
+    - m: 1
+      v: '!"Staff Of Charming"'
+    - m: 1
+      v: '!"Staff Of Healing"'
+    - m: 1
+      v: '!"Staff Of Swarming Insects"'
+    - m: 1
+      v: '!"Staff Of The Woodlands"'
+    - m: 1
+      v: '!"Staff Of Withering"'
+    - m: 1
+      v: '!"Stone Of Controlling Earth Elementals"'
+    - m: 1
+      v: '!"Sun Blade"'
+    - m: 1
+      v: '!"Sword Of Life Stealing"'
+    - m: 1
+      v: '!"Sword Of Wounding"'
+    - m: 1
+      v: '!"Tentacle Rod"'
+    - m: 1
+      v: '!"Vicious Weapon"'
+    - m: 1
+      v: '!"Wand Of Binding"'
+    - m: 1
+      v: '!"Wand Of Enemy Detection"'
+    - m: 1
+      v: '!"Wand Of Fear"'
+    - m: 1
+      v: '!"Wand Of Fireballs"'
+    - m: 1
+      v: '!"Wand Of Lightning Bolts"'
+    - m: 1
+      v: '!"Wand Of Paralysis"'
+    - m: 1
+      v: '!"Wand Of The War Mage, +2"'
+    - m: 1
+      v: '!"Wand Of Wonder"'
+    - m: 1
+      v: '!"Wings Of Flying"'
+  name: magicItemTableG
+- entries:
+    - m: 10
+      v: '!"Weapon, +3 ({weapon})"'
+    - m: 2
+      v: '!"Amulet Of The Planes"'
+    - m: 2
+      v: '!"Carpet Of Flying ({carpetOfFlying})"'
+    - m: 2
+      v: '!"Very Rare Crystal Ball"'
+    - m: 2
+      v: '!"Ring Of Regeneration"'
+    - m: 2
+      v: '!"Ring Of Shooting Stars"'
+    - m: 2
+      v: '!"Ring Of Telekinesis"'
+    - m: 2
+      v: '!"Robe Of Scintillating Colors"'
+    - m: 2
+      v: '!"Robe Of Stars"'
+    - m: 2
+      v: '!"Rod Of Absorption"'
+    - m: 2
+      v: '!"Rod Of Alertness"'
+    - m: 2
+      v: '!"Rod Of Security"'
+    - m: 2
+      v: '!"Rod Of The Pact Keeper, +3"'
+    - m: 2
+      v: '!"Scimitar Of Speed"'
+    - m: 2
+      v: '!"Shield, +3"'
+    - m: 2
+      v: '!"Staff Of Fire"'
+    - m: 2
+      v: '!"Staff Of Frost"'
+    - m: 2
+      v: '!"Staff Of Power"'
+    - m: 2
+      v: '!"Staff Of Striking"'
+    - m: 2
+      v: '!"Staff Of Thunder And Lightning"'
+    - m: 2
+      v: '!"Sword Of Sharpness"'
+    - m: 2
+      v: '!"Wand Of Polymorph"'
+    - m: 2
+      v: '!"Wand Of The War Mage, +3"'
+    - m: 1
+      v: '!"Adamantine Armor (Half Plate)"'
+    - m: 1
+      v: '!"Adamantine Armor (Plate)"'
+    - m: 1
+      v: '!"Animated Shield"'
+    - m: 1
+      v: '!"Belt Of Fire Giant Strength"'
+    - m: 1
+      v: '!"Belt Of Frost Giant Strength"'
+    - m: 1
+      v: '!"Belt Of Stone Giant Strength"'
+    - m: 1
+      v: '!"Armor, +1 (Breastplate)"'
+    - m: 1
+      v: '!"Armor Of {damageType} Resistance (Breastplate)"'
+    - m: 1
+      v: '!"Candle Of Invocation"'
+    - m: 1
+      v: '!"Armor, +2 (Chain Mail)"'
+    - m: 1
+      v: '!"Armor, +2 (Chain Shirt)"'
+    - m: 1
+      v: '!"Cloak Of Arachnida"'
+    - m: 1
+      v: '!"Dancing Sword"'
+    - m: 1
+      v: '!"Demon Armor"'
+    - m: 1
+      v: '!"Dragon Scale Mail"'
+    - m: 1
+      v: '!"Dwarven Plate"'
+    - m: 1
+      v: '!"Dwarven Thrower"'
+    - m: 1
+      v: '!"Efreeti Bottle"'
+    - m: 1
+      v: '!"Figurine Of Wondrous Power (Obsidian Steed)"'
+    - m: 1
+      v: '!"Frost Brand"'
+    - m: 1
+      v: '!"Helm Of Brilliance"'
+    - m: 1
+      v: '!"Horn Of Valhalla (Bronze)"'
+    - m: 1
+      v: '!"Instrument Of The Bards (Anstruth Harp)"'
+    - m: 1
+      v: '!"Loun Stone (Absorption)"'
+    - m: 1
+      v: '!"Loun Stone (Agility)"'
+    - m: 1
+      v: '!"Loun Stone (Fortitude)"'
+    - m: 1
+      v: '!"Loun Stone (Insight)"'
+    - m: 1
+      v: '!"Loun Stone (Intellect)"'
+    - m: 1
+      v: '!"Loun Stone (Leadership)"'
+    - m: 1
+      v: '!"Loun Stone (Strength)"'
+    - m: 1
+      v: '!"Armor, +2 (Leather)"'
+    - m: 1
+      v: '!"Manual Of Bodily Health"'
+    - m: 1
+      v: '!"Manual Of Gainful Exercise"'
+    - m: 1
+      v: '!"Manual Of Golems"'
+    - m: 1
+      v: '!"Manual Of Quickness Of Action"'
+    - m: 1
+      v: '!"Mirror Of Life Trapping"'
+    - m: 1
+      v: '!"Nine Lives Stealer"'
+    - m: 1
+      v: '!"Oath Bow"'
+    - m: 1
+      v: '!"Armor, +2 (Scale Mail)"'
+    - m: 1
+      v: '!"Spellguard Shield"'
+    - m: 1
+      v: '!"Armor, +1 (Splint)"'
+    - m: 1
+      v: '!"Armor Of {damageType} Resistance (Splint)"'
+    - m: 1
+      v: '!"Armor, +1 (Studded Leather)"'
+    - m: 1
+      v: '!"Armor Of {damageType} Resistance (Studded Leather)"'
+    - m: 1
+      v: '!"Tome Of Clear Thought"'
+    - m: 1
+      v: '!"Tome Of Leadership And Influence"'
+    - m: 1
+      v: '!"Tome Of Understanding"'
+  name: magicItemTableH
+- entries:
+    - m: 5
+      v: '!"Defender ({defenderOrLuckBlade})"'
+    - m: 5
+      v: '!"Hammer Of Thunderbolts"'
+    - m: 5
+      v: '!"Luck Blade ({defenderOrLuckBlade})"'
+    - m: 5
+      v: '!"Sword Of Answering"'
+    - m: 3
+      v: '!"Holy Avenger"'
+    - m: 3
+      v: '!"Ring Of Djinni Summoning"'
+    - m: 3
+      v: '!"Ring Of Invisibility"'
+    - m: 3
+      v: '!"Ring Of Spell Turning"'
+    - m: 3
+      v: '!"Rod Of Lordly Might"'
+    - m: 3
+      v: '!"Staff Of The Magi"'
+    - m: 3
+      v: '!"Vorpal Sword"'
+    - m: 2
+      v: '!"Belt Of Cloud Giant Strength"'
+    - m: 2
+      v: '!"Armor, +2 (Breastplate)"'
+    - m: 2
+      v: '!"Armor, +3 (Chain Mail)"'
+    - m: 2
+      v: '!"Armor, +3 (Chain Shirt)"'
+    - m: 2
+      v: '!"Cloak Of Invisibility"'
+    - m: 2
+      v: '!"Legendary Very Crystal Ball"'
+    - m: 2
+      v: '!"Armor, +1 (Half Plate)"'
+    - m: 2
+      v: '!"Iron Flask"'
+    - m: 2
+      v: '!"Armor, +3 (Leather)"'
+    - m: 2
+      v: '!"Armor, +1 (Plate)"'
+    - m: 2
+      v: '!"Robe Of The Archmagi"'
+    - m: 2
+      v: '!"Rod Of Resurrection"'
+    - m: 2
+      v: '!"Armor, +1 (Scale Mail)"'
+    - m: 2
+      v: '!"Scarab Of Protection"'
+    - m: 2
+      v: '!"Armor, +2 (Splint)"'
+    - m: 2
+      v: '!"Armor, +2 (Studded Leather)"'
+    - m: 2
+      v: '!"Well Of Many Worlds"'
+    - m: 1
+      v: '!"Magic Armor ({magicArmor})"'
+    - m: 1
+      v: '!"Apparatus Of Kwalish"'
+    - m: 1
+      v: '!"Armor Of Invulnerability"'
+    - m: 1
+      v: '!"Belt Of Storm Giant Strength"'
+    - m: 1
+      v: '!"Cubic Gate"'
+    - m: 1
+      v: '!"Deck Of Many Things"'
+    - m: 1
+      v: '!"Efreeti Chain"'
+    - m: 1
+      v: '!"Armor Of {damageType} Resistance (Half Plate)"'
+    - m: 1
+      v: '!"Horn Of Valhalla (Iron)"'
+    - m: 1
+      v: '!"Instrument Ofthe Bards (Ollamh Harp)"'
+    - m: 1
+      v: '!"Loun Stone (Greater Absorption)"'
+    - m: 1
+      v: '!"Loun Stone (Mastery)"'
+    - m: 1
+      v: '!"Loun Stone (Regeneration)"'
+    - m: 1
+      v: '!"Plate Armor Of Etherealness"'
+    - m: 1
+      v: '!"Plate Armor Of {damageType} Resistance"'
+    - m: 1
+      v: '!"Ring Of Air Elemental Command"'
+    - m: 1
+      v: '!"Ring Of Earth Elemental Command"'
+    - m: 1
+      v: '!"Ring Of Fire Elemental Command"'
+    - m: 1
+      v: '!"Ring Of Three Wishes"'
+    - m: 1
+      v: '!"Ring Of Water Elemental Command"'
+    - m: 1
+      v: '!"Sphere Of Annihilation"'
+    - m: 1
+      v: '!"Talisman Of Pure Good"'
+    - m: 1
+      v: '!"Talisman Of The Sphere"'
+    - m: 1
+      v: '!"Talisman Of Ultimate Evil"'
+    - m: 1
+      v: '!"Tome Of The Stilled Tongue"'
+  name: magicItemTableI
+- entries:
+    - m: 1
+      v: Acid
+    - m: 1
+      v: Cold
+    - m: 1
+      v: Fire
+    - m: 1
+      v: Force
+    - m: 1
+      v: Lightning
+    - m: 1
+      v: Necrotic
+    - m: 1
+      v: Poison
+    - m: 1
+      v: Psychic
+    - m: 1
+      v: Radiant
+    - m: 1
+      v: Thunder
+  name: damageType
+- entries:
+    - m: 1
+      v: Bolt (Crossbow)
+    - m: 1
+      v: Arrow (Bow)
+    - m: 1
+      v: 'Bullet (Sling}'
+    - m: 1
+      v: Dart (Blowgun)
+  name: ammunition
+- entries:
+    - m: 1
+      v: Club
+    - m: 1
+      v: Dagger
+    - m: 1
+      v: Greatclub
+    - m: 1
+      v: Handaxe
+    - m: 1
+      v: Javelin
+    - m: 1
+      v: Light Hammer
+    - m: 1
+      v: Mace
+    - m: 1
+      v: Quarterstaff
+    - m: 1
+      v: Sickle
+    - m: 1
+      v: Spear
+    - m: 1
+      v: Light Crossbow
+    - m: 1
+      v: Dart
+    - m: 1
+      v: Shortbow
+    - m: 1
+      v: Sling
+    - m: 1
+      v: Battleaxe
+    - m: 1
+      v: Flail
+    - m: 1
+      v: Glaive
+    - m: 1
+      v: Greataxe
+    - m: 1
+      v: Greatsword
+    - m: 1
+      v: Halberd
+    - m: 1
+      v: Lance
+    - m: 1
+      v: Longsword
+    - m: 1
+      v: Maul
+    - m: 1
+      v: Morningstar
+    - m: 1
+      v: Pike
+    - m: 1
+      v: Rapier
+    - m: 1
+      v: Scimitar
+    - m: 1
+      v: Shortsword
+    - m: 1
+      v: Trident
+    - m: 1
+      v: War Pick
+    - m: 1
+      v: Warhammer
+    - m: 1
+      v: Whip
+    - m: 1
+      v: Blowgun
+    - m: 1
+      v: Hand Crossbow
+    - m: 1
+      v: Heavy Crossbow
+    - m: 1
+      v: Longbow
+    - m: 1
+      v: Net
+  name: weapon
+- entries:
+    - m: 1
+      v: Bronze Griffon
+    - m: 1
+      v: Ebony Fly
+    - m: 1
+      v: Golden Lions
+    - m: 1
+      v: Ivory Goats
+    - m: 1
+      v: Marble Elephant
+    - m: 1
+      v: Onyx Dog
+    - m: 1
+      v: Onyx Dog
+    - m: 1
+      v: Serpentine Owl
+  name: figurineOfWonderousPower
+- entries:
+    - m: 2
+      v: 'Armor, +2 (Half Plate)'
+    - m: 2
+      v: 'Armor, +2 (Plate)'
+    - m: 2
+      v: 'Armor, +3 (Studded Leather)'
+    - m: 2
+      v: 'Armor, +3 (Breastplate)'
+    - m: 2
+      v: 'Armor, +3 (Splint)'
+    - m: 1
+      v: 'Armor, +3 (Half Plate)'
+    - m: 1
+      v: 'Armor, +3 (Plate)'
+  name: magicArmor
+- entries:
+    - m: 1
+      v: Blue Sapphire
+    - m: 1
+      v: Yellow Diamond
+    - m: 1
+      v: Red Corundum
+    - m: 1
+      v: Emerald
+  name: elementalGem
+- entries:
+    - m: 20
+      v: Anchor
+    - m: 15
+      v: Bird
+    - m: 15
+      v: Fan
+    - m: 15
+      v: Swan Boat
+    - m: 25
+      v: Tree
+    - m: 10
+      v: Whip
+  name: featherToken
+- entries:
+    - m: 10
+      v: Aberrations
+    - m: 10
+      v: Beasts
+    - m: 10
+      v: Celestials
+    - m: 10
+      v: Elementals
+    - m: 10
+      v: Fey
+    - m: 25
+      v: Fiends
+    - m: 5
+      v: Plants
+    - m: 20
+      v: Undead
+  name: protectionScroll
+- entries:
+    - m: 1
+      v: Gray
+    - m: 1
+      v: Rust
+    - m: 1
+      v: Tan
+  name: bagOfTricks
+- entries:
+    - m: 1
+      v: Silver
+    - m: 1
+      v: Brass
+  name: hornOfValhalla
+- entries:
+    - m: 4
+      v: 3 ft. x 5 ft.
+    - m: 3
+      v: 4 ft. x 6 ft.
+    - m: 2
+      v: 5 ft. x 7 ft.
+    - m: 1
+      v: 6 ft. x 9 ft.
+  name: carpetOfFlying
+- entries:
+    - m: 1
+      v: Greatsword
+    - m: 1
+      v: Longsword
+    - m: 1
+      v: Rapier
+    - m: 1
+      v: Scimitar
+    - m: 1
+      v: Shortsword
+  name: defenderOrLuckBlade
+categories:
+  - lib
+explanation: Loot Library
+name: Loot Library

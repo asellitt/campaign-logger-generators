@@ -1,0 +1,1543 @@
+resultPattern: |-
+
+  ==== Individual Treasure ====
+  || {b|CR} || {b|Coins}
+  || 0-4    || {individualCR0t4}
+  || 5-10   || {individualCR5t10}
+  || 11-16  || {individualCR11t16}
+  || 17+    || {individualCR17p}
+
+  ==== Horde Treasure CR 0-4 ====
+  {b|Coins}
+  {hordeCoinCR0t4}
+
+  {b|Gems/Art}
+  {hordeGemArtCR0t4}
+
+  {b|Magic Items}
+  {hordeMagicItemCR0t4}
+
+  ==== Horde Treasure CR 5-10 ====
+  {b|Coins}
+  {hordeCoinCR5t10}
+
+  {b|Gems/Art}
+  {hordeGemArtCR5t10}
+
+  {b|Magic Items}
+  {hordeMagicItemCR5t10}
+
+  ==== Horde Treasure CR 11-16 ====
+  {b|Coins}
+  {hordeCoinCR11t16}
+
+  {b|Gems/Art}
+  {hordeGemArtCR11t16}
+
+  {b|Magic Items}
+  {hordeMagicItemCR11t16}
+
+  ==== Horde Treasure CR 17+ ====
+  {b|Coins}
+  {hordeCoinCR17p}
+
+  {b|Gems/Art}
+  {hordeGemArtCR17p}
+
+  {b|Magic Items}
+  {hordeMagicItemCR17p}
+
+  ==== Magic Items ====
+  || {b|Table} || {b|Magic Item}
+  || Table A   || {gen:Loot Library#magicItemTableA}
+  || Table B   || {gen:Loot Library#magicItemTableB}
+  || Table C   || {gen:Loot Library#magicItemTableC}
+  || Table D   || {gen:Loot Library#magicItemTableD}
+  || Table E   || {gen:Loot Library#magicItemTableE}
+  || Table F   || {gen:Loot Library#magicItemTableF}
+  || Table G   || {gen:Loot Library#magicItemTableG}
+  || Table H   || {gen:Loot Library#magicItemTableH}
+  || Table I   || {gen:Loot Library#magicItemTableI}
+
+tables:
+  - name: individualCR0t4
+    entries:
+      - m: 30
+        v: '$"{dice: 5d}CP"'
+      - m: 30
+        v: '$"{dice: 4d6}SP"'
+      - m: 10
+        v: '$"{dice: 3d6}EP"'
+      - m: 25
+        v: '$"{dice: 2d6}GP"'
+      - m: 5
+        v: '$"{dice: 1d6}PP"'
+  - name: individualCR5t10
+    entries:
+      - m: 30
+        v: '$"{dice: 4d6}00CP", $"{dice: 1d6}0EP"'
+      - m: 30
+        v: '$"{dice: 6d6}0SP", $"{dice: 2d6}0GP"'
+      - m: 10
+        v: '"{dice: 3d6}0EP", "{dice: 2d6}0GP"'
+      - m: 25
+        v: '$"{dice: 4d6}0GP"'
+      - m: 5
+        v: '$"{dice: 2d6}0GP", $"{dice: 3d6}PP"'
+  - name: individualCR11t16
+    entries:
+      - m: 20
+        v: '$"{dice: 4d6}00SP", $"{dice: 1d6}00GP"'
+      - m: 15
+        v: '$"{dice: 1d6}00EP", $"{dice: 1d6}00GP"'
+      - m: 40
+        v: '$"{dice: 2d6}00GP", $"{dice: 1d6}0PP"'
+      - m: 25
+        v: '$"{dice: 2d6}00GP", $"{dice: 2d6}0PP"'
+  - name: individualCR17p
+    entries:
+      - m: 15
+        v: '$"{dice: 2d6}000EP", $"{dice: 8d6}00GP"'
+      - m: 40
+        v: '$"{dice: 1d6}000GP", $"{dice: 1d6}00PP"'
+      - m: 45
+        v: '$"{dice: 1d6}000GP", $"{dice: 2d6}00PP"'
+  - name: hordeCoinCR0t4
+    entries:
+      - m: 1
+        v: |-
+          - $"{dice:6d6}00CP"
+          - $"{dice:3d6}00SP"
+          - $"{dice:2d6}0GP"
+  - name: hordeCoinCR5t10
+    entries:
+      - m: 1
+        v: |-
+          - $"{dice:2d6}00CP"
+          - $"{dice:2d6}000SP"
+          - $"{dice:6d6}00GP"
+          - $"{dice:3d6}0PP"
+  - name: hordeCoinCR11t16
+    entries:
+      - m: 1
+        v: |-
+          - $"{dice:4d6}000GP"
+          - $"{dice:5d6}00PP"
+  - name: hordeCoinCR17p
+    entries:
+      - m: 1
+        v: |-
+          - $"{dice:12d6}000GP"
+          - $"{dice:8d6}000PP"
+  - name: hordeGemArtCR0t4
+    entries:
+      - m: 6
+        v: '-'
+      - m: 10
+        v: |-
+          {roll1d6Gem10}
+          {roll1d6Gem10}
+      - m: 10
+        v: |-
+          {roll1d4Art25}
+          {roll1d4Art25}
+      - m: 10
+        v: |-
+          {roll1d6Gem50}
+          {roll1d6Gem50}
+      - m: 8
+        v: |-
+          {roll1d6Gem10}
+          {roll1d6Gem10}
+      - m: 8
+        v: |-
+          {roll1d4Art25}
+          {roll1d4Art25}
+      - m: 8
+        v: |-
+          {roll1d6Gem50}
+          {roll1d6Gem50}
+      - m: 5
+        v: |-
+          {roll1d6Gem10}
+          {roll1d6Gem10}
+      - m: 5
+        v: |-
+          {roll1d4Art25}
+          {roll1d4Art25}
+      - m: 5
+        v: |-
+          {roll1d6Gem50}
+          {roll1d6Gem50}
+      - m: 3
+        v: |-
+          {roll1d6Gem10}
+          {roll1d6Gem10}
+      - m: 2
+        v: |-
+          {roll1d4Art25}
+          {roll1d4Art25}
+      - m: 5
+        v: |-
+          {roll1d6Gem50}
+          {roll1d6Gem50}
+      - m: 7
+        v: |-
+          {roll1d4Art25}
+          {roll1d4Art25}
+      - m: 5
+        v: |-
+          {roll1d6Gem50}
+          {roll1d6Gem50}
+      - m: 2
+        v: |-
+          {roll1d4Art25}
+          {roll1d4Art25}
+      - m: 1
+        v: |-
+          {roll1d6Gem50}
+          {roll1d6Gem50}
+  - name: hordeGemArtCR5t10
+    entries:
+      - m: 4
+        v: '-'
+      - m: 6
+        v: |-
+          {roll1d4Art25}
+          {roll1d4Art25}
+      - m: 6
+        v: |-
+          {roll1d6Gem50}
+          {roll1d6Gem50}
+          {roll1d6Gem50}
+      - m: 6
+        v: |-
+          {roll1d6Gem100}
+          {roll1d6Gem100}
+          {roll1d6Gem100}
+      - m: 6
+        v: |-
+          {roll1d4Art250}
+          {roll1d4Art250}
+      - m: 4
+        v: |-
+          {roll1d4Art25}
+          {roll1d4Art25}
+      - m: 4
+        v: |-
+          {roll1d6Gem50}
+          {roll1d6Gem50}
+          {roll1d6Gem50}
+      - m: 4
+        v: |-
+          {roll1d6Gem100}
+          {roll1d6Gem100}
+          {roll1d6Gem100}
+      - m: 4
+        v: |-
+          {roll1d4Art250}
+          {roll1d4Art250}
+      - m: 5
+        v: |-
+          {roll1d4Art25}
+          {roll1d4Art25}
+      - m: 5
+        v: |-
+          {roll1d6Gem50}
+          {roll1d6Gem50}
+          {roll1d6Gem50}
+      - m: 5
+        v: |-
+          {roll1d6Gem100}
+          {roll1d6Gem100}
+          {roll1d6Gem100}
+      - m: 4
+        v: |-
+          {roll1d4Art250}
+          {roll1d4Art250}
+      - m: 3
+        v: |-
+          {roll1d4Art25}
+          {roll1d4Art25}
+      - m: 3
+        v: |-
+          {roll1d6Gem50}
+          {roll1d6Gem50}
+          {roll1d6Gem50}
+      - m: 3
+        v: |-
+          {roll1d6Gem100}
+          {roll1d6Gem100}
+          {roll1d6Gem100}
+      - m: 2
+        v: |-
+          {roll1d4Art250}
+          {roll1d4Art250}
+      - m: 2
+        v: |-
+          {roll1d4Art25}
+          {roll1d4Art25}
+      - m: 2
+        v: |-
+          {roll1d6Gem50}
+          {roll1d6Gem50}
+          {roll1d6Gem50}
+      - m: 1
+        v: |-
+          {roll1d6Gem100}
+          {roll1d6Gem100}
+          {roll1d6Gem100}
+      - m: 1
+        v: |-
+          {roll1d4Art250}
+          {roll1d4Art250}
+      - m: 4
+        v: |-
+          {roll1d4Art25}
+          {roll1d4Art25}
+      - m: 4
+        v: |-
+          {roll1d6Gem50}
+          {roll1d6Gem50}
+          {roll1d6Gem50}
+      - m: 3
+        v: |-
+          {roll1d6Gem100}
+          {roll1d6Gem100}
+          {roll1d6Gem100}
+      - m: 3
+        v: |-
+          {roll1d4Art250}
+          {roll1d4Art250}
+      - m: 2
+        v: |-
+          {roll1d6Gem100}
+          {roll1d6Gem100}
+          {roll1d6Gem100}
+      - m: 2
+        v: |-
+          {roll1d4Art250}
+          {roll1d4Art250}
+      - m: 1
+        v: |-
+          {roll1d6Gem100}
+          {roll1d6Gem100}
+          {roll1d6Gem100}
+      - m: 1
+        v: |-
+          {roll1d4Art250}
+          {roll1d4Art250}
+  - name: hordeGemArtCR11t16
+    entries:
+      - m: 3
+        v: '-'
+      - m: 3
+        v: |-
+          {roll1d4Art250}
+          {roll1d4Art250}
+      - m: 3
+        v: |-
+          {roll1d4Art750}
+          {roll1d4Art750}
+      - m: 3
+        v: |-
+          {roll1d6Gem500}
+          {roll1d6Gem500}
+          {roll1d6Gem500}
+      - m: 3
+        v: |-
+          {roll1d6Gem1000}
+          {roll1d6Gem1000}
+          {roll1d6Gem1000}
+      - m: 4
+        v: |-
+          {roll1d4Art250}
+          {roll1d4Art250}
+      - m: 4
+        v: |-
+          {roll1d4Art750}
+          {roll1d4Art750}
+      - m: 3
+        v: |-
+          {roll1d6Gem500}
+          {roll1d6Gem500}
+          {roll1d6Gem500}
+      - m: 3
+        v: |-
+          {roll1d6Gem1000}
+          {roll1d6Gem1000}
+          {roll1d6Gem1000}
+      - m: 6
+        v: |-
+          {roll1d4Art250}
+          {roll1d4Art250}
+      - m: 5
+        v: |-
+          {roll1d4Art750}
+          {roll1d4Art750}
+      - m: 5
+        v: |-
+          {roll1d6Gem500}
+          {roll1d6Gem500}
+          {roll1d6Gem500}
+      - m: 5
+        v: |-
+          {roll1d6Gem1000}
+          {roll1d6Gem1000}
+          {roll1d6Gem1000}
+      - m: 4
+        v: |-
+          {roll1d4Art250}
+          {roll1d4Art250}
+      - m: 4
+        v: |-
+          {roll1d4Art750}
+          {roll1d4Art750}
+      - m: 4
+        v: |-
+          {roll1d6Gem500}
+          {roll1d6Gem500}
+          {roll1d6Gem500}
+      - m: 4
+        v: |-
+          {roll1d6Gem1000}
+          {roll1d6Gem1000}
+          {roll1d6Gem1000}
+      - m: 2
+        v: |-
+          {roll1d4Art250}
+          {roll1d4Art250}
+      - m: 2
+        v: |-
+          {roll1d4Art750}
+          {roll1d4Art750}
+      - m: 2
+        v: |-
+          {roll1d6Gem500}
+          {roll1d6Gem500}
+          {roll1d6Gem500}
+      - m: 2
+        v: |-
+          {roll1d6Gem1000}
+          {roll1d6Gem1000}
+          {roll1d6Gem1000}
+      - m: 2
+        v: |-
+          {roll1d4Art250}
+          {roll1d4Art250}
+      - m: 2
+        v: |-
+          {roll1d4Art750}
+          {roll1d4Art750}
+      - m: 2
+        v: |-
+          {roll1d6Gem500}
+          {roll1d6Gem500}
+          {roll1d6Gem500}
+      - m: 2
+        v: |-
+          {roll1d6Gem1000}
+          {roll1d6Gem1000}
+          {roll1d6Gem1000}
+      - m: 3
+        v: |-
+          {roll1d4Art250}
+          {roll1d4Art250}
+      - m: 3
+        v: |-
+          {roll1d4Art750}
+          {roll1d4Art750}
+      - m: 2
+        v: |-
+          {roll1d6Gem500}
+          {roll1d6Gem500}
+          {roll1d6Gem500}
+      - m: 2
+        v: |-
+          {roll1d6Gem1000}
+          {roll1d6Gem1000}
+          {roll1d6Gem1000}
+      - m: 2
+        v: |-
+          {roll1d4Art250}
+          {roll1d4Art250}
+      - m: 2
+        v: |-
+          {roll1d4Art750}
+          {roll1d4Art750}
+      - m: 2
+        v: |-
+          {roll1d6Gem500}
+          {roll1d6Gem500}
+          {roll1d6Gem500}
+      - m: 2
+        v: |-
+          {roll1d6Gem1000}
+          {roll1d6Gem1000}
+          {roll1d6Gem1000}
+  - name: hordeGemArtCR17p
+    entries:
+      - m: 2
+        v: '-'
+      - m: 3
+        v: |-
+          {roll1d6Gem1000}
+          {roll1d6Gem1000}
+          {roll1d6Gem1000}
+      - m: 3
+        v: '{roll1d10Art2500}'
+      - m: 3
+        v: '{roll1d4Art7500}'
+      - m: 3
+        v: '{roll1d8Gem5000}'
+      - m: 8
+        v: |-
+          {roll1d6Gem1000}
+          {roll1d6Gem1000}
+          {roll1d6Gem1000}
+      - m: 8
+        v: '{roll1d10Art2500}'
+      - m: 8
+        v: '{roll1d4Art7500}'
+      - m: 8
+        v: '{roll1d8Gem5000}'
+      - m: 6
+        v: |-
+          {roll1d6Gem1000}
+          {roll1d6Gem1000}
+          {roll1d6Gem1000}
+      - m: 6
+        v: '{roll1d10Art2500}'
+      - m: 5
+        v: '{roll1d4Art7500}'
+      - m: 5
+        v: '{roll1d8Gem5000}'
+      - m: 1
+        v: |-
+          {roll1d6Gem1000}
+          {roll1d6Gem1000}
+          {roll1d6Gem1000}
+      - m: 1
+        v: '{roll1d10Art2500}'
+      - m: 1
+        v: '{roll1d4Art7500}'
+      - m: 1
+        v: '{roll1d8Gem5000}'
+      - m: 2
+        v: |-
+          {roll1d6Gem1000}
+          {roll1d6Gem1000}
+          {roll1d6Gem1000}
+      - m: 2
+        v: '{roll1d10Art2500}'
+      - m: 2
+        v: '{roll1d4Art7500}'
+      - m: 2
+        v: '{roll1d8Gem5000}'
+      - m: 5
+        v: |-
+          {roll1d6Gem1000}
+          {roll1d6Gem1000}
+          {roll1d6Gem1000}
+      - m: 5
+        v: '{roll1d10Art2500}'
+      - m: 5
+        v: '{roll1d4Art7500}'
+      - m: 5
+        v: '{roll1d8Gem5000}'
+  - name: hordeMagicItemCR0t4
+    entries:
+      - m: 6
+        v: '-'
+      - m: 10
+        v: '-'
+      - m: 10
+        v: '-'
+      - m: 10
+        v: '-'
+      - m: 8
+        v: '{roll1d6MagicItemTableA}'
+      - m: 8
+        v: '{roll1d6MagicItemTableA}'
+      - m: 8
+        v: '{roll1d6MagicItemTableA}'
+      - m: 5
+        v: '{roll1d4MagicItemTableB}'
+      - m: 5
+        v: '{roll1d4MagicItemTableB}'
+      - m: 5
+        v: '{roll1d4MagicItemTableB}'
+      - m: 3
+        v: '{roll1d4MagicItemTableC}'
+      - m: 2
+        v: '{roll1d4MagicItemTableC}'
+      - m: 5
+        v: '{roll1d4MagicItemTableC}'
+      - m: 7
+        v: '{roll1d4MagicItemTableF}'
+      - m: 5
+        v: '{roll1d4MagicItemTableF}'
+      - m: 2
+        v: '{gen:Loot Library#magicItemTableG}'
+      - m: 1
+        v: '{gen:Loot Library#magicItemTableG}'
+  - name: hordeMagicItemCR5t10
+    entries:
+      - m: 4
+        v: '-'
+      - m: 6
+        v: '-'
+      - m: 6
+        v: '-'
+      - m: 6
+        v: '-'
+      - m: 6
+        v: '-'
+      - m: 4
+        v: '{roll1d6MagicItemTableA}'
+      - m: 4
+        v: '{roll1d6MagicItemTableA}'
+      - m: 4
+        v: '{roll1d6MagicItemTableA}'
+      - m: 4
+        v: '{roll1d6MagicItemTableA}'
+      - m: 5
+        v: '{roll1d4MagicItemTableB}'
+      - m: 5
+        v: '{roll1d4MagicItemTableB}'
+      - m: 5
+        v: '{roll1d4MagicItemTableB}'
+      - m: 4
+        v: '{roll1d4MagicItemTableB}'
+      - m: 3
+        v: '{roll1d4MagicItemTableC}'
+      - m: 3
+        v: '{roll1d4MagicItemTableC}'
+      - m: 3
+        v: '{roll1d4MagicItemTableC}'
+      - m: 2
+        v: '{roll1d4MagicItemTableC}'
+      - m: 2
+        v: '{gen:Loot Library#magicItemTableD}'
+      - m: 2
+        v: '{gen:Loot Library#magicItemTableD}'
+      - m: 1
+        v: '{gen:Loot Library#magicItemTableD}'
+      - m: 1
+        v: '{gen:Loot Library#magicItemTableD}'
+      - m: 4
+        v: '{roll1d4MagicItemTableF}'
+      - m: 4
+        v: '{roll1d4MagicItemTableF}'
+      - m: 3
+        v: '{roll1d4MagicItemTableF}'
+      - m: 3
+        v: '{roll1d4MagicItemTableF}'
+      - m: 2
+        v: '{roll1d4MagicItemTableG}'
+      - m: 2
+        v: '{roll1d4MagicItemTableG}'
+      - m: 1
+        v: '{gen:Loot Library#magicItemTableH}'
+      - m: 1
+        v: '{gen:Loot Library#magicItemTableH}'
+  - name: hordeMagicItemCR11t16
+    entries:
+       - m: 3
+         v: '-'
+       - m: 3
+         v: '-'
+       - m: 3
+         v: '-'
+       - m: 3
+         v: '-'
+       - m: 3
+         v: '-'
+       - m: 4
+         v: |-
+           {roll1d4MagicItemTableA}
+           {roll1d6MagicItemTableB}
+       - m: 4
+         v: |-
+           {roll1d4MagicItemTableA}
+           {roll1d6MagicItemTableB}
+       - m: 3
+         v: |-
+           {roll1d4MagicItemTableA}
+           {roll1d6MagicItemTableB}
+       - m: 3
+         v: |-
+           {roll1d4MagicItemTableA}
+           {roll1d6MagicItemTableB}
+       - m: 6
+         v: '{roll1d6MagicItemTableC}'
+       - m: 5
+         v: '{roll1d6MagicItemTableC}'
+       - m: 5
+         v: '{roll1d6MagicItemTableC}'
+       - m: 5
+         v: '{roll1d6MagicItemTableC}'
+       - m: 4
+         v: '{roll1d4MagicItemTableD}'
+       - m: 4
+         v: '{roll1d4MagicItemTableD}'
+       - m: 4
+         v: '{roll1d4MagicItemTableD}'
+       - m: 4
+         v: '{roll1d4MagicItemTableD}'
+       - m: 2
+         v: '{gen:Loot Library#magicItemTableE}'
+       - m: 2
+         v: '{gen:Loot Library#magicItemTableE}'
+       - m: 2
+         v: '{gen:Loot Library#magicItemTableE}'
+       - m: 2
+         v: '{gen:Loot Library#magicItemTableE}'
+       - m: 2
+         v: |-
+           {gen:Loot Library#magicItemTableF}
+           {roll1d4MagicItemTableG}
+       - m: 2
+         v: |-
+           {gen:Loot Library#magicItemTableF}
+           {roll1d4MagicItemTableG}
+       - m: 2
+         v: |-
+           {gen:Loot Library#magicItemTableF}
+           {roll1d4MagicItemTableG}
+       - m: 2
+         v: |-
+           {gen:Loot Library#magicItemTableF}
+           {roll1d4MagicItemTableG}
+       - m: 3
+         v: '{roll1d4MagicItemTableH}'
+       - m: 3
+         v: '{roll1d4MagicItemTableH}'
+       - m: 2
+         v: '{roll1d4MagicItemTableH}'
+       - m: 2
+         v: '{roll1d4MagicItemTableH}'
+       - m: 2
+         v: '{gen:Loot Library#magicItemTableI}'
+       - m: 2
+         v: '{gen:Loot Library#magicItemTableI}'
+       - m: 2
+         v: '{gen:Loot Library#magicItemTableI}'
+       - m: 2
+         v: '{gen:Loot Library#magicItemTableI}'
+  - name: hordeMagicItemCR17p
+    entries:
+      - m: 2
+        v: '-'
+      - m: 3
+        v: '{roll1d8MagicItemTableC}'
+      - m: 3
+        v: '{roll1d8MagicItemTableC}'
+      - m: 3
+        v: '{roll1d8MagicItemTableC}'
+      - m: 3
+        v: '{roll1d8MagicItemTableC}'
+      - m: 8
+        v: '{roll1d6MagicItemTableD}'
+      - m: 8
+        v: '{roll1d6MagicItemTableD}'
+      - m: 8
+        v: '{roll1d6MagicItemTableD}'
+      - m: 8
+        v: '{roll1d6MagicItemTableD}'
+      - m: 6
+        v: '{roll1d6MagicItemTableE}'
+      - m: 6
+        v: '{roll1d6MagicItemTableE}'
+      - m: 5
+        v: '{roll1d6MagicItemTableE}'
+      - m: 5
+        v: '{roll1d6MagicItemTableE}'
+      - m: 1
+        v: '{roll1d4MagicItemTableG}'
+      - m: 1
+        v: '{roll1d4MagicItemTableG}'
+      - m: 1
+        v: '{roll1d4MagicItemTableG}'
+      - m: 1
+        v: '{roll1d4MagicItemTableG}'
+      - m: 2
+        v: '{roll1d4MagicItemTableH}'
+      - m: 2
+        v: '{roll1d4MagicItemTableH}'
+      - m: 2
+        v: '{roll1d4MagicItemTableH}'
+      - m: 2
+        v: '{roll1d4MagicItemTableH}'
+      - m: 5
+        v: '{roll1d4MagicItemTableI}'
+      - m: 5
+        v: '{roll1d4MagicItemTableI}'
+      - m: 5
+        v: '{roll1d4MagicItemTableI}'
+      - m: 5
+        v: '{roll1d4MagicItemTableI}'
+  - name: roll1d4Art25
+    entries:
+      - m: 1
+        v: |-
+          - {gen:Loot Library#art25}
+      - m: 1
+        v: |-
+          - {gen:Loot Library#art25}
+          - {gen:Loot Library#art25}
+      - m: 1
+        v: |-
+          - {gen:Loot Library#art25}
+          - {gen:Loot Library#art25}
+          - {gen:Loot Library#art25}
+      - m: 1
+        v: |-
+          - {gen:Loot Library#art25}
+          - {gen:Loot Library#art25}
+          - {gen:Loot Library#art25}
+          - {gen:Loot Library#art25}
+  - name: roll1d4Art250
+    entries:
+      - m: 1
+        v: |-
+          - {gen:Loot Library#art250}
+      - m: 1
+        v: |-
+          - {gen:Loot Library#art250}
+          - {gen:Loot Library#art250}
+      - m: 1
+        v: |-
+          - {gen:Loot Library#art250}
+          - {gen:Loot Library#art250}
+          - {gen:Loot Library#art250}
+      - m: 1
+        v: |-
+          - {gen:Loot Library#art250}
+          - {gen:Loot Library#art250}
+          - {gen:Loot Library#art250}
+          - {gen:Loot Library#art250}
+  - name: roll1d4Art750
+    entries:
+      - m: 1
+        v: |-
+          - {gen:Loot Library#art750}
+      - m: 1
+        v: |-
+          - {gen:Loot Library#art750}
+          - {gen:Loot Library#art750}
+      - m: 1
+        v: |-
+          - {gen:Loot Library#art750}
+          - {gen:Loot Library#art750}
+          - {gen:Loot Library#art750}
+      - m: 1
+        v: |-
+          - {gen:Loot Library#art750}
+          - {gen:Loot Library#art750}
+          - {gen:Loot Library#art750}
+          - {gen:Loot Library#art750}
+  - name: roll1d10Art2500
+    entries:
+      - m: 1
+        v: |-
+          - {gen:Loot Library#art2500}
+      - m: 1
+        v: |-
+          - {gen:Loot Library#art2500}
+          - {gen:Loot Library#art2500}
+      - m: 1
+        v: |-
+          - {gen:Loot Library#art2500}
+          - {gen:Loot Library#art2500}
+          - {gen:Loot Library#art2500}
+      - m: 1
+        v: |-
+          - {gen:Loot Library#art2500}
+          - {gen:Loot Library#art2500}
+          - {gen:Loot Library#art2500}
+          - {gen:Loot Library#art2500}
+      - m: 1
+        v: |-
+          - {gen:Loot Library#art2500}
+          - {gen:Loot Library#art2500}
+          - {gen:Loot Library#art2500}
+          - {gen:Loot Library#art2500}
+          - {gen:Loot Library#art2500}
+      - m: 1
+        v: |-
+          - {gen:Loot Library#art2500}
+          - {gen:Loot Library#art2500}
+          - {gen:Loot Library#art2500}
+          - {gen:Loot Library#art2500}
+          - {gen:Loot Library#art2500}
+          - {gen:Loot Library#art2500}
+      - m: 1
+        v: |-
+          - {gen:Loot Library#art2500}
+          - {gen:Loot Library#art2500}
+          - {gen:Loot Library#art2500}
+          - {gen:Loot Library#art2500}
+          - {gen:Loot Library#art2500}
+          - {gen:Loot Library#art2500}
+          - {gen:Loot Library#art2500}
+      - m: 1
+        v: |-
+          - {gen:Loot Library#art2500}
+          - {gen:Loot Library#art2500}
+          - {gen:Loot Library#art2500}
+          - {gen:Loot Library#art2500}
+          - {gen:Loot Library#art2500}
+          - {gen:Loot Library#art2500}
+          - {gen:Loot Library#art2500}
+          - {gen:Loot Library#art2500}
+      - m: 1
+        v: |-
+          - {gen:Loot Library#art2500}
+          - {gen:Loot Library#art2500}
+          - {gen:Loot Library#art2500}
+          - {gen:Loot Library#art2500}
+          - {gen:Loot Library#art2500}
+          - {gen:Loot Library#art2500}
+          - {gen:Loot Library#art2500}
+          - {gen:Loot Library#art2500}
+          - {gen:Loot Library#art2500}
+      - m: 1
+        v: |-
+          - {gen:Loot Library#art2500}
+          - {gen:Loot Library#art2500}
+          - {gen:Loot Library#art2500}
+          - {gen:Loot Library#art2500}
+          - {gen:Loot Library#art2500}
+          - {gen:Loot Library#art2500}
+          - {gen:Loot Library#art2500}
+          - {gen:Loot Library#art2500}
+          - {gen:Loot Library#art2500}
+          - {gen:Loot Library#art2500}
+  - name: roll1d4Art7500
+    entries:
+      - m: 1
+        v: |-
+          - {gen:Loot Library#art7500}
+      - m: 1
+        v: |-
+          - {gen:Loot Library#art7500}
+          - {gen:Loot Library#art7500}
+      - m: 1
+        v: |-
+          - {gen:Loot Library#art7500}
+          - {gen:Loot Library#art7500}
+          - {gen:Loot Library#art7500}
+      - m: 1
+        v: |-
+          - {gen:Loot Library#art7500}
+          - {gen:Loot Library#art7500}
+          - {gen:Loot Library#art7500}
+          - {gen:Loot Library#art7500}
+  - name: roll1d6Gem10
+    entries:
+      - m: 1
+        v: |-
+          - {gen:Loot Library#gem10}
+      - m: 1
+        v: |-
+          - {gen:Loot Library#gem10}
+          - {gen:Loot Library#gem10}
+      - m: 1
+        v: |-
+          - {gen:Loot Library#gem10}
+          - {gen:Loot Library#gem10}
+          - {gen:Loot Library#gem10}
+      - m: 1
+        v: |-
+          - {gen:Loot Library#gem10}
+          - {gen:Loot Library#gem10}
+          - {gen:Loot Library#gem10}
+          - {gen:Loot Library#gem10}
+      - m: 1
+        v: |-
+          - {gen:Loot Library#gem10}
+          - {gen:Loot Library#gem10}
+          - {gen:Loot Library#gem10}
+          - {gen:Loot Library#gem10}
+          - {gen:Loot Library#gem10}
+      - m: 1
+        v: |-
+          - {gen:Loot Library#gem10}
+          - {gen:Loot Library#gem10}
+          - {gen:Loot Library#gem10}
+          - {gen:Loot Library#gem10}
+          - {gen:Loot Library#gem10}
+          - {gen:Loot Library#gem10}
+  - name: roll1d6Gem50
+    entries:
+      - m: 1
+        v: |-
+          - {gen:Loot Library#gem50}
+      - m: 1
+        v: |-
+          - {gen:Loot Library#gem50}
+          - {gen:Loot Library#gem50}
+      - m: 1
+        v: |-
+          - {gen:Loot Library#gem50}
+          - {gen:Loot Library#gem50}
+          - {gen:Loot Library#gem50}
+      - m: 1
+        v: |-
+          - {gen:Loot Library#gem50}
+          - {gen:Loot Library#gem50}
+          - {gen:Loot Library#gem50}
+          - {gen:Loot Library#gem50}
+      - m: 1
+        v: |-
+          - {gen:Loot Library#gem50}
+          - {gen:Loot Library#gem50}
+          - {gen:Loot Library#gem50}
+          - {gen:Loot Library#gem50}
+          - {gen:Loot Library#gem50}
+      - m: 1
+        v: |-
+          - {gen:Loot Library#gem50}
+          - {gen:Loot Library#gem50}
+          - {gen:Loot Library#gem50}
+          - {gen:Loot Library#gem50}
+          - {gen:Loot Library#gem50}
+          - {gen:Loot Library#gem50}
+  - name: roll1d6Gem100
+    entries:
+      - m: 1
+        v: |-
+          - {gen:Loot Library#gem100}
+      - m: 1
+        v: |-
+          - {gen:Loot Library#gem100}
+          - {gen:Loot Library#gem100}
+      - m: 1
+        v: |-
+          - {gen:Loot Library#gem100}
+          - {gen:Loot Library#gem100}
+          - {gen:Loot Library#gem100}
+      - m: 1
+        v: |-
+          - {gen:Loot Library#gem100}
+          - {gen:Loot Library#gem100}
+          - {gen:Loot Library#gem100}
+          - {gen:Loot Library#gem100}
+      - m: 1
+        v: |-
+          - {gen:Loot Library#gem100}
+          - {gen:Loot Library#gem100}
+          - {gen:Loot Library#gem100}
+          - {gen:Loot Library#gem100}
+          - {gen:Loot Library#gem100}
+      - m: 1
+        v: |-
+          - {gen:Loot Library#gem100}
+          - {gen:Loot Library#gem100}
+          - {gen:Loot Library#gem100}
+          - {gen:Loot Library#gem100}
+          - {gen:Loot Library#gem100}
+          - {gen:Loot Library#gem100}
+  - name: roll1d6Gem500
+    entries:
+      - m: 1
+        v: |-
+          - {gen:Loot Library#gem500}
+      - m: 1
+        v: |-
+          - {gen:Loot Library#gem500}
+          - {gen:Loot Library#gem500}
+      - m: 1
+        v: |-
+          - {gen:Loot Library#gem500}
+          - {gen:Loot Library#gem500}
+          - {gen:Loot Library#gem500}
+      - m: 1
+        v: |-
+          - {gen:Loot Library#gem500}
+          - {gen:Loot Library#gem500}
+          - {gen:Loot Library#gem500}
+          - {gen:Loot Library#gem500}
+      - m: 1
+        v: |-
+          - {gen:Loot Library#gem500}
+          - {gen:Loot Library#gem500}
+          - {gen:Loot Library#gem500}
+          - {gen:Loot Library#gem500}
+          - {gen:Loot Library#gem500}
+      - m: 1
+        v: |-
+          - {gen:Loot Library#gem500}
+          - {gen:Loot Library#gem500}
+          - {gen:Loot Library#gem500}
+          - {gen:Loot Library#gem500}
+          - {gen:Loot Library#gem500}
+          - {gen:Loot Library#gem500}
+  - name: roll1d6Gem1000
+    entries:
+      - m: 1
+        v: |-
+          - {gen:Loot Library#gem1000}
+      - m: 1
+        v: |-
+          - {gen:Loot Library#gem1000}
+          - {gen:Loot Library#gem1000}
+      - m: 1
+        v: |-
+          - {gen:Loot Library#gem1000}
+          - {gen:Loot Library#gem1000}
+          - {gen:Loot Library#gem1000}
+      - m: 1
+        v: |-
+          - {gen:Loot Library#gem1000}
+          - {gen:Loot Library#gem1000}
+          - {gen:Loot Library#gem1000}
+          - {gen:Loot Library#gem1000}
+      - m: 1
+        v: |-
+          - {gen:Loot Library#gem1000}
+          - {gen:Loot Library#gem1000}
+          - {gen:Loot Library#gem1000}
+          - {gen:Loot Library#gem1000}
+          - {gen:Loot Library#gem1000}
+      - m: 1
+        v: |-
+          - {gen:Loot Library#gem1000}
+          - {gen:Loot Library#gem1000}
+          - {gen:Loot Library#gem1000}
+          - {gen:Loot Library#gem1000}
+          - {gen:Loot Library#gem1000}
+          - {gen:Loot Library#gem1000}
+  - name: roll1d8Gem5000
+    entries:
+      - m: 1
+        v: |-
+          - {gen:Loot Library#gem5000}
+      - m: 1
+        v: |-
+          - {gen:Loot Library#gem5000}
+          - {gen:Loot Library#gem5000}
+      - m: 1
+        v: |-
+          - {gen:Loot Library#gem5000}
+          - {gen:Loot Library#gem5000}
+          - {gen:Loot Library#gem5000}
+      - m: 1
+        v: |-
+          - {gen:Loot Library#gem5000}
+          - {gen:Loot Library#gem5000}
+          - {gen:Loot Library#gem5000}
+          - {gen:Loot Library#gem5000}
+      - m: 1
+        v: |-
+          - {gen:Loot Library#gem5000}
+          - {gen:Loot Library#gem5000}
+          - {gen:Loot Library#gem5000}
+          - {gen:Loot Library#gem5000}
+          - {gen:Loot Library#gem5000}
+      - m: 1
+        v: |-
+          - {gen:Loot Library#gem5000}
+          - {gen:Loot Library#gem5000}
+          - {gen:Loot Library#gem5000}
+          - {gen:Loot Library#gem5000}
+          - {gen:Loot Library#gem5000}
+          - {gen:Loot Library#gem5000}
+      - m: 1
+        v: |-
+          - {gen:Loot Library#gem5000}
+          - {gen:Loot Library#gem5000}
+          - {gen:Loot Library#gem5000}
+          - {gen:Loot Library#gem5000}
+          - {gen:Loot Library#gem5000}
+          - {gen:Loot Library#gem5000}
+          - {gen:Loot Library#gem5000}
+      - m: 1
+        v: |-
+          - {gen:Loot Library#gem5000}
+          - {gen:Loot Library#gem5000}
+          - {gen:Loot Library#gem5000}
+          - {gen:Loot Library#gem5000}
+          - {gen:Loot Library#gem5000}
+          - {gen:Loot Library#gem5000}
+          - {gen:Loot Library#gem5000}
+          - {gen:Loot Library#gem5000}
+  - name: roll1d4MagicItemTableA
+    entries:
+      - m: 1
+        v: '{gen:Loot Library#magicItemTableA}'
+      - m: 1
+        v: |-
+          - '{gen:Loot Library#magicItemTableA}'
+          - '{gen:Loot Library#magicItemTableA}'
+      - m: 1
+        v: |-
+          - '{gen:Loot Library#magicItemTableA}'
+          - '{gen:Loot Library#magicItemTableA}'
+          - '{gen:Loot Library#magicItemTableA}'
+      - m: 1
+        v: |-
+          - '{gen:Loot Library#magicItemTableA}'
+          - '{gen:Loot Library#magicItemTableA}'
+          - '{gen:Loot Library#magicItemTableA}'
+  - name: roll1d6MagicItemTableA
+    entries:
+      - m: 1
+        v: '{gen:Loot Library#magicItemTableA}'
+      - m: 1
+        v: |-
+          - '{gen:Loot Library#magicItemTableA}'
+          - '{gen:Loot Library#magicItemTableA}'
+      - m: 1
+        v: |-
+          - '{gen:Loot Library#magicItemTableA}'
+          - '{gen:Loot Library#magicItemTableA}'
+          - '{gen:Loot Library#magicItemTableA}'
+      - m: 1
+        v: |-
+          - '{gen:Loot Library#magicItemTableA}'
+          - '{gen:Loot Library#magicItemTableA}'
+          - '{gen:Loot Library#magicItemTableA}'
+          - '{gen:Loot Library#magicItemTableA}'
+      - m: 1
+        v: |-
+          - '{gen:Loot Library#magicItemTableA}'
+          - '{gen:Loot Library#magicItemTableA}'
+          - '{gen:Loot Library#magicItemTableA}'
+          - '{gen:Loot Library#magicItemTableA}'
+          - '{gen:Loot Library#magicItemTableA}'
+      - m: 1
+        v: |-
+          - '{gen:Loot Library#magicItemTableA}'
+          - '{gen:Loot Library#magicItemTableA}'
+          - '{gen:Loot Library#magicItemTableA}'
+          - '{gen:Loot Library#magicItemTableA}'
+          - '{gen:Loot Library#magicItemTableA}'
+          - '{gen:Loot Library#magicItemTableA}'
+          - '{gen:Loot Library#magicItemTableA}'
+  - name: roll1d4MagicItemTableB
+    entries:
+      - m: 1
+        v: '{gen:Loot Library#magicItemTableB}'
+      - m: 1
+        v: |-
+          - '{gen:Loot Library#magicItemTableB}'
+          - '{gen:Loot Library#magicItemTableB}'
+      - m: 1
+        v: |-
+          - '{gen:Loot Library#magicItemTableB}'
+          - '{gen:Loot Library#magicItemTableB}'
+          - '{gen:Loot Library#magicItemTableB}'
+      - m: 1
+        v: |-
+          - '{gen:Loot Library#magicItemTableB}'
+          - '{gen:Loot Library#magicItemTableB}'
+          - '{gen:Loot Library#magicItemTableB}'
+          - '{gen:Loot Library#magicItemTableB}'
+  - name: roll1d6MagicItemTableB
+    entries:
+      - m: 1
+        v: '{gen:Loot Library#magicItemTableB}'
+      - m: 1
+        v: |-
+          - '{gen:Loot Library#magicItemTableB}'
+          - '{gen:Loot Library#magicItemTableB}'
+      - m: 1
+        v: |-
+          - '{gen:Loot Library#magicItemTableB}'
+          - '{gen:Loot Library#magicItemTableB}'
+          - '{gen:Loot Library#magicItemTableB}'
+      - m: 1
+        v: |-
+          - '{gen:Loot Library#magicItemTableB}'
+          - '{gen:Loot Library#magicItemTableB}'
+          - '{gen:Loot Library#magicItemTableB}'
+          - '{gen:Loot Library#magicItemTableB}'
+      - m: 1
+        v: |-
+          - '{gen:Loot Library#magicItemTableB}'
+          - '{gen:Loot Library#magicItemTableB}'
+          - '{gen:Loot Library#magicItemTableB}'
+          - '{gen:Loot Library#magicItemTableB}'
+          - '{gen:Loot Library#magicItemTableB}'
+      - m: 1
+        v: |-
+          - '{gen:Loot Library#magicItemTableB}'
+          - '{gen:Loot Library#magicItemTableB}'
+          - '{gen:Loot Library#magicItemTableB}'
+          - '{gen:Loot Library#magicItemTableB}'
+          - '{gen:Loot Library#magicItemTableB}'
+          - '{gen:Loot Library#magicItemTableB}'
+  - name: roll1d4MagicItemTableC
+    entries:
+      - m: 1
+        v: '{gen:Loot Library#magicItemTableC}'
+      - m: 1
+        v: |-
+          - '{gen:Loot Library#magicItemTableC}'
+          - '{gen:Loot Library#magicItemTableC}'
+      - m: 1
+        v: |-
+          - '{gen:Loot Library#magicItemTableC}'
+          - '{gen:Loot Library#magicItemTableC}'
+          - '{gen:Loot Library#magicItemTableC}'
+      - m: 1
+        v: |-
+          - '{gen:Loot Library#magicItemTableC}'
+          - '{gen:Loot Library#magicItemTableC}'
+          - '{gen:Loot Library#magicItemTableC}'
+          - '{gen:Loot Library#magicItemTableC}'
+  - name: roll1d6MagicItemTableC
+    entries:
+      - m: 1
+        v: '{gen:Loot Library#magicItemTableC}'
+      - m: 1
+        v: |-
+          - '{gen:Loot Library#magicItemTableC}'
+          - '{gen:Loot Library#magicItemTableC}'
+      - m: 1
+        v: |-
+          - '{gen:Loot Library#magicItemTableC}'
+          - '{gen:Loot Library#magicItemTableC}'
+          - '{gen:Loot Library#magicItemTableC}'
+      - m: 1
+        v: |-
+          - '{gen:Loot Library#magicItemTableC}'
+          - '{gen:Loot Library#magicItemTableC}'
+          - '{gen:Loot Library#magicItemTableC}'
+          - '{gen:Loot Library#magicItemTableC}'
+      - m: 1
+        v: |-
+          - '{gen:Loot Library#magicItemTableC}'
+          - '{gen:Loot Library#magicItemTableC}'
+          - '{gen:Loot Library#magicItemTableC}'
+          - '{gen:Loot Library#magicItemTableC}'
+          - '{gen:Loot Library#magicItemTableC}'
+      - m: 1
+        v: |-
+          - '{gen:Loot Library#magicItemTableC}'
+          - '{gen:Loot Library#magicItemTableC}'
+          - '{gen:Loot Library#magicItemTableC}'
+          - '{gen:Loot Library#magicItemTableC}'
+          - '{gen:Loot Library#magicItemTableC}'
+          - '{gen:Loot Library#magicItemTableC}'
+  - name: roll1d8MagicItemTableC
+    entries:
+      - m: 1
+        v: '{gen:Loot Library#magicItemTableC}'
+      - m: 1
+        v: |-
+          - '{gen:Loot Library#magicItemTableC}'
+          - '{gen:Loot Library#magicItemTableC}'
+      - m: 1
+        v: |-
+          - '{gen:Loot Library#magicItemTableC}'
+          - '{gen:Loot Library#magicItemTableC}'
+          - '{gen:Loot Library#magicItemTableC}'
+      - m: 1
+        v: |-
+          - '{gen:Loot Library#magicItemTableC}'
+          - '{gen:Loot Library#magicItemTableC}'
+          - '{gen:Loot Library#magicItemTableC}'
+          - '{gen:Loot Library#magicItemTableC}'
+      - m: 1
+        v: |-
+          - '{gen:Loot Library#magicItemTableC}'
+          - '{gen:Loot Library#magicItemTableC}'
+          - '{gen:Loot Library#magicItemTableC}'
+          - '{gen:Loot Library#magicItemTableC}'
+          - '{gen:Loot Library#magicItemTableC}'
+      - m: 1
+        v: |-
+          - '{gen:Loot Library#magicItemTableC}'
+          - '{gen:Loot Library#magicItemTableC}'
+          - '{gen:Loot Library#magicItemTableC}'
+          - '{gen:Loot Library#magicItemTableC}'
+          - '{gen:Loot Library#magicItemTableC}'
+          - '{gen:Loot Library#magicItemTableC}'
+      - m: 1
+        v: |-
+          - '{gen:Loot Library#magicItemTableC}'
+          - '{gen:Loot Library#magicItemTableC}'
+          - '{gen:Loot Library#magicItemTableC}'
+          - '{gen:Loot Library#magicItemTableC}'
+          - '{gen:Loot Library#magicItemTableC}'
+          - '{gen:Loot Library#magicItemTableC}'
+          - '{gen:Loot Library#magicItemTableC}'
+      - m: 1
+        v: |-
+          - '{gen:Loot Library#magicItemTableC}'
+          - '{gen:Loot Library#magicItemTableC}'
+          - '{gen:Loot Library#magicItemTableC}'
+          - '{gen:Loot Library#magicItemTableC}'
+          - '{gen:Loot Library#magicItemTableC}'
+          - '{gen:Loot Library#magicItemTableC}'
+          - '{gen:Loot Library#magicItemTableC}'
+          - '{gen:Loot Library#magicItemTableC}'
+  - name: roll1d4MagicItemTableD
+    entries:
+      - m: 1
+        v: '{gen:Loot Library#magicItemTableD}'
+      - m: 1
+        v: |-
+          - '{gen:Loot Library#magicItemTableD}'
+          - '{gen:Loot Library#magicItemTableD}'
+      - m: 1
+        v: |-
+          - '{gen:Loot Library#magicItemTableD}'
+          - '{gen:Loot Library#magicItemTableD}'
+          - '{gen:Loot Library#magicItemTableD}'
+      - m: 1
+        v: |-
+          - '{gen:Loot Library#magicItemTableD}'
+          - '{gen:Loot Library#magicItemTableD}'
+          - '{gen:Loot Library#magicItemTableD}'
+          - '{gen:Loot Library#magicItemTableD}'
+  - name: roll1d6MagicItemTableD
+    entries:
+      - m: 1
+        v: '{gen:Loot Library#magicItemTableD}'
+      - m: 1
+        v: |-
+          - '{gen:Loot Library#magicItemTableD}'
+          - '{gen:Loot Library#magicItemTableD}'
+      - m: 1
+        v: |-
+          - '{gen:Loot Library#magicItemTableD}'
+          - '{gen:Loot Library#magicItemTableD}'
+          - '{gen:Loot Library#magicItemTableD}'
+      - m: 1
+        v: |-
+          - '{gen:Loot Library#magicItemTableD}'
+          - '{gen:Loot Library#magicItemTableD}'
+          - '{gen:Loot Library#magicItemTableD}'
+          - '{gen:Loot Library#magicItemTableD}'
+      - m: 1
+        v: |-
+          - '{gen:Loot Library#magicItemTableD}'
+          - '{gen:Loot Library#magicItemTableD}'
+          - '{gen:Loot Library#magicItemTableD}'
+          - '{gen:Loot Library#magicItemTableD}'
+          - '{gen:Loot Library#magicItemTableD}'
+      - m: 1
+        v: |-
+          - '{gen:Loot Library#magicItemTableD}'
+          - '{gen:Loot Library#magicItemTableD}'
+          - '{gen:Loot Library#magicItemTableD}'
+          - '{gen:Loot Library#magicItemTableD}'
+          - '{gen:Loot Library#magicItemTableD}'
+          - '{gen:Loot Library#magicItemTableD}'
+  - name: roll1d6MagicItemTableE
+    entries:
+      - m: 1
+        v: '{gen:Loot Library#magicItemTableE}'
+      - m: 1
+        v: |-
+          - '{gen:Loot Library#magicItemTableE}'
+          - '{gen:Loot Library#magicItemTableE}'
+      - m: 1
+        v: |-
+          - '{gen:Loot Library#magicItemTableE}'
+          - '{gen:Loot Library#magicItemTableE}'
+          - '{gen:Loot Library#magicItemTableE}'
+      - m: 1
+        v: |-
+          - '{gen:Loot Library#magicItemTableE}'
+          - '{gen:Loot Library#magicItemTableE}'
+          - '{gen:Loot Library#magicItemTableE}'
+          - '{gen:Loot Library#magicItemTableE}'
+      - m: 1
+        v: |-
+          - '{gen:Loot Library#magicItemTableE}'
+          - '{gen:Loot Library#magicItemTableE}'
+          - '{gen:Loot Library#magicItemTableE}'
+          - '{gen:Loot Library#magicItemTableE}'
+          - '{gen:Loot Library#magicItemTableE}'
+      - m: 1
+        v: |-
+          - '{gen:Loot Library#magicItemTableE}'
+          - '{gen:Loot Library#magicItemTableE}'
+          - '{gen:Loot Library#magicItemTableE}'
+          - '{gen:Loot Library#magicItemTableE}'
+          - '{gen:Loot Library#magicItemTableE}'
+          - '{gen:Loot Library#magicItemTableE}'
+  - name: roll1d4MagicItemTableF
+    entries:
+      - m: 1
+        v: '{gen:Loot Library#magicItemTableF}'
+      - m: 1
+        v: |-
+          - '{gen:Loot Library#magicItemTableF}'
+          - '{gen:Loot Library#magicItemTableF}'
+      - m: 1
+        v: |-
+          - '{gen:Loot Library#magicItemTableF}'
+          - '{gen:Loot Library#magicItemTableF}'
+          - '{gen:Loot Library#magicItemTableF}'
+      - m: 1
+        v: |-
+          - '{gen:Loot Library#magicItemTableF}'
+          - '{gen:Loot Library#magicItemTableF}'
+          - '{gen:Loot Library#magicItemTableF}'
+          - '{gen:Loot Library#magicItemTableF}'
+  - name: roll1d4MagicItemTableG
+    entries:
+      - m: 1
+        v: '{gen:Loot Library#magicItemTableG}'
+      - m: 1
+        v: |-
+          - '{gen:Loot Library#magicItemTableG}'
+          - '{gen:Loot Library#magicItemTableG}'
+      - m: 1
+        v: |-
+          - '{gen:Loot Library#magicItemTableG}'
+          - '{gen:Loot Library#magicItemTableG}'
+          - '{gen:Loot Library#magicItemTableG}'
+      - m: 1
+        v: |-
+          - '{gen:Loot Library#magicItemTableG}'
+          - '{gen:Loot Library#magicItemTableG}'
+          - '{gen:Loot Library#magicItemTableG}'
+          - '{gen:Loot Library#magicItemTableG}'
+  - name: roll1d4MagicItemTableH
+    entries:
+      - m: 1
+        v: '{gen:Loot Library#magicItemTableH}'
+      - m: 1
+        v: |-
+          - '{gen:Loot Library#magicItemTableH}'
+          - '{gen:Loot Library#magicItemTableH}'
+      - m: 1
+        v: |-
+          - '{gen:Loot Library#magicItemTableH}'
+          - '{gen:Loot Library#magicItemTableH}'
+          - '{gen:Loot Library#magicItemTableH}'
+      - m: 1
+        v: |-
+          - '{gen:Loot Library#magicItemTableH}'
+          - '{gen:Loot Library#magicItemTableH}'
+          - '{gen:Loot Library#magicItemTableH}'
+          - '{gen:Loot Library#magicItemTableH}'
+  - name: roll1d4MagicItemTableI
+    entries:
+      - m: 1
+        v: '{gen:Loot Library#magicItemTableI}'
+      - m: 1
+        v: |-
+          - '{gen:Loot Library#magicItemTableI}'
+          - '{gen:Loot Library#magicItemTableI}'
+      - m: 1
+        v: |-
+          - '{gen:Loot Library#magicItemTableI}'
+          - '{gen:Loot Library#magicItemTableI}'
+          - '{gen:Loot Library#magicItemTableI}'
+      - m: 1
+        v: |-
+          - '{gen:Loot Library#magicItemTableI}'
+          - '{gen:Loot Library#magicItemTableI}'
+          - '{gen:Loot Library#magicItemTableI}'
+          - '{gen:Loot Library#magicItemTableI}'
+categories:
+  - Items
+name: Loot

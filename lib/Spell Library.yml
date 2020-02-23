@@ -1,0 +1,842 @@
+resultPattern: ''
+tables:
+- entries:
+    - m: 1
+      v: Acid Splash
+    - m: 1
+      v: Blade Ward
+    - m: 1
+      v: Booming Blade
+    - m: 1
+      v: Chill Touch
+    - m: 1
+      v: Control Flames
+    - m: 1
+      v: Create Bonfire
+    - m: 1
+      v: Dancing Lights
+    - m: 1
+      v: Druidcraft
+    - m: 1
+      v: Eldritch Blast
+    - m: 1
+      v: Fire Bolt
+    - m: 1
+      v: Friends
+    - m: 1
+      v: Frostbite
+    - m: 1
+      v: Green-flame Blade
+    - m: 1
+      v: Guidance
+    - m: 1
+      v: Gust
+    - m: 1
+      v: Light
+    - m: 1
+      v: Lightning Lure
+    - m: 1
+      v: Mage Hand
+    - m: 1
+      v: Magic Stone
+    - m: 1
+      v: Mending
+    - m: 1
+      v: Message
+    - m: 1
+      v: Minor Illusion
+    - m: 1
+      v: Mold Earth
+    - m: 1
+      v: Poison Spray
+    - m: 1
+      v: Prestidigitation
+    - m: 1
+      v: Produce Flame
+    - m: 1
+      v: Ray Of Frost
+    - m: 1
+      v: Resistance
+    - m: 1
+      v: Sacred Flame
+    - m: 1
+      v: Shape Water
+    - m: 1
+      v: Shillelagh
+    - m: 1
+      v: Shocking Grasp
+    - m: 1
+      v: Spare The Dying
+    - m: 1
+      v: Sword Burst
+    - m: 1
+      v: Thaumaturgy
+    - m: 1
+      v: Thorn Whip
+    - m: 1
+      v: Thunderclap
+    - m: 1
+      v: True Strike
+    - m: 1
+      v: Vicious Mockery
+  name: cantrip
+- entries:
+    - m: 1
+      v: Absorb Elements
+    - m: 1
+      v: Alarm
+    - m: 1
+      v: Animal Friendship
+    - m: 1
+      v: Armor Of Agathys
+    - m: 1
+      v: Arms Of Hadar
+    - m: 1
+      v: Bane
+    - m: 1
+      v: Beast Bond
+    - m: 1
+      v: Bless
+    - m: 1
+      v: Burning Hands
+    - m: 1
+      v: Catapult
+    - m: 1
+      v: Charm Person
+    - m: 1
+      v: Chromatic Orb
+    - m: 1
+      v: Color Spray
+    - m: 1
+      v: Command
+    - m: 1
+      v: Compelled Duel
+    - m: 1
+      v: Comprehend Languages
+    - m: 1
+      v: Create Or Destroy Water
+    - m: 1
+      v: Cure Wounds
+    - m: 1
+      v: Detect Evil And Good
+    - m: 1
+      v: Detect Magic
+    - m: 1
+      v: Detect Poison And Disease
+    - m: 1
+      v: Disguise Self
+    - m: 1
+      v: Dissonant Whispers
+    - m: 1
+      v: Divine Favor
+    - m: 1
+      v: Earth Tremor
+    - m: 1
+      v: Ensnaring Strike
+    - m: 1
+      v: Entangle
+    - m: 1
+      v: Expeditious Retreat
+    - m: 1
+      v: Faerie Fire
+    - m: 1
+      v: False Life
+    - m: 1
+      v: Feather Fall
+    - m: 1
+      v: Find Familiar
+    - m: 1
+      v: Fog Cloud
+    - m: 1
+      v: Goodberry
+    - m: 1
+      v: Grease
+    - m: 1
+      v: Guiding Bolt
+    - m: 1
+      v: Hail Of Thorns
+    - m: 1
+      v: Healing Word
+    - m: 1
+      v: Hellish Rebuke
+    - m: 1
+      v: Heroism
+    - m: 1
+      v: Hex
+    - m: 1
+      v: Hunters Mark
+    - m: 1
+      v: Ice Knife
+    - m: 1
+      v: Identify
+    - m: 1
+      v: Illusory Script
+    - m: 1
+      v: Inflict Wounds
+    - m: 1
+      v: Jump
+    - m: 1
+      v: Longstrider
+    - m: 1
+      v: Mage Armor
+    - m: 1
+      v: Magic Missile
+    - m: 1
+      v: Protection From Evil And Good
+    - m: 1
+      v: Purify Food And Drink
+    - m: 1
+      v: Ray Of Sickness
+    - m: 1
+      v: Sanctuary
+    - m: 1
+      v: Searing Smite
+    - m: 1
+      v: Shield
+    - m: 1
+      v: Shield Of Faith
+    - m: 1
+      v: Silent Image
+    - m: 1
+      v: Sleep
+    - m: 1
+      v: Speak With Animals
+    - m: 1
+      v: Tashas Hideous Laughter
+    - m: 1
+      v: Tensers Floating Disk
+    - m: 1
+      v: Thunderous Smite
+    - m: 1
+      v: Thunderwave
+    - m: 1
+      v: Unseen Servant
+    - m: 1
+      v: Witch Bolt
+    - m: 1
+      v: Wrathful Smite
+  name: first
+- entries:
+    - m: 1
+      v: Aganazzars Scorcher
+    - m: 1
+      v: Aid
+    - m: 1
+      v: Alter Self
+    - m: 1
+      v: Animal Messenger
+    - m: 1
+      v: Arcane Lock
+    - m: 1
+      v: Augury
+    - m: 1
+      v: Barkskin
+    - m: 1
+      v: Beast Sense
+    - m: 1
+      v: Blindness/deafness
+    - m: 1
+      v: Blur
+    - m: 1
+      v: Branding Smite
+    - m: 1
+      v: Calm Emotions
+    - m: 1
+      v: Cloud Of Daggers
+    - m: 1
+      v: Continual Flame
+    - m: 1
+      v: Cordon Of Arrows
+    - m: 1
+      v: Crown Of Madness
+    - m: 1
+      v: Darkness
+    - m: 1
+      v: Darkvision
+    - m: 1
+      v: Detect Thoughts
+    - m: 1
+      v: Dust Devil
+    - m: 1
+      v: Earthbind
+    - m: 1
+      v: Enhance Ability
+    - m: 1
+      v: Enlarge/reduce
+    - m: 1
+      v: Enthrall
+    - m: 1
+      v: Find Steed
+    - m: 1
+      v: Find Traps
+    - m: 1
+      v: Flame Blade
+    - m: 1
+      v: Flaming Sphere
+    - m: 1
+      v: Gentle Repose
+    - m: 1
+      v: Gust Of Wind
+    - m: 1
+      v: Heat Metal
+    - m: 1
+      v: Hold Person
+    - m: 1
+      v: Invisibility
+    - m: 1
+      v: Knock
+    - m: 1
+      v: Lesser Restoration
+    - m: 1
+      v: Levitate
+    - m: 1
+      v: Locate Animals Or Plants
+    - m: 1
+      v: Locate Object
+    - m: 1
+      v: Magic Mouth
+    - m: 1
+      v: Magic Weapon
+    - m: 1
+      v: Maximilians Earthen Grasp
+    - m: 1
+      v: Melfs Acid Arrow
+    - m: 1
+      v: Mirror Image
+    - m: 1
+      v: Misty Step
+    - m: 1
+      v: Moonbeam
+    - m: 1
+      v: Nystuls Magic Aura
+    - m: 1
+      v: Pass Without Trace
+    - m: 1
+      v: Phantasmal Force
+    - m: 1
+      v: Prayer Of Healing
+    - m: 1
+      v: Protection From Poison
+    - m: 1
+      v: Pyrotechnics
+    - m: 1
+      v: Ray Of Enfeeblement
+    - m: 1
+      v: Rope Trick
+    - m: 1
+      v: Scorching Ray
+    - m: 1
+      v: See Invisibility
+    - m: 1
+      v: Shatter
+    - m: 1
+      v: Silence
+    - m: 1
+      v: Skywrite
+    - m: 1
+      v: Snillocs Snowball Swarm
+    - m: 1
+      v: Spider Climb
+    - m: 1
+      v: Spike Growth
+    - m: 1
+      v: Spiritual Weapon
+    - m: 1
+      v: Suggestion
+    - m: 1
+      v: Warding Bond
+    - m: 1
+      v: Warding Wind
+    - m: 1
+      v: Water Walk
+    - m: 1
+      v: Web
+    - m: 1
+      v: Zone Of Truth
+  name: second
+- entries:
+    - m: 1
+      v: Animate Dead
+    - m: 1
+      v: Aura Of Vitality
+    - m: 1
+      v: Beacon Of Hope
+    - m: 1
+      v: Bestow Curse
+    - m: 1
+      v: Blinding Smite
+    - m: 1
+      v: Blink
+    - m: 1
+      v: Call Lightning
+    - m: 1
+      v: Clairvoyance
+    - m: 1
+      v: Conjure Animals
+    - m: 1
+      v: Conjure Barrage
+    - m: 1
+      v: Counter
+    - m: 1
+      v: Create Food And Water
+    - m: 1
+      v: Crusaders Mantle
+    - m: 1
+      v: Daylight
+    - m: 1
+      v: Dispel Magic
+    - m: 1
+      v: Elemental Weapon
+    - m: 1
+      v: Erupting Earth
+    - m: 1
+      v: Fear
+    - m: 1
+      v: Feign Death
+    - m: 1
+      v: Fireball
+    - m: 1
+      v: Flame Arrows
+    - m: 1
+      v: Fly
+    - m: 1
+      v: Gaseous Form
+    - m: 1
+      v: Glyph Of Warding
+    - m: 1
+      v: Haste
+    - m: 1
+      v: Hunger Of Hadar
+    - m: 1
+      v: Hypnotic Pattern
+    - m: 1
+      v: Leomunds Tiny Hut
+    - m: 1
+      v: Lightning Arrow
+    - m: 1
+      v: Lightning Bolt
+    - m: 1
+      v: Magic Circle
+    - m: 1
+      v: Major Image
+    - m: 1
+      v: Mass Healing Word
+    - m: 1
+      v: Meld Into Stone
+    - m: 1
+      v: Melfs Minute Meteors
+    - m: 1
+      v: Nondetection
+    - m: 1
+      v: Phantom Steed
+    - m: 1
+      v: Plant Growth
+    - m: 1
+      v: Protection From Energy
+    - m: 1
+      v: Remove Curse
+    - m: 1
+      v: Revivify
+    - m: 1
+      v: Sending
+    - m: 1
+      v: Sleet Storm
+    - m: 1
+      v: Slow
+    - m: 1
+      v: Speak With Dead
+    - m: 1
+      v: Speak With Plants
+    - m: 1
+      v: Spirit Guardians
+    - m: 1
+      v: Stinking Cloud
+    - m: 1
+      v: Tidal Wave
+    - m: 1
+      v: Tongues
+    - m: 1
+      v: Vampiric Touch
+    - m: 1
+      v: Wall Of Sand
+    - m: 1
+      v: Wall Of Water
+    - m: 1
+      v: Water Breathing
+    - m: 1
+      v: Wind Wall
+  name: third
+- entries:
+    - m: 1
+      v: Arcane Eye
+    - m: 1
+      v: Aura Of Life
+    - m: 1
+      v: Aura Of Purity
+    - m: 1
+      v: Banishment
+    - m: 1
+      v: Blight
+    - m: 1
+      v: Compulsion
+    - m: 1
+      v: Confusion
+    - m: 1
+      v: Conjure Minor Elementals
+    - m: 1
+      v: Conjure Woodland Beings
+    - m: 1
+      v: Control Water
+    - m: 1
+      v: Death Ward
+    - m: 1
+      v: Dimension Door
+    - m: 1
+      v: Divination
+    - m: 1
+      v: Dominate Beast
+    - m: 1
+      v: Elemental Bane
+    - m: 1
+      v: Evards Black Tentacles
+    - m: 1
+      v: Fabricate
+    - m: 1
+      v: Fire Shield
+    - m: 1
+      v: Freedom Of Movement
+    - m: 1
+      v: Giant Insect
+    - m: 1
+      v: Grasping Vine
+    - m: 1
+      v: Greater Invisibility
+    - m: 1
+      v: Guardian Of Faith
+    - m: 1
+      v: Hallucinatory Terrain
+    - m: 1
+      v: Ice Storm
+    - m: 1
+      v: Leomunds Secret Chest
+    - m: 1
+      v: Locate Creature
+    - m: 1
+      v: Mordenkainens Faithful Hound
+    - m: 1
+      v: Mordenkainens Private Sanctum
+    - m: 1
+      v: Otilukes Resilient Sphere
+    - m: 1
+      v: Phantasmal Killer
+    - m: 1
+      v: Polymorph
+    - m: 1
+      v: Staggering Smite
+    - m: 1
+      v: Stone Shape
+    - m: 1
+      v: Stoneskin
+    - m: 1
+      v: Storm Sphere
+    - m: 1
+      v: Vitriolic Sphere
+    - m: 1
+      v: Wall Of Fire
+    - m: 1
+      v: Watery Sphere
+  name: fourth
+- entries:
+    - m: 1
+      v: Animate Objects
+    - m: 1
+      v: Antilife Shell
+    - m: 1
+      v: Awaken
+    - m: 1
+      v: Banishing Smite
+    - m: 1
+      v: Bigbys Hand
+    - m: 1
+      v: Circle Of Power
+    - m: 1
+      v: Cloudkill
+    - m: 1
+      v: Commune
+    - m: 1
+      v: Commune With Nature
+    - m: 1
+      v: Cone Of Cold
+    - m: 1
+      v: Conjure Elemental
+    - m: 1
+      v: Conjure Volley
+    - m: 1
+      v: Contact Other Plane
+    - m: 1
+      v: Contagion
+    - m: 1
+      v: Control Winds
+    - m: 1
+      v: Creation
+    - m: 1
+      v: Destructive Wave
+    - m: 1
+      v: Dispel Evil And Good
+    - m: 1
+      v: Dominate Person
+    - m: 1
+      v: Dream
+    - m: 1
+      v: Flame Strike
+    - m: 1
+      v: Geas
+    - m: 1
+      v: Greater Restoration
+    - m: 1
+      v: Hallow
+    - m: 1
+      v: Hold Monster
+    - m: 1
+      v: Immolation
+    - m: 1
+      v: Insect Plague
+    - m: 1
+      v: Legend Lore
+    - m: 1
+      v: Maelstrom
+    - m: 1
+      v: Mass Cure Wounds
+    - m: 1
+      v: Mislead
+    - m: 1
+      v: Modify Memory
+    - m: 1
+      v: Passwall
+    - m: 1
+      v: Planar Binding
+    - m: 1
+      v: Raise Dead
+    - m: 1
+      v: Rarys Telepathic Bond
+    - m: 1
+      v: Reincarnate
+    - m: 1
+      v: Scrying
+    - m: 1
+      v: Seeming
+    - m: 1
+      v: Swift Quiver
+    - m: 1
+      v: Telekinesis
+    - m: 1
+      v: Teleportation Circle
+    - m: 1
+      v: Transmute Rock
+    - m: 1
+      v: Tree Stride
+    - m: 1
+      v: Wall Of Force
+    - m: 1
+      v: Wall Of Stone
+  name: fifth
+- entries:
+    - m: 1
+      v: Arcane Gate
+    - m: 1
+      v: Blade Barrier
+    - m: 1
+      v: Bones Of The Earth
+    - m: 1
+      v: Chain Lightning
+    - m: 1
+      v: Circle Of Death
+    - m: 1
+      v: Conjure Fey
+    - m: 1
+      v: Contingency
+    - m: 1
+      v: Create Undead
+    - m: 1
+      v: Disintegrate
+    - m: 1
+      v: Drawmijs Instant Summons
+    - m: 1
+      v: Eyebite
+    - m: 1
+      v: Find The Path
+    - m: 1
+      v: Flesh To Stone
+    - m: 1
+      v: Forbiddance
+    - m: 1
+      v: Globe Of Invulnerability
+    - m: 1
+      v: Guards And Wards
+    - m: 1
+      v: Harm
+    - m: 1
+      v: Heal
+    - m: 1
+      v: Heroes Feast
+    - m: 1
+      v: Investiture Of Flame
+    - m: 1
+      v: Investiture Of Ice
+    - m: 1
+      v: Investiture Of Stone
+    - m: 1
+      v: Investiture Of Wind
+    - m: 1
+      v: Magic Jar
+    - m: 1
+      v: Mass Suggestion
+    - m: 1
+      v: Move Earth
+    - m: 1
+      v: Otilukes Freezing Sphere
+    - m: 1
+      v: Ottos Irresistible Dance
+    - m: 1
+      v: Planar Ally
+    - m: 1
+      v: Primordial Ward
+    - m: 1
+      v: Programmed Illusion
+    - m: 1
+      v: Sunbeam
+    - m: 1
+      v: Transport Via Plants
+    - m: 1
+      v: True Seeing
+    - m: 1
+      v: Wall Of Ice
+    - m: 1
+      v: Wall Of Thorns
+    - m: 1
+      v: Wind Walk
+    - m: 1
+      v: Word Of Recall
+  name: sixth
+- entries:
+    - m: 1
+      v: Conjure Celestial
+    - m: 1
+      v: Delayed Blast Fireball
+    - m: 1
+      v: Divine Word
+    - m: 1
+      v: Etherealness
+    - m: 1
+      v: Finger Of Death
+    - m: 1
+      v: Fire Storm
+    - m: 1
+      v: Forcecage
+    - m: 1
+      v: Mirage Arcane
+    - m: 1
+      v: Mordenkainens Magnificent Mansion
+    - m: 1
+      v: Mordenkainens Sword
+    - m: 1
+      v: Plane Shift
+    - m: 1
+      v: Prismatic Spray
+    - m: 1
+      v: Project Image
+    - m: 1
+      v: Regenerate
+    - m: 1
+      v: Resurrection
+    - m: 1
+      v: Reverse Gravity
+    - m: 1
+      v: Sequester
+    - m: 1
+      v: Simulacrum
+    - m: 1
+      v: Symbol
+    - m: 1
+      v: Teleport
+    - m: 1
+      v: Whirlwind
+  name: seventh
+- entries:
+    - m: 1
+      v: Abi Dalzims Horrid Wilting
+    - m: 1
+      v: Animal Shapes
+    - m: 1
+      v: Antimagic Field
+    - m: 1
+      v: Antipathy/sympathy
+    - m: 1
+      v: Clone
+    - m: 1
+      v: Control Weather
+    - m: 1
+      v: Demiplane
+    - m: 1
+      v: Dominate Monster
+    - m: 1
+      v: Earthquake
+    - m: 1
+      v: Feeblemind
+    - m: 1
+      v: Glibness
+    - m: 1
+      v: Holy Aura
+    - m: 1
+      v: Incendiary Cloud
+    - m: 1
+      v: Maze
+    - m: 1
+      v: Mind Blank
+    - m: 1
+      v: Power Word Stun
+    - m: 1
+      v: Sunburst
+    - m: 1
+      v: Telepathy
+    - m: 1
+      v: Tsunami
+  name: eighth
+- entries:
+    - m: 1
+      v: Astral Projection
+    - m: 1
+      v: Foresight
+    - m: 1
+      v: Gate
+    - m: 1
+      v: Imprisonment
+    - m: 1
+      v: Mass Heal
+    - m: 1
+      v: Meteor Swarm
+    - m: 1
+      v: Power Word Heal
+    - m: 1
+      v: Power Word Kill
+    - m: 1
+      v: Prismatic Wall
+    - m: 1
+      v: Shapechange
+    - m: 1
+      v: Storm Of Vengeance
+    - m: 1
+      v: Time Stop
+    - m: 1
+      v: True Polymorph
+    - m: 1
+      v: True Resurrection
+    - m: 1
+      v: Weird
+    - m: 1
+      v: Wish
+  name: ninth
+categories:
+  - lib
+explanation: Spell Library
+name: Spell Library
