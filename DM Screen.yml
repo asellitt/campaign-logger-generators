@@ -1,0 +1,833 @@
+resultPattern: |-
+
+  {b|Quick Finds:} {quickFinds}
+  {b|Something Happened:} {somethingHappens}
+  {b|Quest Macguffins:} {questMacguffins}
+  {b|Dungeon Setting:} {dungeonSetting}
+  {b|Dungeon Type:} {dungeonType}
+  {b|Plots:} {plots}
+  {b|Plot Twists:} {plotTwists}
+  {b|Scenic Spots:} {scenicSpots}
+  {b|Roadside Encounters:} {roadsideEncounters}
+  {b|Weather:} {weather}
+
+tables:
+  - name: quickFinds
+    entries:
+      - m: 1
+        v: Artwork
+      - m: 1
+        v: Body
+      - m: 1
+        v: Food or drink
+      - m: 1
+        v: Jewelry
+      - m: 1
+        v: Key
+      - m: 1
+        v: Letter
+      - m: 1
+        v: Magic herb
+      - m: 1
+        v: Map
+      - m: 1
+        v: Monster parts
+      - m: 1
+        v: Secret message
+      - m: 1
+        v: Signet or insignia
+      - m: 1
+        v: Tome
+  - name: somethingHappens
+    entries:
+      - m: 1
+        v: A door opens
+      - m: 1
+        v: A fire starts
+      - m: 1
+        v: A meteor shoots across the sky
+      - m: 1
+        v: A monster appears
+      - m: 1
+        v: A screech pierces the air
+      - m: 1
+        v: A storm begins
+      - m: 1
+        v: A strange star appears in the sky
+      - m: 1
+        v: A strong gust of wind blows through
+      - m: 1
+        v: A tremor shakes the ground
+      - m: 1
+        v: Someone experiences deja vu
+      - m: 1
+        v: Someone gets angry
+      - m: 1
+        v: Someone glimpses the future
+      - m: 1
+        v: Someone has a sense of foreboding
+      - m: 1
+        v: Someone has to go to the bathroom
+      - m: 1
+        v: Something spills or falls on the ground
+      - m: 1
+        v: Something isn’t where its supposed to be
+      - m: 1
+        v: The lights go out
+      - m: 1
+        v: The sun comes out
+      - m: 1
+        v: There is a foul smell in the air
+      - m: 1
+        v: Unexplained magic occurs
+  - name: questMacguffins
+    entries:
+      - m: 2
+        v: Long-lost twin
+      - m: 2
+        v: Treasure map
+      - m: 2
+        v: Religious idol
+      - m: 2
+        v: Land grab
+      - m: 2
+        v: Lost spellbook
+      - m: 2
+        v: Ghost ship
+      - m: 2
+        v: Dragon hoard
+      - m: 2
+        v: Sunken island
+      - m: 2
+        v: City of gold
+      - m: 2
+        v: Lost culture
+      - m: 2
+        v: Pirate treasure
+      - m: 2
+        v: Lost soul
+      - m: 2
+        v: Lost culture
+      - m: 2
+        v: Ancient tomb
+      - m: 2
+        v: Hidden master
+      - m: 2
+        v: Godhood
+      - m: 2
+        v: Dangerous technology
+      - m: 2
+        v: Weapon of the gods
+      - m: 2
+        v: Embezzled funds
+      - m: 2
+        v: Lich’s phylactery
+      - m: 2
+        v: Enlightenment
+      - m: 2
+        v: Shipwreck
+      - m: 2
+        v: Fountain of youth
+      - m: 2
+        v: Kidnapped royalty
+      - m: 2
+        v: Imprisoned loved one
+      - m: 2
+        v: Relic from religious figure
+      - m: 2
+        v: Unlimited power source
+      - m: 2
+        v: Death (for self or others)
+      - m: 2
+        v: Placation for angry spirits
+      - m: 2
+        v: Relic from religious figure
+      - m: 2
+        v: Signet proving noble birth
+      - m: 2
+        v: Death (for self or others)
+      - m: 2
+        v: Rare spell component
+      - m: 2
+        v: Claimant to the throne
+      - m: 2
+        v: Resurrection for a slain innocent
+      - m: 2
+        v: New home for displaced people
+      - m: 2
+        v: Unexplored territory
+      - m: 2
+        v: Sleeping prince or princess
+      - m: 2
+        v: Flying machine
+      - m: 2
+        v: Forbidden magic
+      - m: 2
+        v: Plague or curse cure
+      - m: 2
+        v: Destruction of evil item
+      - m: 2
+        v: Prophecy and revelation
+      - m: 2
+        v: Designs for a new weapon
+      - m: 2
+        v: Stolen property
+      - m: 2
+        v: Dangerous fugitive
+      - m: 2
+        v: Jade statue of a bird
+      - m: 2
+        v: Portal to another world
+      - m: 2
+        v: State secrets
+      - m: 2
+        v: Mythical beast
+      - m: 2
+        v: Legendary warrior (possibly deceased)
+      - m: 1
+        v: True love
+      - m: 1
+        v: Answers
+  - name: dungeonSetting
+    entries:
+      - m: 2
+        v: Underground river
+      - m: 2
+        v: Part of forgotten labyrinth
+      - m: 2
+        v: Under the docks
+      - m: 2
+        v: Underground canal
+      - m: 2
+        v: In a giant tree
+      - m: 2
+        v: Below a graveyard
+      - m: 2
+        v: Built into an arena
+      - m: 2
+        v: Insane asylum
+      - m: 2
+        v: Sunken ruin
+      - m: 2
+        v: Ice floe
+      - m: 2
+        v: Under a tavern
+      - m: 2
+        v: Sewers
+      - m: 2
+        v: Cliff village
+      - m: 2
+        v: Under a tower
+      - m: 2
+        v: River dam
+      - m: 2
+        v: Hollow mountain
+      - m: 2
+        v: Part of a frozen city
+      - m: 2
+        v: Deep in a desert of shifting tunnels
+      - m: 2
+        v: Abutting to a secret escape route
+      - m: 2
+        v: Inside a painting
+      - m: 2
+        v: Under a roc nest
+      - m: 2
+        v: Pyramid
+      - m: 2
+        v: Under a castle
+      - m: 2
+        v: Below a mausoleum
+      - m: 2
+        v: Connecting to a beast’s den
+      - m: 2
+        v: In a prison
+      - m: 2
+        v: In a lighthouse
+      - m: 2
+        v: In a museum
+      - m: 2
+        v: In a cathedral
+      - m: 2
+        v: Amid the ruble of a ruined citadel
+      - m: 2
+        v: In earthquake prone caverns
+      - m: 2
+        v: Part of a menagerie
+      - m: 2
+        v: In a gigantic statue
+      - m: 2
+        v: Formed in a massive fossil
+      - m: 2
+        v: In another dimension or demiplane
+      - m: 1
+        v: Amid the rubble of a ruined giant city
+      - m: 1
+        v: Crashed space vessel
+      - m: 1
+        v: Unearthed by a giant ant nest
+      - m: 1
+        v: Grown within a deity’s corpse
+      - m: 1
+        v: On an island in a volcano
+      - m: 1
+        v: Inside a moon, star, or another planet
+  - name: dungeonType
+    entries:
+      - m: 1
+        v: Hedge maze
+      - m: 1
+        v: Riverboat
+      - m: 1
+        v: Floating bog containing sunken tombs
+      - m: 1
+        v: Partially submerged clock tower
+      - m: 1
+        v: Wizard’s tomb
+      - m: 1
+        v: Bandit lair
+      - m: 1
+        v: Vast long abandoned mine
+      - m: 1
+        v: Moving clockwork dungeon
+      - m: 1
+        v: Giant’s castle
+      - m: 1
+        v: Melting iceberg
+      - m: 1
+        v: Abandoned casino
+      - m: 1
+        v: Graveyard of giant skeletons
+      - m: 1
+        v: Old theater
+      - m: 1
+        v: Volcanic tomb
+      - m: 1
+        v: Fog shrouded dungeon traps the PCs
+      - m: 1
+        v: Sunken ancient green byways linking fey lands
+      - m: 1
+        v: Narrow limestone gorges
+      - m: 1
+        v: Ancient dragon's skull
+      - m: 1
+        v: Massive, partially hollow, slowly melting candle
+      - m: 1
+        v: Giant tree with crevices and hollows
+      - m: 1
+        v: Chambers where gravity reverses
+      - m: 1
+        v: Belly of a ship swallowing sea creature
+      - m: 1
+        v: Planes linked by portals
+      - m: 1
+        v: Giant insect infested temple
+      - m: 1
+        v: Tangled forest of thorny trees
+      - m: 1
+        v: Glacier of poisoned water
+      - m: 1
+        v: Bog and quicksand filled mire
+      - m: 1
+        v: Giant rat tunnels
+      - m: 1
+        v: Solid storm cloud
+      - m: 1
+        v: Living iron maze
+      - m: 1
+        v: Rapids and river channels sweeping through a valley
+      - m: 1
+        v: Endless stone bridges across a void of purple fog
+      - m: 1
+        v: Living iron ship
+      - m: 1
+        v: Huge web
+      - m: 1
+        v: Sinking maze
+      - m: 1
+        v: Sunken ship
+      - m: 1
+        v: Floating castle that appears only at night
+      - m: 1
+        v: What’s down the plug-hole of a wizard’s sink
+      - m: 1
+        v: Slowly flooding
+      - m: 1
+        v: Palace of glass
+      - m: 1
+        v: The afterlife
+      - m: 1
+        v: A dream
+      - m: 1
+        v: Undead town where life goes on
+      - m: 1
+        v: Garden of poisonous living fungi
+      - m: 1
+        v: Colossal walking iron man
+      - m: 1
+        v: Slavers’ headquarters
+      - m: 1
+        v: A nightmare
+      - m: 1
+        v: Sentient tomb
+      - m: 1
+        v: Iron obelisk of great size
+      - m: 1
+        v: Giant hourglass filling with sand
+  - name: plots
+    entries:
+      - m: 1
+        v: "{i|Greed/Glory:} PCs hear about a dungeon nearby, no one dares enter it"
+      - m: 1
+        v: "{i|Raiding Monsters:} Monsters attack farmsteads and must be stopped"
+      - m: 1
+        v: "{i|Treasure Hunt:} NPC has treasure map"
+      - m: 1
+        v: "{i|Guards:} PCs hired to protect caravan through dangerous terrain"
+      - m: 1
+        v: "{i|Seek:} Locate missing important NPC"
+      - m: 1
+        v: "{i|Destroy:} Purge dungeon of monsters"
+      - m: 1
+        v: "{i|Underwater Exploration:} Map area of sea/explore island for settling areas"
+      - m: 1
+        v: "{i|Mine:} Search unground for rich vein of ore or legendary cache of gems"
+      - m: 1
+        v: "{i|Protect:} Enhance village defenses and train locals to defend from threats"
+      - m: 1
+        v: "{i|Ruins Stir:} Good NPCs searching for holy relics accidentally stir up undead"
+      - m: 1
+        v: "{i|Spies:} PCs hired to collect information on a group or kingdom"
+      - m: 1
+        v: "{i|Investigate:} PCs hired to solve a crime"
+      - m: 1
+        v: "{i|Bait and Switch:} Monster far beyond PCs is allegedly behind the plot"
+      - m: 1
+        v: "{i|Sacrilege:} Confront zealots allegedly carrying out human sacrifices"
+      - m: 1
+        v: "{i|Salvage:} Ship crew claim cargo sank the ship, want nothing to do with it"
+      - m: 1
+        v: "{i|Steal:} Hired by merchant to steal object they stole in the first place"
+      - m: 1
+        v: "{i|Capture:} Merchant or guild wants monster intact to serve as guard"
+      - m: 1
+        v: "{i|Escape:} PCs are trapped by a rockfall which unleashes horror"
+      - m: 1
+        v: "{i|Roundup:} Rancher needs help protecting herd on road to market"
+      - m: 1
+        v: "{i|Execution:} PCs/ally face punishment for breaking an unjust/arbitrary law"
+      - m: 1
+        v: "{i|Exploration:} Explore plane, continent, underground expanse or other locale"
+      - m: 1
+        v: "{i|Kinslayer:} A relative of the ruler plans to claim the throne for his or her own"
+      - m: 1
+        v: "{i|Watch:} PCs hired by town watch to uncover spies"
+      - m: 1
+        v: "{i|On the Run:} PCs help goodly creature escape those who hunt it"
+      - m: 1
+        v: "{i|Monstrous:} Locals decide the newly arrived PCs are behind the deaths"
+      - m: 1
+        v: "{i|Alliance:} Stop marriage uniting two monster clans without them realizing"
+      - m: 1
+        v: "{i|Precious Cargo:} Someone must keep a monster’s egg safe until it hatches"
+      - m: 1
+        v: "{i|Dead Man Walking:} Long-dead ally or personality reappears alive unharmed"
+      - m: 1
+        v: "{i|Chainbreaker:} PCs captured by slavers then escape to get reinforcements"
+      - m: 1
+        v: "{i|A Little Knowledge:} Someone keeps trying to kill the hapless storyteller"
+      - m: 1
+        v: "{i|Unexpected Event:} Earthquake or volcano unleash horror on countryside"
+      - m: 1
+        v: "{i|Reagent:} PC’s help mage track down a rare component or ingredient"
+      - m: 1
+        v: "{i|Menagerie:} Creatures have escaped from a private collection"
+      - m: 1
+        v: "{i|Courteous Killer:} Assassin sends letter suggests target put affairs in order"
+      - m: 1
+        v: "{i|Plague Run:} Find ingredients to cure disease, return before too many die"
+      - m: 1
+        v: "{i|Deadly Waters:} The river has turned black and toxic"
+      - m: 1
+        v: "{i|Feathered Apocalypse:} Birds are dying and druids looking to blame someone"
+      - m: 1
+        v: "{i|Prophecy:} A prophecy is due. PCs work to fulfill or prevent it"
+      - m: 1
+        v: "{i|Animal Enemies:} All the usually peaceful animals become killers"
+      - m: 1
+        v: "{i|Political:} PCs assist local leaders in rooting out evil in their own halls"
+      - m: 1
+        v: "{i|Festival:} PCs infiltrate performers to uncover killer"
+      - m: 1
+        v: "{i|From Beyond:} PCs must prevent plot to summon a powerful outsider"
+      - m: 1
+        v: "{i|Incursion:} Interplanar creatures infest town, take hostages to experiment on"
+      - m: 1
+        v: "{i|Revenant:} Evil avenging spirit intent on wiping out an entire family"
+      - m: 1
+        v: "{i|The Strange Child:} Is changeling really behind nightmares like locals say?"
+      - m: 1
+        v: "{i|Doppelganger:} PCs seen murdering and stealing and locals want revenge"
+      - m: 1
+        v: "{i|Righteous Indignation:} Good monster tribe threaten locals that offend them"
+      - m: 1
+        v: "{i|Surrounded:} PCs find themselves hunted in wilderness"
+      - m: 1
+        v: "{i|Hunted:} PCs mistaken identity, guards try to capture and execute"
+      - m: 1
+        v: "{i|Dragon:} A dragon appears in a city and demands tribute"
+  - name: plotTwists
+    entries:
+      - m: 1
+        v:
+          "{i|Altered:} PCs undergo magical transformation and seek to return to normal (or defend
+          from rivals) "
+      - m: 1
+        v:
+          "{i|Burden:} Something fragile is vital to the completion of the adventure, eg: a delicate
+          crystal or a prophesied child "
+      - m: 1
+        v:
+          "{i|Controlled:} Someone under influence of another, as agent of enemy or keeping an eye
+          on group for patron"
+      - m: 1
+        v: "{i|Deception:} Critical piece of information is deliberately false."
+      - m: 1
+        v: "{i|Doubles:} One or more of the characters has imposter or duplicate "
+      - m: 1
+        v:
+          "{i|Dual Nature:} Someone in the adventure has a second nature or form unknown from the
+          start "
+      - m: 1
+        v:
+          "{i|Extraordinary Arena:} Some or all of the adventure takes place in an unusual
+          environment "
+      - m: 1
+        v: "{i|Impairment:} The PCs suffer some sort of disadvantage relative to their foes "
+      - m: 1
+        v:
+          "{i|Love Interest:} NPC forms a romantic attachment to one of the PCs, not necessarily
+          reciprocated "
+      - m: 1
+        v: "{i|Mistaken Identity:} PC resembles, or gets treated as, another person "
+      - m: 1
+        v:
+          "{i|Natural Obstacle:} A formidable barrier stands between the PCs and completing the
+          adventure "
+      - m: 1
+        v: "{i|Negotiation:} PCs must make a deal in order to complete the adventure "
+      - m: 1
+        v: "{i|Peaceful:} PCs required to find a non-violent way to solve their problems "
+      - m: 1
+        v: "{i|Rivals:} A group with similar abilities sets out to oppose the PCs "
+      - m: 1
+        v:
+          "{i|Role Reversal:} Some portion of the adventure turns out the exact opposite of the PCs
+          expectation "
+      - m: 1
+        v: "{i|Secret Ally:} Someone in the adventure offers aid to the PCs "
+      - m: 1
+        v:
+          "{i|Time Limit:} PCs must complete the adventure within a specified duration in order to
+          succeed "
+      - m: 1
+        v:
+          "{i|Transported:} The PCs are taken somewhere against their will and must return on their
+          own "
+      - m: 1
+        v:
+          "{i|Undercover:} PCs assume new identity and remain “in character” to gather
+          information/complete their objective "
+      - m: 1
+        v:
+          "{i|Watched:} Someone observes the PCs, may interfere with their progress, or attempt to
+          guide them"
+  - name: scenicSpots
+    entries:
+      - m: 1
+        v: A waterfall cascading into a deep pond
+      - m: 1
+        v: A bent willow tree provides shelter
+      - m: 1
+        v: Ruined bridge carved with dancing angels
+      - m: 1
+        v: A quaint wishing-well
+      - m: 1
+        v: Limestone gorge filled with old trees
+      - m: 1
+        v: A lone tree upon a moor
+      - m: 1
+        v: Stones weathered into incredible shapes
+      - m: 1
+        v: Carved millstone abandoned in meadow
+      - m: 1
+        v: Stone outcropping looks like dragon
+      - m: 1
+        v: Ruins of a once-majestic manor house
+      - m: 1
+        v: A crumbling hillside
+      - m: 1
+        v: A farmed valley with lush grass
+      - m: 1
+        v: Pools still water reflects ancient dolmen
+      - m: 1
+        v: Broken, weathered stone, natural tower
+      - m: 1
+        v: Sunlight suddenly strikes purple heather
+      - m: 1
+        v: Sun lights the hillside in blaze of color
+      - m: 1
+        v: Ruined croft with chimney still intact
+      - m: 1
+        v: Ruined croft behind crumbling gatepost
+      - m: 1
+        v: A cobbled track worn smooth with age
+      - m: 1
+        v: A standing stone in a hollow
+      - m: 1
+        v: Weathered stones tumble down hillside
+      - m: 1
+        v: An old ruined chapel wreathed in ivy
+      - m: 1
+        v: Shallow cave with a moss-covered floor
+      - m: 1
+        v: Flower filled stone trough overlook lake
+      - m: 1
+        v: Tiny religious shrine on old stone bridge
+      - m: 1
+        v: Cairn with panorama of countryside
+      - m: 1
+        v: Beaten flagstones leads to rustic barn
+      - m: 1
+        v: A ruined tower surrounded by heather
+      - m: 1
+        v: Ancient trees gather on a small knoll
+      - m: 1
+        v: A fine bridge over a cool swimming hole
+      - m: 1
+        v: A stone circle in a forest clearing
+      - m: 1
+        v: A stone circle in a forest clearing
+      - m: 1
+        v: Empty old burial cairn on hillside edge
+      - m: 1
+        v: A forest clearing bathed in sunshine
+      - m: 1
+        v: An abandoned house by a river
+      - m: 1
+        v: Ruined mill surrounded by waterfalls
+      - m: 1
+        v: A mighty oak towers over the path
+      - m: 1
+        v: Village pond with ducks and dragonflies
+      - m: 1
+        v: A holly bush with a ruined house within
+      - m: 1
+        v: A statue of a man with a cloak of flowers
+      - m: 1
+        v: A meadow filled with buttercups
+      - m: 1
+        v: An old graveyard at the foot of a cliff
+      - m: 1
+        v: A flagged ford across a river
+      - m: 1
+        v: Outcrop of rock that looks like an owl
+      - m: 1
+        v: Three intertwined apple trees
+      - m: 1
+        v: Rocky tor rising from copse of trees
+      - m: 1
+        v: Pond clogged with watercress and lilies
+      - m: 1
+        v: Green lane framed by old sycamores
+      - m: 1
+        v: Natural under cliff seat, draped with kudzu
+      - m: 1
+        v: Bright berries swing from arch of tree
+      - m: 1
+        v: 3 graves in hollow, surrounded by ivy
+  - name: roadsideEncounters
+    entries:
+      - m: 3
+        v: An abandoned cartwheel
+      - m: 3
+        v: A holy man meditating at a shrine
+      - m: 3
+        v: Newly constructed traveler’s waystation
+      - m: 3
+        v: A caravan of gypsies waiting for a birth
+      - m: 3
+        v: A statue of a two-headed goat
+      - m: 3
+        v: A covered well
+      - m: 3
+        v: A squashed hedgehog
+      - m: 3
+        v: A hermit’s cave
+      - m: 3
+        v: A teahouse
+      - m: 3
+        v: An abandoned barn
+      - m: 3
+        v: The remnants of a campfire
+      - m: 3
+        v: A dead sheep
+      - m: 3
+        v: Overgrown and abandoned old road
+      - m: 3
+        v: A footpath leading away
+      - m: 3
+        v: A tumbled-down rock wall
+      - m: 3
+        v: A tree adorned in prayer flags
+      - m: 3
+        v: An oak tree split by lightning
+      - m: 3
+        v: The ruins of a croft
+      - m: 3
+        v: A standing stone
+      - m: 3
+        v: A tiny roadside tavern
+      - m: 3
+        v: An old blind woman begging for alms
+      - m: 3
+        v: A coin
+      - m: 3
+        v: Signs of a fight
+      - m: 2
+        v: Totem of foxes and wolves chasing owls
+      - m: 2
+        v: A boarded-up mineshaft
+      - m: 2
+        v: An overgrown graveyard
+      - m: 2
+        v: A broken, rusty halberd
+      - m: 2
+        v: A scarecrow
+      - m: 2
+        v: Three dead foxes strung up in a tree
+      - m: 2
+        v: A mangy old dog
+      - m: 2
+        v: Giants carcass, picked clean by vultures
+      - m: 2
+        v: An abandoned child
+      - m: 2
+        v: A gallows with a dead victim
+      - m: 2
+        v: A coaching inn
+      - m: 2
+        v: Corpse of a criminal in a hanging cage
+      - m: 2
+        v: A road repair gang
+      - m: 2
+        v: A pile of flagstones waiting to be laid
+      - m: 2
+        v: A huge footprint
+      - m: 1
+        v: A milestone
+  - name: weather
+    entries:
+      - m: 1
+        v: Balmy
+      - m: 1
+        v: Humid
+      - m: 1
+        v: Blizzard
+      - m: 1
+        v: Hurricane
+      - m: 1
+        v: Bluster
+      - m: 1
+        v: Mild
+      - m: 1
+        v: Breeze
+      - m: 1
+        v: Mist
+      - m: 1
+        v: Calm
+      - m: 1
+        v: Monsoon
+      - m: 1
+        v: Chill
+      - m: 1
+        v: Muggy
+      - m: 1
+        v: Cool
+      - m: 1
+        v: Overcast
+      - m: 1
+        v: Cyclone
+      - m: 1
+        v: Pea soup
+      - m: 1
+        v: Damp
+      - m: 1
+        v: Rain shower
+      - m: 1
+        v: Deluge
+      - m: 1
+        v: Rainfall
+      - m: 1
+        v: Dew
+      - m: 1
+        v: Sleet
+      - m: 1
+        v: Downpour
+      - m: 1
+        v: Smog
+      - m: 1
+        v: Draft
+      - m: 1
+        v: Snow flurry
+      - m: 1
+        v: Drizzle
+      - m: 1
+        v: Snowstorm
+      - m: 1
+        v: Drought
+      - m: 1
+        v: Squall
+      - m: 1
+        v: Dust storm
+      - m: 1
+        v: Storm
+      - m: 1
+        v: Fair
+      - m: 1
+        v: Sunny
+      - m: 1
+        v: Fog
+      - m: 1
+        v: Temperate
+      - m: 1
+        v: Freezing rain
+      - m: 1
+        v: Tropical storm
+      - m: 1
+        v: Frigid
+      - m: 1
+        v: Tornado
+      - m: 1
+        v: Frost
+      - m: 1
+        v: Thunderstorm
+      - m: 1
+        v: Gale
+      - m: 1
+        v: Typhoon
+      - m: 1
+        v: Hail
+      - m: 1
+        v: Warm
+      - m: 1
+        v: Haze
+      - m: 1
+        v: Whirlwind
+      - m: 1
+        v: Heatwave
+      - m: 1
+        v: Whiteout
+categories:
+  - DM
+name: DM Screen
