@@ -1,0 +1,696 @@
+resultPattern: |-
+
+  {b|Link:} {"https://app.box.com/file/100632874836"|Herbalism & Alchemy Homebrew v1.2.pdf}
+  {b|Herbalism Modifier:} WIS/INT Modifier + Herbalism Kit Proficiency Bonus
+  {b|Herbalism DC:} 15
+
+  ==== Arctic Ingredients ====
+  {arcticIngredients}
+
+  ==== Coastal/Underwater Ingredients ====
+  {coastalIngredients}
+
+  ==== Desert Ingredients ====
+  {desertIngredients}
+
+  ==== Forest Ingredients ====
+  {forestIngredients}
+
+  ==== Grasslands Ingredients ====
+  {grasslandsIngredients}
+
+  ==== Hills Ingredients ====
+  {hillsIngredients}
+
+  ==== Mountain Ingredients ====
+  {mountainIngredients}
+
+  ==== Swamp Ingredients ====
+  {swampIngredients}
+
+  ==== Underdark Ingredients ====
+  {underdarkIngredients}
+
+tables:
+  - name: arcticIngredients
+    entries:
+      - m: 1
+        v: |-
+          {roll1d6ArcticIngredient}
+          {roll1d6ArcticIngredient}
+  - name: roll1d6ArcticIngredient
+    entries:
+      - m: 25
+        v: |-
+          - {arcticIngredient}
+      - m: 20
+        v: |-
+          - {arcticIngredient}
+          - {arcticIngredient}
+      - m: 15
+        v: |-
+          - {arcticIngredient}
+          - {arcticIngredient}
+          - {arcticIngredient}
+      - m: 10
+        v: |-
+          - {arcticIngredient}
+          - {arcticIngredient}
+          - {arcticIngredient}
+          - {arcticIngredient}
+      - m: 5
+        v: |-
+          - {arcticIngredient}
+          - {arcticIngredient}
+          - {arcticIngredient}
+          - {arcticIngredient}
+          - {arcticIngredient}
+      - m: 1
+        v: |-
+          - {arcticIngredient}
+          - {arcticIngredient}
+          - {arcticIngredient}
+          - {arcticIngredient}
+          - {arcticIngredient}
+          - {arcticIngredient}
+  - name: arcticIngredient
+    entries:
+      - m: 3
+        v: '{commonIngredient}'
+      - m: 1
+        v: '{dice:2d4} x Frozen Seedlings'
+      - m: 1
+        v: '{dice:2d4} x Arctic Creeper'
+      - m: 1
+        v: '{arcticOverrideIngredient}'
+  - name: arcticOverrideIngredient
+    entries:
+      - m: 24
+        v: '{dice:1d4} x Elemental Water'
+      - m: 76
+        v: '{restOfArcticIngredients}'
+  - name: restOfArcticIngredients
+    entries:
+      - m: 1
+        v: '{dice:1d4} x Silver Hibiscus'
+      - m: 1
+        v: '{dice:1d4} x Mortflesh Powder'
+      - m: 1
+        v: '{dice:1d4} x Ironwood Heart'
+      - m: 1
+        v: '{dice:1d4} x Fennel Silk'
+      - m: 1
+        v: '{dice:1d4} x Fiend’s Ivy'
+      - m: 1
+        v: '{dice:1d4} x Voidroot'
+  - name: coastalIngredients
+    entries:
+      - m: 1
+        v: |-
+          {roll1d6coastalIngredient}
+          {roll1d6coastalIngredient}
+  - name: roll1d6coastalIngredient
+    entries:
+      - m: 25
+        v: |-
+          - {coastalIngredient}
+      - m: 20
+        v: |-
+          - {coastalIngredient}
+          - {coastalIngredient}
+      - m: 15
+        v: |-
+          - {coastalIngredient}
+          - {coastalIngredient}
+          - {coastalIngredient}
+      - m: 10
+        v: |-
+          - {coastalIngredient}
+          - {coastalIngredient}
+          - {coastalIngredient}
+          - {coastalIngredient}
+      - m: 5
+        v: |-
+          - {coastalIngredient}
+          - {coastalIngredient}
+          - {coastalIngredient}
+          - {coastalIngredient}
+          - {coastalIngredient}
+      - m: 1
+        v: |-
+          - {coastalIngredient}
+          - {coastalIngredient}
+          - {coastalIngredient}
+          - {coastalIngredient}
+          - {coastalIngredient}
+          - {coastalIngredient}
+  - name: coastalIngredient
+    entries:
+      - m: 3
+        v: '{commonIngredient}'
+      - m: 1
+        v: '{dice:2d4} x Chromus Slime'
+      - m: 1
+        v: '{dice:1d4} x Lavender Sprig (Coastal Only)'
+      - m: 1
+        v: '{coastalOverrideIngredient}'
+  - name: coastalOverrideIngredient
+    entries:
+      - m: 24
+        v: '{dice:1d4} x Elemental Water'
+      - m: 76
+        v: '{restOfCoastalIngredients}'
+  - name: restOfCoastalIngredients
+    entries:
+      - m: 1
+        v: '{dice:2d4} x Hydrathistle'
+      - m: 1
+        v: '{dice:1d4} x Amanita Cap (Coastal Only)'
+      - m: 1
+        v: '{dice:1d4} x Hyancinth Nectar'
+      - m: 1
+        v: '{dice:1d4} x Blue Toadshade (Coastal Only)'
+      - m: 1
+        v: '{dice:1d4} x Wrackwort Bulbs'
+      - m: 1
+        v: '{dice:2d4} x Cosmos Glond'
+  - name: desertIngredients
+    entries:
+      - m: 1
+        v: |-
+          {roll1d6desertIngredient}
+          {roll1d6desertIngredient}
+  - name: roll1d6desertIngredient
+    entries:
+      - m: 25
+        v: |-
+          - {desertIngredient}
+      - m: 20
+        v: |-
+          - {desertIngredient}
+          - {desertIngredient}
+      - m: 15
+        v: |-
+          - {desertIngredient}
+          - {desertIngredient}
+          - {desertIngredient}
+      - m: 10
+        v: |-
+          - {desertIngredient}
+          - {desertIngredient}
+          - {desertIngredient}
+          - {desertIngredient}
+      - m: 5
+        v: |-
+          - {desertIngredient}
+          - {desertIngredient}
+          - {desertIngredient}
+          - {desertIngredient}
+          - {desertIngredient}
+      - m: 1
+        v: |-
+          - {desertIngredient}
+          - {desertIngredient}
+          - {desertIngredient}
+          - {desertIngredient}
+          - {desertIngredient}
+          - {desertIngredient}
+  - name: desertIngredient
+    entries:
+      - m: 3
+        v: '{commonIngredient}'
+      - m: 1
+        v: '{dice:2d4} x Cactus Juice'
+      - m: 1
+        v: '{dice:1d4} x Drakus Flower'
+      - m: 1
+        v: '{desertOverrideIngredient}'
+  - name: desertOverrideIngredient
+    entries:
+      - m: 24
+        v: '{dice:1d4} x Elemental Water'
+      - m: 76
+        v: '{restOfDesertIngredients}'
+  - name: restOfDesertIngredients
+    entries:
+      - m: 1
+        v: '{dice:1d4} x Cosmos Glond'
+      - m: 1
+        v: '{dice:1d4} x Arrow Root'
+      - m: 1
+        v: '{dice:1d4} x Dried Ephedra'
+      - m: 1
+        v: '{dice:1d4} x Scillia Beans'
+      - m: 1
+        v: '{dice:1d4} x Spineflower Berries'
+      - m: 1
+        v: '{dice:1d4} x Voidroot'
+  - name: forestIngredients
+    entries:
+      - m: 1
+        v: |-
+          {roll1d6forestIngredient}
+          {roll1d6forestIngredient}
+  - name: roll1d6forestIngredient
+    entries:
+      - m: 25
+        v: |-
+          - {forestIngredient}
+      - m: 20
+        v: |-
+          - {forestIngredient}
+          - {forestIngredient}
+      - m: 15
+        v: |-
+          - {forestIngredient}
+          - {forestIngredient}
+          - {forestIngredient}
+      - m: 10
+        v: |-
+          - {forestIngredient}
+          - {forestIngredient}
+          - {forestIngredient}
+          - {forestIngredient}
+      - m: 5
+        v: |-
+          - {forestIngredient}
+          - {forestIngredient}
+          - {forestIngredient}
+          - {forestIngredient}
+          - {forestIngredient}
+      - m: 1
+        v: |-
+          - {forestIngredient}
+          - {forestIngredient}
+          - {forestIngredient}
+          - {forestIngredient}
+          - {forestIngredient}
+          - {forestIngredient}
+  - name: forestIngredient
+    entries:
+      - m: 3
+        v: '{commonIngredient}'
+      - m: 1
+        v: '{dice:1d4} x Verdant Nettle'
+      - m: 1
+        v: '{dice:1d4} x Arrow Root'
+      - m: 1
+        v: '{forestOverrideIngredient}'
+  - name: forestOverrideIngredient
+    entries:
+      - m: 24
+        v: '{dice:1d4} x Elemental Water'
+      - m: 76
+        v: '{restOfForestIngredients}'
+  - name: restOfForestIngredients
+    entries:
+      - m: 1
+        v: '{dice:1d4} x Harrada Leaf'
+      - m: 1
+        v: '{dice:1d4} x Nightshade Berries'
+      - m: 1
+        v: '{dice:1d4} x Emetic Wax'
+      - m: 1
+        v: '{dice:1d4} x Ironwood Heart'
+      - m: 1
+        v: '{dice:1d4} x Blue Toadshade'
+      - m: 1
+        v: '{dice:2d4} x Wisp Stalks (Night Only)'
+  - name: grasslandsIngredients
+    entries:
+      - m: 1
+        v: |-
+          {roll1d6grasslandsIngredient}
+          {roll1d6grasslandsIngredient}
+  - name: roll1d6grasslandsIngredient
+    entries:
+      - m: 25
+        v: |-
+          - {grasslandsIngredient}
+      - m: 20
+        v: |-
+          - {grasslandsIngredient}
+          - {grasslandsIngredient}
+      - m: 15
+        v: |-
+          - {grasslandsIngredient}
+          - {grasslandsIngredient}
+          - {grasslandsIngredient}
+      - m: 10
+        v: |-
+          - {grasslandsIngredient}
+          - {grasslandsIngredient}
+          - {grasslandsIngredient}
+          - {grasslandsIngredient}
+      - m: 5
+        v: |-
+          - {grasslandsIngredient}
+          - {grasslandsIngredient}
+          - {grasslandsIngredient}
+          - {grasslandsIngredient}
+          - {grasslandsIngredient}
+      - m: 1
+        v: |-
+          - {grasslandsIngredient}
+          - {grasslandsIngredient}
+          - {grasslandsIngredient}
+          - {grasslandsIngredient}
+          - {grasslandsIngredient}
+          - {grasslandsIngredient}
+  - name: grasslandsIngredient
+    entries:
+      - m: 3
+        v: '{commonIngredient}'
+      - m: 1
+        v: '{dice:1d4} x Arrow Root'
+      - m: 1
+        v: '{dice:2d4} x Scillia Beans'
+      - m: 1
+        v: '{grasslandsOverrideIngredient}'
+  - name: grasslandsOverrideIngredient
+    entries:
+      - m: 24
+        v: '{dice:1d4} x Elemental Water'
+      - m: 76
+        v: '{restOfGrasslandsIngredients}'
+  - name: restOfGrasslandsIngredients
+    entries:
+      - m: 1
+        v: '{dice:1d4} x Harrada Leaf'
+      - m: 1
+        v: '{dice:1d4} x Drakus Flower'
+      - m: 1
+        v: '{dice:2d4} x Lavender Sprig'
+      - m: 1
+        v: '{dice:1d4} x Cactus Juice'
+      - m: 1
+        v: '{dice:1d4} x Tail Leaf'
+      - m: 1
+        v: '{dice:1d4} x Hyancinth Nectar'
+  - name: hillsIngredients
+    entries:
+      - m: 1
+        v: |-
+          {roll1d6hillsIngredient}
+          {roll1d6hillsIngredient}
+  - name: roll1d6hillsIngredient
+    entries:
+      - m: 25
+        v: |-
+          - {hillsIngredient}
+      - m: 20
+        v: |-
+          - {hillsIngredient}
+          - {hillsIngredient}
+      - m: 15
+        v: |-
+          - {hillsIngredient}
+          - {hillsIngredient}
+          - {hillsIngredient}
+      - m: 10
+        v: |-
+          - {hillsIngredient}
+          - {hillsIngredient}
+          - {hillsIngredient}
+          - {hillsIngredient}
+      - m: 5
+        v: |-
+          - {hillsIngredient}
+          - {hillsIngredient}
+          - {hillsIngredient}
+          - {hillsIngredient}
+          - {hillsIngredient}
+      - m: 1
+        v: |-
+          - {hillsIngredient}
+          - {hillsIngredient}
+          - {hillsIngredient}
+          - {hillsIngredient}
+          - {hillsIngredient}
+          - {hillsIngredient}
+  - name: hillsIngredient
+    entries:
+      - m: 3
+        v: '{commonIngredient}'
+      - m: 1
+        v: '{dice:1d4} x Lavender Sprig'
+      - m: 1
+        v: '{dice:1d4} x Ironwood Heart'
+      - m: 1
+        v: '{hillsOverrideIngredient}'
+  - name: hillsOverrideIngredient
+    entries:
+      - m: 24
+        v: '{dice:1d4} x Elemental Water'
+      - m: 76
+        v: '{restOfHillsIngredients}'
+  - name: restOfHillsIngredients
+    entries:
+      - m: 1
+        v: '{dice:1d4} x Devil’s Bloodleaf'
+      - m: 1
+        v: '{dice:1d4} x Nightshade Berries'
+      - m: 1
+        v: '{dice:2d4} x Tail Leaf'
+      - m: 1
+        v: '{dice:1d4} x Gengko Brush'
+      - m: 1
+        v: '{dice:2d4} x Rock Vine'
+      - m: 1
+        v: '{dice:1d4} x Harrada Leaf'
+  - name: mountainIngredients
+    entries:
+      - m: 1
+        v: |-
+          {roll1d6mountainIngredient}
+          {roll1d6mountainIngredient}
+  - name: roll1d6mountainIngredient
+    entries:
+      - m: 25
+        v: |-
+          - {mountainIngredient}
+      - m: 20
+        v: |-
+          - {mountainIngredient}
+          - {mountainIngredient}
+      - m: 15
+        v: |-
+          - {mountainIngredient}
+          - {mountainIngredient}
+          - {mountainIngredient}
+      - m: 10
+        v: |-
+          - {mountainIngredient}
+          - {mountainIngredient}
+          - {mountainIngredient}
+          - {mountainIngredient}
+      - m: 5
+        v: |-
+          - {mountainIngredient}
+          - {mountainIngredient}
+          - {mountainIngredient}
+          - {mountainIngredient}
+          - {mountainIngredient}
+      - m: 1
+        v: |-
+          - {mountainIngredient}
+          - {mountainIngredient}
+          - {mountainIngredient}
+          - {mountainIngredient}
+          - {mountainIngredient}
+          - {mountainIngredient}
+  - name: mountainIngredient
+    entries:
+      - m: 3
+        v: '{commonIngredient}'
+      - m: 1
+        v: '{dice:1d4} x Dried Ephedra'
+      - m: 1
+        v: '{dice:1d4} x Drakus Flower'
+      - m: 1
+        v: '{mountainOverrideIngredient}'
+  - name: mountainOverrideIngredient
+    entries:
+      - m: 24
+        v: '{dice:1d4} x Elemental Water'
+      - m: 76
+        v: '{restOfMountainIngredients}'
+  - name: restOfMountainIngredients
+    entries:
+      - m: 1
+        v: '{dice:1d4} x Basilisk’s Breath'
+      - m: 1
+        v: '{dice:2d4} x Frozen Seedlings'
+      - m: 1
+        v: '{dice:2d4} x Arctic Creeper'
+      - m: 1
+        v: '{dice:1d4} x Luminous Cap Dust (Double in Caves)'
+      - m: 1
+        v: '{dice:1d4} x Rock Vine'
+      - m: 1
+        v: '{dice:1d4} x Primordial Balm'
+  - name: swampIngredients
+    entries:
+      - m: 1
+        v: |-
+          {roll1d6swampIngredient}
+          {roll1d6swampIngredient}
+  - name: roll1d6swampIngredient
+    entries:
+      - m: 25
+        v: |-
+          - {swampIngredient}
+      - m: 20
+        v: |-
+          - {swampIngredient}
+          - {swampIngredient}
+      - m: 15
+        v: |-
+          - {swampIngredient}
+          - {swampIngredient}
+          - {swampIngredient}
+      - m: 10
+        v: |-
+          - {swampIngredient}
+          - {swampIngredient}
+          - {swampIngredient}
+          - {swampIngredient}
+      - m: 5
+        v: |-
+          - {swampIngredient}
+          - {swampIngredient}
+          - {swampIngredient}
+          - {swampIngredient}
+          - {swampIngredient}
+      - m: 1
+        v: |-
+          - {swampIngredient}
+          - {swampIngredient}
+          - {swampIngredient}
+          - {swampIngredient}
+          - {swampIngredient}
+          - {swampIngredient}
+  - name: swampIngredient
+    entries:
+      - m: 3
+        v: '{commonIngredient}'
+      - m: 1
+        v: '{dice:2d4} x Amanita Cap'
+      - m: 1
+        v: '{dice:2d4} x Blue Toadshade'
+      - m: 1
+        v: '{swampOverrideIngredient}'
+  - name: swampOverrideIngredient
+    entries:
+      - m: 24
+        v: '{dice:1d4} x Elemental Water'
+      - m: 76
+        v: '{restOfSwampIngredients}'
+  - name: restOfSwampIngredients
+    entries:
+      - m: 1
+        v: '{dice:1d4} x Devil’s Bloodleaf'
+      - m: 1
+        v: '{dice:1d4} x Spineflower Berries'
+      - m: 1
+        v: '{dice:1d4} x Emetic Wax'
+      - m: 1
+        v: '{dice:1d4} x Wrackwort Bulb'
+      - m: 1
+        v: '{dice:1d4} x Hydrathistle (Double in Rain)'
+      - m: 1
+        v: '{dice:1d4} x Primordial Balm'
+  - name: underdarkIngredients
+    entries:
+      - m: 1
+        v: |-
+          {roll1d6underdarkIngredient}
+          {roll1d6underdarkIngredient}
+  - name: roll1d6underdarkIngredient
+    entries:
+      - m: 25
+        v: |-
+          - {underdarkIngredient}
+      - m: 20
+        v: |-
+          - {underdarkIngredient}
+          - {underdarkIngredient}
+      - m: 15
+        v: |-
+          - {underdarkIngredient}
+          - {underdarkIngredient}
+          - {underdarkIngredient}
+      - m: 10
+        v: |-
+          - {underdarkIngredient}
+          - {underdarkIngredient}
+          - {underdarkIngredient}
+          - {underdarkIngredient}
+      - m: 5
+        v: |-
+          - {underdarkIngredient}
+          - {underdarkIngredient}
+          - {underdarkIngredient}
+          - {underdarkIngredient}
+          - {underdarkIngredient}
+      - m: 1
+        v: |-
+          - {underdarkIngredient}
+          - {underdarkIngredient}
+          - {underdarkIngredient}
+          - {underdarkIngredient}
+          - {underdarkIngredient}
+          - {underdarkIngredient}
+  - name: underdarkIngredient
+    entries:
+      - m: 1
+        v: '{dice:1d4} x Chromus Slime'
+      - m: 1
+        v: '{dice:2d4} x Mortflesh Powder'
+      - m: 1
+        v: '{dice:1d4} x Fennel Silk'
+      - m: 1
+        v: '{dice:1d4} x Fiend’s Ivy'
+      - m: 1
+        v: '{dice:1d4} x Gengko Brush'
+      - m: 1
+        v: '{underdarkOverrideIngredient}'
+  - name: underdarkOverrideIngredient
+    entries:
+      - m: 24
+        v: '{dice:1d4} x Elemental Water'
+      - m: 76
+        v: '{restOfUnderdarkIngredients}'
+  - name: restOfUnderdarkIngredients
+    entries:
+      - m: 1
+        v: '{dice:2d4} x Primordial Balm'
+      - m: 1
+        v: '{dice:1d4} x Silver Hibiscus'
+      - m: 1
+        v: '{dice:1d4} x Devil’s Bloodleaf'
+      - m: 1
+        v: '{dice:2d4} x Luminous Cap Dust'
+      - m: 1
+        v: '{dice:1d4} x Radiant Synthseed'
+      - m: 1
+        v: '{dice:1d4} x Wisp Stalks'
+  - name: commonIngredient
+    entries:
+      - m: 1
+        v: '{dice:1d4} x Mandrake Root'
+      - m: 2
+        v: '{dice:1d4} x Quicksilver Lichen'
+      - m: 2
+        v: '{dice:1d4} x Wild Sageroot'
+      - m: 1
+        v: '{dice:1d4} x Bloodgrass'
+      - m: 2
+        v: '{dice:1d4} x Wyrmtongue Petals'
+      - m: 2
+        v: '{dice:1d4} x Milkweed Seeds'
+      - m: 1
+        v: '{dice:1d4} x Mandrake Root'
+categories:
+  - Items
+name: Herbalism
