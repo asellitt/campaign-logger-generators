@@ -1,0 +1,1142 @@
+resultPattern: |-
+
+  {b|Link:} {"https://app.box.com/file/611179084444"|Treacherous Traps 5E.pdf}
+
+  ==== Trap ====
+  {trapLevels}
+  {b|Trigger} {trapTriggers}
+  {b|Effect} {trapEffects}
+
+  ==== Pregenerated ====
+  {b|Level 1-4:} {level1t4Traps}
+  {b|Level 5-8:} {level5t8Traps}
+  {b|Level 9-12:} {level9t12Traps}
+  {b|Level 13-16:} {level13t16Traps}
+  {b|Level 17-20:} {level17t20Traps}
+
+  || {b|Level} || {b|Setback}              || {b|Moderate}              || {b|Dangerous}              || {b|Perilous}              || {b|Deadly}
+  || {b|1-4}   || {level1t4TrapsSetback}   || {level1t4TrapsModerate}   || {level1t4TrapsDangerous}   || {level1t4TrapsPerilous}   || {level1t4TrapsDeadly}
+  || {b|5-8}   || {level5t8TrapsSetback}   || {level5t8TrapsModerate}   || {level5t8TrapsDangerous}   || {level5t8TrapsPerilous}   || {level5t8TrapsDeadly}
+  || {b|9-12}  || {level9t12TrapsSetback}  || {level9t12TrapsModerate}  || {level9t12TrapsDangerous}  || {level9t12TrapsPerilous}  || {level9t12TrapsDeadly}
+  || {b|13-16} || {level13t16TrapsSetback} || {level13t16TrapsModerate} || {level13t16TrapsDangerous} || {level13t16TrapsPerilous} || {level13t16TrapsDeadly}
+  || {b|17-20} || {level17t20TrapsSetback} || {level17t20TrapsModerate} || {level17t20TrapsDangerous} || {level17t20TrapsPerilous} || {level17t20TrapsDeadly}
+tables:
+  - name: level1t4Traps
+    entries:
+      - m: 1
+        v: '{level1t4TrapsSetback}'
+      - m: 1
+        v: '{level1t4TrapsModerate}'
+      - m: 1
+        v: '{level1t4TrapsDangerous}'
+      - m: 1
+        v: '{level1t4TrapsPerilous}'
+      - m: 1
+        v: '{level1t4TrapsDeadly}'
+  - name: level1t4TrapsSetback
+    entries:
+      - m: 1
+        v: Aging Offerings (pg. 12)
+      - m: 1
+        v: Rune of Acid Splash (pg. 12)
+      - m: 1
+        v: Rune of Fire Bolt (pg. 12)
+      - m: 1
+        v: Hidden Crossbow (pg. 12)
+      - m: 1
+        v: Falling Net (pg. 13)
+      - m: 1
+        v: Fossil Fingers (pg. 13)
+      - m: 1
+        v: Poison Spray Statue (pg. 13)
+      - m: 1
+        v: Sinister Seal (pg. 13)
+      - m: 1
+        v: Swinging Stones (pg. 13)
+      - m: 1
+        v: Trapdoor Pitfall, Minor (pg. 14)
+      - m: 5
+        v: Stair Slide (pg. 88)
+  - name: level1t4TrapsModerate
+    entries:
+      - m: 1
+        v: Blinding Crystal (pg. 14)
+      - m: 1
+        v: Covert Counteraction (pg. 14)
+      - m: 1
+        v: Extinguish Flame (pg. 15)
+      - m: 1
+        v: Oath of Pacifism (pg. 15)
+      - m: 1
+        v: Silent Guardians (pg. 15)
+      - m: 1
+        v: Rogue’s Bane, Minor (pg. 15)
+      - m: 1
+        v: Spear Strike, Minor (pg. 16)
+      - m: 1
+        v: Stair Slide (pg. 16)
+      - m: 1
+        v: Swinging Stars (pg. 16)
+      - m: 1
+        v: Uprising Underfoot (pg. 16)
+      - m: 5
+        v: Wall Blade (pg. 89)
+  - name: level1t4TrapsDangerous
+    entries:
+      - m: 1
+        v: Choking Vapors (pg. 17)
+      - m: 1
+        v: Circle of Bewitchment (pg. 17)
+      - m: 1
+        v: Fire Jug (pg. 18)
+      - m: 1
+        v: Glyph of Sleep (pg. 18)
+      - m: 1
+        v: Hidden Hellion (pg. 18)
+      - m: 1
+        v: Liability Lamp (pg. 18)
+      - m: 1
+        v: Missile Orb (pg. 19)
+      - m: 1
+        v: Pain Threshold (pg. 19)
+      - m: 1
+        v: Poison Darts, Minor (pg. 19)
+      - m: 1
+        v: Trapestry (pg. 19)
+      - m: 5
+        v: A Short Drag (pg. 89)
+  - name: level1t4TrapsPerilous
+    entries:
+      - m: 1
+        v: Glyph of Burning Hands (pg. 20)
+      - m: 1
+        v: Falling Rocks (pg. 20)
+      - m: 1
+        v: Intruder Grab (pg. 20)
+      - m: 1
+        v: Night Terrors (pg. 20)
+      - m: 1
+        v: Restraining Chains (pg. 21)
+      - m: 1
+        v: Rotating Tunnel (pg. 21)
+      - m: 1
+        v: Speak Sand, Don’t Enter (pg. 21)
+      - m: 1
+        v: Stony Glare (pg. 22)
+      - m: 1
+        v: Swinging Log (pg. 22)
+      - m: 1
+        v: Whirling Blades (pg. 22)
+      - m: 5
+        v: Hauntedwood Bowl (pg. 90)
+  - name: level1t4TrapsDeadly
+    entries:
+      - m: 1
+        v: Blazing Ring, Minor (pg. 22)
+      - m: 1
+        v: Exploding Chest (pg. 22)
+      - m: 1
+        v: Flaming Tome (pg. 23)
+      - m: 1
+        v: Glyph of Force (pg. 23)
+      - m: 1
+        v: Lightning Gem (pg. 23)
+      - m: 1
+        v: Mysterious Relic (pg. 23)
+      - m: 1
+        v: The Other Other White Meat (pg. 24)
+      - m: 1
+        v: Shrinking Chamber (pg. 24)
+      - m: 1
+        v: Symbol of Congealing (pg. 24)
+      - m: 1
+        v: Tipping Floor (pg. 24)
+      - m: 5
+        v: Drenching Pit (pg. 90)
+  - name: level5t8Traps
+    entries:
+      - m: 1
+        v: '{level5t8TrapsSetback}'
+      - m: 1
+        v: '{level5t8TrapsModerate}'
+      - m: 1
+        v: '{level5t8TrapsDangerous}'
+      - m: 1
+        v: '{level5t8TrapsPerilous}'
+      - m: 1
+        v: '{level5t8TrapsDeadly}'
+  - name: level5t8TrapsSetback
+    entries:
+      - m: 1
+        v: Baffling Barriers (pg. 27)
+      - m: 1
+        v: Burning Blade (pg. 27)
+      - m: 1
+        v: Chasm of Capturing (pg. 27)
+      - m: 1
+        v: Dastardly Darts (pg. 27)
+      - m: 1
+        v: Fire Grate (pg. 28)
+      - m: 1
+        v: Open & Close (pg. 28)
+      - m: 1
+        v: Rune of Scorching Ray (pg. 28)
+      - m: 1
+        v: Safeguarded Sword (pg. 28)
+      - m: 1
+        v: Sticky Situation (pg. 28)
+      - m: 1
+        v: Trapdoor Pitfall, Lesser (pg. 29)
+      - m: 5
+        v: Stab in the Dark (pg. 91)
+  - name: level5t8TrapsModerate
+    entries:
+      - m: 1
+        v: Chest of Fumes (pg. 29)
+      - m: 1
+        v: Glyph of Blazing Nuisance (pg. 29)
+      - m: 1
+        v: Gunge Tank (pg. 30)
+      - m: 1
+        v: Peacekeeper (pg. 30)
+      - m: 1
+        v: Putrid Slime (pg. 30)
+      - m: 1
+        v: Rogue’s Bane, Lesser (pg. 30)
+      - m: 1
+        v: Separating Slab (pg. 30)
+      - m: 1
+        v: Spellcaster’s Spirit (pg. 31)
+      - m: 1
+        v: Still Water (pg. 31)
+      - m: 1
+        v: Urn of Silence (pg. 31)
+      - m: 5
+        v: The Hourglass (pg. 91)
+  - name: level5t8TrapsDangerous
+    entries:
+      - m: 1
+        v: All or Nothing (pg. 32)
+      - m: 1
+        v: Ambiguous Ascension (pg. 32)
+      - m: 1
+        v: Falling Fids (pg. 32)
+      - m: 1
+        v: Frozen Tome (pg. 32)
+      - m: 1
+        v: Gruesome Decoration (pg. 33)
+      - m: 1
+        v: Magical Melting (pg. 33)
+      - m: 1
+        v: Sanguine Idol (pg. 33)
+      - m: 1
+        v: Shocking Surprise (pg. 33)
+      - m: 1
+        v: Step Lightly (pg. 33)
+      - m: 1
+        v: Vampiric Shrine (pg. 33)
+      - m: 5
+        v: Passageway Piercing (pg. 92)
+  - name: level5t8TrapsPerilous
+    entries:
+      - m: 1
+        v: Blazing Rings, Lesser (pg. 34)
+      - m: 1
+        v: Crystal Combination (pg. 34)
+      - m: 1
+        v: Drowning Pool (pg. 35)
+      - m: 1
+        v: Eye of Madness (pg. 35)
+      - m: 1
+        v: Formidable Glare (pg. 35)
+      - m: 1
+        v: Illusion Confusion (pg. 36)
+      - m: 1
+        v: Knowledge is Dangerous (pg. 36)
+      - m: 1
+        v: Life-Giving Light (pg. 36)
+      - m: 1
+        v: Pressurized Poison (pg. 36)
+      - m: 1
+        v: Wall of Fireball (pg. 37)
+      - m: 5
+        v: Fire Down Below (pg. 92)
+  - name: level5t8TrapsDeadly
+    entries:
+      - m: 1
+        v: Crushing Chamber (pg. 37)
+      - m: 1
+        v: Curiosity Petrified the Cat (pg. 37)
+      - m: 1
+        v: Dead of Winter (pg. 38)
+      - m: 1
+        v: Fiery Feast (pg. 38)
+      - m: 1
+        v: Fire Bad (pg. 38)
+      - m: 1
+        v: Introspection (pg. 38)
+      - m: 1
+        v: Ooze Fault Was That? (pg. 39)
+      - m: 1
+        v: Restless Guardians (pg. 39)
+      - m: 1
+        v: Sinister Flame (pg. 39)
+      - m: 1
+        v: Writhing Embrace (pg. 39)
+      - m: 5
+        v: Gassy Gargoyles (pg. 93)
+  - name: level9t12Traps
+    entries:
+      - m: 1
+        v: '{level9t12TrapsSetback}'
+      - m: 1
+        v: '{level9t12TrapsModerate}'
+      - m: 1
+        v: '{level9t12TrapsDangerous}'
+      - m: 1
+        v: '{level9t12TrapsPerilous}'
+      - m: 1
+        v: '{level9t12TrapsDeadly}'
+  - name: level9t12TrapsSetback
+    entries:
+      - m: 1
+        v: Animal Article (pg. 42)
+      - m: 1
+        v: Bad Key (pg. 42)
+      - m: 1
+        v: Blinded by Greed (pg. 42)
+      - m: 1
+        v: Demonic Bars (pg. 43)
+      - m: 1
+        v: Earthen Clearing (pg. 43)
+      - m: 1
+        v: Gas Bomb (pg. 43)
+      - m: 1
+        v: Hydroblast (pg. 44)
+      - m: 1
+        v: Portal Puddle (pg. 44)
+      - m: 1
+        v: Sleep Sounds (pg. 44)
+      - m: 1
+        v: Trapdoor Pitfall (pg. 44)
+      - m: 5
+        v: Trapdoor Floor (pg. 94)
+  - name: level9t12TrapsModerate
+    entries:
+      - m: 1
+        v: Acid Arrow (pg. 45)
+      - m: 1
+        v: Bloody Chamber (pg. 45)
+      - m: 1
+        v: Dropped into Hell (pg. 45)
+      - m: 1
+        v: Green Mist (pg. 46)
+      - m: 1
+        v: Manticore Statue (pg. 46)
+      - m: 1
+        v: Pilfering Pincushion (pg. 46)
+      - m: 1
+        v: Rogue’s Bane (pg. 46)
+      - m: 1
+        v: Scrap Room (pg. 46)
+      - m: 1
+        v: Spirit Skull (pg. 47)
+      - m: 1
+        v: Shafted (pg. 47)
+      - m: 5
+        v: The Tenderizer (pg. 94)
+  - name: level9t12TrapsDangerous
+    entries:
+      - m: 1
+        v: Bewildering Bait (pg. 47)
+      - m: 1
+        v: Caustic Drop (pg. 48)
+      - m: 1
+        v: Disappearing Tube (pg. 48)
+      - m: 1
+        v: Font of Fire (pg. 48)
+      - m: 1
+        v: Ice Entice (pg. 48)
+      - m: 1
+        v: Magnum Ignis (pg. 48)
+      - m: 1
+        v: Murderous Menagerie (pg. 49)
+      - m: 1
+        v: No Wizzids Alawd (pg. 49)
+      - m: 1
+        v: Popping Rot (pg. 49)
+      - m: 1
+        v: Vile Touch (pg. 50)
+      - m: 5
+        v: Slip-n-Slide (pg. 95)
+  - name: level9t12TrapsPerilous
+    entries:
+      - m: 1
+        v: Bathe the Tiger (pg. 50)
+      - m: 1
+        v: Crystal Light (pg. 51)
+      - m: 1
+        v: Cube of Encaging (pg. 51)
+      - m: 1
+        v: The Forest Walks (pg. 51)
+      - m: 1
+        v: Invisible Barricade (pg. 51)
+      - m: 1
+        v: Mirrored Flame (pg. 52)
+      - m: 1
+        v: Model Disaster (pg. 52)
+      - m: 1
+        v: The Old Needle in Lock (pg. 52)
+      - m: 1
+        v: A Riveting Read (pg. 52)
+      - m: 5
+        v: Perilous Prisms (pg. 96)
+  - name: level9t12TrapsDeadly
+    entries:
+      - m: 1
+        v: Rolling Stop (pg. 53)
+      - m: 1
+        v: Back to the Cradle (pg. 53)
+      - m: 1
+        v: Blazing Rings (pg. 53)
+      - m: 1
+        v: Burning Barricade (pg. 54)
+      - m: 1
+        v: Corrosive Pit (pg. 54)
+      - m: 1
+        v: Enchanted Armory (pg. 54)
+      - m: 1
+        v: Lightning Breath (pg. 54)
+      - m: 1
+        v: Scything Blades (pg. 55)
+      - m: 1
+        v: Shockingly Secure (pg. 55)
+      - m: 1
+        v: Sinister Skulls (pg. 55)
+      - m: 1
+        v: Small Folk Only (pg. 55)
+      - m: 5
+        v: Flooding Chamber (pg. 96)
+  - name: level13t16Traps
+    entries:
+      - m: 1
+        v: '{level13t16TrapsSetback}'
+      - m: 1
+        v: '{level13t16TrapsModerate}'
+      - m: 1
+        v: '{level13t16TrapsDangerous}'
+      - m: 1
+        v: '{level13t16TrapsPerilous}'
+      - m: 1
+        v: '{level13t16TrapsDeadly}'
+  - name: level13t16TrapsSetback
+    entries:
+      - m: 1
+        v: Chain the Aggressor (pg. 58)
+      - m: 1
+        v: Here’s the Magic (pg. 58)
+      - m: 1
+        v: Kraken’s Wrath (pg. 58)
+      - m: 1
+        v: Mirroring (pg. 58)
+      - m: 1
+        v: Poison Pot (pg. 58)
+      - m: 1
+        v: Slimed (pg. 59)
+      - m: 1
+        v: Tap Nap (pg. 59)
+      - m: 1
+        v: Touching Transformation (pg. 59)
+      - m: 1
+        v: Trapdoor Pitfall, Greater (pg. 59)
+      - m: 1
+        v: Turret Salvo (pg. 60)
+      - m: 5
+        v: Rats in a Maze (pg. 97)
+  - name: level13t16TrapsModerate
+    entries:
+      - m: 1
+        v: Burning Combination (pg. 60)
+      - m: 1
+        v: Chains of Integrity (pg. 60)
+      - m: 1
+        v: Chandelier Drop (pg. 60)
+      - m: 1
+        v: Floor Inferno (pg. 61)
+      - m: 1
+        v: Hiding Horn (pg. 61)
+      - m: 1
+        v: Pacification Panel (pg. 61)
+      - m: 1
+        v: Pincushion (pg. 62)
+      - m: 1
+        v: Rogue’s Bane, Greater (pg. 62)
+      - m: 1
+        v: Silver Serpent (pg. 62)
+      - m: 1
+        v: Vinesnare (pg. 62)
+      - m: 5
+        v: Crazy Kitchen (pg. 97)
+  - name: level13t16TrapsDangerous
+    entries:
+      - m: 1
+        v: Backstabber (pg. 63)
+      - m: 1
+        v: Blazing Barrier (pg. 63)
+      - m: 1
+        v: Disrespected Deity (pg. 63)
+      - m: 1
+        v: Generosity (pg. 63)
+      - m: 1
+        v: Impaling Tale (pg. 64)
+      - m: 1
+        v: Punji Pick (pg. 64)
+      - m: 1
+        v: Spider Architects (pg. 64)
+      - m: 1
+        v: Thought Spiral (pg. 64)
+      - m: 1
+        v: Up is Down (pg. 65)
+      - m: 1
+        v: Voltage Viewer (pg. 65)
+      - m: 5
+        v: Aspect of the Kraken (pg. 98)
+  - name: level13t16TrapsPerilous
+    entries:
+      - m: 1
+        v: Add to the Collection (pg. 65)
+      - m: 1
+        v: Clockwork Con-trap-tion (pg. 66)
+      - m: 1
+        v: Hanging Hooks (pg. 66)
+      - m: 1
+        v: Needletongue (pg. 66)
+      - m: 1
+        v: Prismatic Glyph (pg. 66)
+      - m: 1
+        v: Sandy Grave (pg. 67)
+      - m: 1
+        v: Severe Slumber (pg. 67)
+      - m: 1
+        v: Sorcerous Cell (pg. 68)
+      - m: 1
+        v: Thin Facade (pg. 68)
+      - m: 1
+        v: Trap-a-port (pg. 68)
+      - m: 5
+        v: What a Drag (pg. 99)
+  - name: level13t16TrapsDeadly
+    entries:
+      - m: 1
+        v: Blazing Rings, Greater (pg. 68)
+      - m: 1
+        v: Blind Leading the Blind (pg. 69)
+      - m: 1
+        v: Bolts of Slaying (pg. 69)
+      - m: 1
+        v: Corrosive Chains (pg. 69)
+      - m: 1
+        v: Hot on the Trail (pg. 69)
+      - m: 1
+        v: Lava Lake (pg. 69)
+      - m: 1
+        v: Manners Maketh Man (pg. 70)
+      - m: 1
+        v: Pass of Gas (pg. 70)
+      - m: 1
+        v: Snake Pit (pg. 70)
+      - m: 1
+        v: Unstable Ground (pg. 70)
+      - m: 5
+        v: Chargrilled (pg. 100)
+  - name: level17t20Traps
+    entries:
+      - m: 1
+        v: '{level17t20TrapsSetback}'
+      - m: 1
+        v: '{level17t20TrapsModerate}'
+      - m: 1
+        v: '{level17t20TrapsDangerous}'
+      - m: 1
+        v: '{level17t20TrapsPerilous}'
+      - m: 1
+        v: '{level17t20TrapsDeadly}'
+  - name: level17t20TrapsSetback
+    entries:
+      - m: 1
+        v: Authorization Required (pg. 73)
+      - m: 1
+        v: Barfing Book (pg. 73)
+      - m: 1
+        v: Burning Bright (pg. 73)
+      - m: 1
+        v: Cost of Vision (pg. 74)
+      - m: 1
+        v: Font of Flame (pg. 74)
+      - m: 1
+        v: Silencing Spikes (pg. 74)
+      - m: 1
+        v: Snapping Jaws (pg. 74)
+      - m: 1
+        v: Stewards of the Axe (pg. 75)
+      - m: 1
+        v: Swinging Spike-Hammer (pg. 75)
+      - m: 1
+        v: Trapdoor Pitfall, Treacherous (pg. 75)
+      - m: 5
+        v: Flammable Fluid (pg. 100)
+  - name: level17t20TrapsModerate
+    entries:
+      - m: 1
+        v: Blinding Knowledge (pg. 75)
+      - m: 1
+        v: Bronze Blockade (pg. 76)
+      - m: 1
+        v: Corrosive Bath (pg. 76)
+      - m: 1
+        v: Crushing Chest (pg. 76)
+      - m: 1
+        v: Crystal Clear (pg. 76)
+      - m: 1
+        v: Dozing Deterioration (pg. 77)
+      - m: 1
+        v: Path of Light (pg. 77)
+      - m: 1
+        v: Picked Wrong (pg. 77)
+      - m: 1
+        v: Rogue’s Bane, Treacherous (pg. 77)
+      - m: 1
+        v: Swift Imprisonment (pg. 78)
+      - m: 5
+        v: Necessary Weevil (pg. 101)
+  - name: level17t20TrapsDangerous
+    entries:
+      - m: 1
+        v: Acid Lock (pg. 78)
+      - m: 1
+        v: Doom Dome (pg. 78)
+      - m: 1
+        v: Futile Blade (pg. 79)
+      - m: 1
+        v: Froggy Floor (pg. 79)
+      - m: 1
+        v: Join Me (pg. 79)
+      - m: 1
+        v: Poisoned Path (pg. 79)
+      - m: 1
+        v: Run For Your Life (pg. 80)
+      - m: 1
+        v: Seal of Embers (pg. 80)
+      - m: 1
+        v: Sticky Situation (pg. 80)
+      - m: 1
+        v: Violence Cage (pg. 80)
+      - m: 5
+        v: Storm's Run (pg. 102)
+  - name: level17t20TrapsPerilous
+    entries:
+      - m: 1
+        v: Acidic Ceiling (pg. 81)
+      - m: 1
+        v: Arresting Vanity (pg. 81)
+      - m: 1
+        v: Dead Men May Grow Tails (pg. 81)
+      - m: 1
+        v: Magic Trunk (pg. 82)
+      - m: 1
+        v: Searing Spikes (pg. 82)
+      - m: 1
+        v: Shocking Exit (pg. 82)
+      - m: 1
+        v: Skull Scree (pg. 82)
+      - m: 1
+        v: Sweet-Sounding Stench (pg. 83)
+      - m: 1
+        v: The Thin Veil (pg. 83)
+      - m: 1
+        v: Timber! (pg. 84)
+      - m: 5
+        v: Free Falling (pg. 102)
+  - name: level17t20TrapsDeadly
+    entries:
+      - m: 1
+        v: Anti-Wizard Alarm (pg. 84)
+      - m: 1
+        v: Blazing Rings, Treacherous (pg. 84)
+      - m: 1
+        v: Best Left Alone (pg. 84)
+      - m: 1
+        v: Cool Off (pg. 85)
+      - m: 1
+        v: Log Ride (pg. 85)
+      - m: 1
+        v: Pooling Puddle Problem (pg. 85)
+      - m: 1
+        v: Snicker Snack (pg. 85)
+      - m: 1
+        v: Telestairs (pg. 86)
+      - m: 1
+        v: Unworthy (pg. 86)
+      - m: 1
+        v: Wake the Dragon (pg. 86)
+      - m: 5
+        v: Melting Pot (pg. 103)
+  - name: trapLevels
+    entries:
+      - m: 1
+        v: |-
+          {b|Level:} 1-4 (Setback)
+          {b|Attack Bonus:} +5
+          {b|DC:} 10
+          {b|Single Target Damage:} {dice:1d10}
+          {b|Multiple Target Damage:} {dice:1d6}
+          {b|Spell Level:} Cantrip
+          {b|Creature CR:} 2 x CR 1/8
+          {b|Duration:} 1 minute
+      - m: 1
+        v: |-
+          {b|Level:} 1-4 (Moderate)
+          {b|Attack Bonus:} +5
+          {b|DC:} 10
+          {b|Single Target Damage:} {dice:2d10}
+          {b|Multiple Target Damage:} {dice:2d6}
+          {b|Spell Level:} Cantrip
+          {b|Creature CR:} 2 x CR 1/4
+          {b|Duration:} 1 minute
+      - m: 1
+        v: |-
+          {b|Level:} 1-4 (Dangerous)
+          {b|Attack Bonus:} +5
+          {b|DC:} 10
+          {b|Single Target Damage:} {dice:3d10}
+          {b|Multiple Target Damage:} {dice:3d6}
+          {b|Spell Level:} 1st
+          {b|Creature CR:} 4 x CR 1/8
+          {b|Duration:} 1 minute
+      - m: 1
+        v: |-
+          {b|Level:} 1-4 (Perilous)
+          {b|Attack Bonus:} +5
+          {b|DC:} 10
+          {b|Single Target Damage:} {dice:4d10}
+          {b|Multiple Target Damage:} {dice:4d6}
+          {b|Spell Level:} 1st
+          {b|Creature CR:} 4 x CR 1/4
+          {b|Duration:} 5 minutes
+      - m: 1
+        v: |-
+          {b|Level:} 1-4 (Deadly)
+          {b|Attack Bonus:} +5
+          {b|DC:} 10
+          {b|Single Target Damage:} {dice:5d10}
+          {b|Multiple Target Damage:} {dice:5d6}
+          {b|Spell Level:} 2nd
+          {b|Creature CR:} 2 x CR 1/2
+          {b|Duration:} 10 minutes
+      - m: 1
+        v: |-
+          {b|Level:} 5-8 (Setback)
+          {b|Attack Bonus:} +6
+          {b|DC:} 12
+          {b|Single Target Damage:} {dice:2d10}
+          {b|Multiple Target Damage:} {dice:2d6}
+          {b|Spell Level:} 1st
+          {b|Creature CR:} 4 x CR 1/2
+          {b|Duration:} 1 minute
+      - m: 1
+        v: |-
+          {b|Level:} 5-8 (Moderate)
+          {b|Attack Bonus:} +6
+          {b|DC:} 12
+          {b|Single Target Damage:} {dice:4d10}
+          {b|Multiple Target Damage:} {dice:4d6}
+          {b|Spell Level:} 2nd
+          {b|Creature CR:} 8 x CR 1/4
+          {b|Duration:} 1 minute
+      - m: 1
+        v: |-
+          {b|Level:} 5-8 (Dangerous)
+          {b|Attack Bonus:} +6
+          {b|DC:} 12
+          {b|Single Target Damage:} {dice:6d10}
+          {b|Multiple Target Damage:} {dice:6d6}
+          {b|Spell Level:} 3rd
+          {b|Creature CR:} 1 x CR 2
+          {b|Duration:} 5 minute
+      - m: 1
+        v: |-
+          {b|Level:} 5-8 (Perilous)
+          {b|Attack Bonus:} +6
+          {b|DC:} 12
+          {b|Single Target Damage:} {dice:8d10}
+          {b|Multiple Target Damage:} {dice:8d6}
+          {b|Spell Level:} 4th
+          {b|Creature CR:} 2 x CR 2
+          {b|Duration:} 10 minutes
+      - m: 1
+        v: |-
+          {b|Level:} 5-8 (Deadly)
+          {b|Attack Bonus:} +6
+          {b|DC:} 12
+          {b|Single Target Damage:} {dice:10d10}
+          {b|Multiple Target Damage:} {dice:10d6}
+          {b|Spell Level:} 5th
+          {b|Creature CR:} 1 x CR 5
+          {b|Duration:} 1 hour
+      - m: 1
+        v: |-
+          {b|Level:} 9-12 (Setback)
+          {b|Attack Bonus:} +8
+          {b|DC:} 15
+          {b|Single Target Damage:} {dice:3d10}
+          {b|Multiple Target Damage:} {dice:3d6}
+          {b|Spell Level:} 2nd
+          {b|Creature CR:} 8 x CR 1/4
+          {b|Duration:} 10 minute
+      - m: 1
+        v: |-
+          {b|Level:} 9-12 (Moderate)
+          {b|Attack Bonus:} +8
+          {b|DC:} 15
+          {b|Single Target Damage:} {dice:6d10}
+          {b|Multiple Target Damage:} {dice:6d6}
+          {b|Spell Level:} 3rd
+          {b|Creature CR:} 1 x CR 2
+          {b|Duration:} 1 hour
+      - m: 1
+        v: |-
+          {b|Level:} 9-12 (Dangerous)
+          {b|Attack Bonus:} +8
+          {b|DC:} 15
+          {b|Single Target Damage:} {dice:9d10}
+          {b|Multiple Target Damage:} {dice:9d6}
+          {b|Spell Level:} 4th
+          {b|Creature CR:} 2 x CR 2
+          {b|Duration:} 8 hours
+      - m: 1
+        v: |-
+          {b|Level:} 9-12 (Perilous)
+          {b|Attack Bonus:} +8
+          {b|DC:} 15
+          {b|Single Target Damage:} {dice:12d10}
+          {b|Multiple Target Damage:} {dice:12d6}
+          {b|Spell Level:} 5th
+          {b|Creature CR:} 1 x CR 5
+          {b|Duration:} 8 hours
+      - m: 1
+        v: |-
+          {b|Level:} 9-12 (Deadly)
+          {b|Attack Bonus:} +8
+          {b|DC:} 15
+          {b|Single Target Damage:} {dice:15d10}
+          {b|Multiple Target Damage:} {dice:15d6}
+          {b|Spell Level:} 6th
+          {b|Creature CR:} 1 x CR 6
+          {b|Duration:} 1 day
+      - m: 1
+        v: |-
+          {b|Level:} 13-16 (Setback)
+          {b|Attack Bonus:} +10
+          {b|DC:} 17
+          {b|Single Target Damage:} {dice:4d10}
+          {b|Multiple Target Damage:} {dice:4d6}
+          {b|Spell Level:} 4th
+          {b|Creature CR:} 1 x CR 2
+          {b|Duration:} 10 minute
+      - m: 1
+        v: |-
+          {b|Level:} 13-16 (Moderate)
+          {b|Attack Bonus:} +10
+          {b|DC:} 17
+          {b|Single Target Damage:} {dice:8d10}
+          {b|Multiple Target Damage:} {dice:8d6}
+          {b|Spell Level:} 5th
+          {b|Creature CR:} 1 x CR 5
+          {b|Duration:} 8 hours
+      - m: 1
+        v: |-
+          {b|Level:} 13-16 (Dangerous)
+          {b|Attack Bonus:} +10
+          {b|DC:} 17
+          {b|Single Target Damage:} {dice:12d10}
+          {b|Multiple Target Damage:} {dice:12d6}
+          {b|Spell Level:} 6th
+          {b|Creature CR:} 1 x CR 6
+          {b|Duration:} 8 hours
+      - m: 1
+        v: |-
+          {b|Level:} 13-16 (Perilous)
+          {b|Attack Bonus:} +10
+          {b|DC:} 17
+          {b|Single Target Damage:} {dice:16d10}
+          {b|Multiple Target Damage:} {dice:16d6}
+          {b|Spell Level:} 7th
+          {b|Creature CR:} 4 x CR 2
+          {b|Duration:} 1 day
+      - m: 1
+        v: |-
+          {b|Level:} 13-16 (Deadly)
+          {b|Attack Bonus:} +10
+          {b|DC:} 17
+          {b|Single Target Damage:} {dice:20d10}
+          {b|Multiple Target Damage:} {dice:20d6}
+          {b|Spell Level:} 8th
+          {b|Creature CR:} 2 x CR 5
+          {b|Duration:} 1 day
+      - m: 1
+        v: |-
+          {b|Level:} 17-20 (Setback)
+          {b|Attack Bonus:} +12
+          {b|DC:} 20
+          {b|Single Target Damage:} {dice:5d10}
+          {b|Multiple Target Damage:} {dice:5d6}
+          {b|Spell Level:} 7th
+          {b|Creature CR:} 2 x CR 5
+          {b|Duration:} 1 day
+      - m: 1
+        v: |-
+          {b|Level:} 17-20 (Moderate)
+          {b|Attack Bonus:} +12
+          {b|DC:} 20
+          {b|Single Target Damage:} {dice:10d10}
+          {b|Multiple Target Damage:} {dice:10d6}
+          {b|Spell Level:} 8th
+          {b|Creature CR:} 2 x CR 6
+          {b|Duration:} 1 day
+      - m: 1
+        v: |-
+          {b|Level:} 17-20 (Dangerous)
+          {b|Attack Bonus:} +12
+          {b|DC:} 20
+          {b|Single Target Damage:} {dice:15d10}
+          {b|Multiple Target Damage:} {dice:15d6}
+          {b|Spell Level:} 9th
+          {b|Creature CR:} 3 x CR 5
+          {b|Duration:} Permanent
+      - m: 1
+        v: |-
+          {b|Level:} 17-20 (Perilous)
+          {b|Attack Bonus:} +12
+          {b|DC:} 20
+          {b|Single Target Damage:} {dice:20d10}
+          {b|Multiple Target Damage:} {dice:20d6}
+          {b|Spell Level:} 9th + 3rd
+          {b|Creature CR:} 3 x CR 6
+          {b|Duration:} Permanent
+      - m: 1
+        v: |-
+          {b|Level:} 17-20 (Deadly)
+          {b|Attack Bonus:} +12
+          {b|DC:} 20
+          {b|Single Target Damage:} {dice:25d10}
+          {b|Multiple Target Damage:} {dice:25d6}
+          {b|Spell Level:} 9th + 5th
+          {b|Creature CR:} 1 x CR 7
+          {b|Duration:} Permanent
+  - name: trapTriggers
+    entries:
+      - m: 1
+        v: '{i|Mundane:} Attempt to Pick Lock (pg. 114)'
+      - m: 1
+        v: '{i|Mundane:} Break Object (pg. 114)'
+      - m: 1
+        v: '{i|Mundane:} Fail to Pick Lock (pg. 114)'
+      - m: 1
+        v: '{i|Mundane:} Interact With Bait (pg. 114)'
+      - m: 1
+        v: '{i|Mundane:} Make Sound (pg. 114)'
+      - m: 1
+        v: '{i|Mundane:} Move Lever/Press Button (pg. 114)'
+      - m: 1
+        v: '{i|Mundane:} Open/Close Door (pg. 115)'
+      - m: 1
+        v: '{i|Mundane:} Open/Close Chest (pg. 115)'
+      - m: 1
+        v: '{i|Mundane:} Open/Close Object (pg. 115)'
+      - m: 1
+        v: '{i|Mundane:} Pick Lock (pg. 115)'
+      - m: 1
+        v: '{i|Mundane:} Pick Up/Shift Object (pg. 115)'
+      - m: 1
+        v: '{i|Mundane:} Pressure Plate (pg. 115)'
+      - m: 1
+        v: '{i|Mundane:} Produce Flame (pg. 115)'
+      - m: 1
+        v: '{i|Mundane:} Pull Rope/Chain (pg. 115)'
+      - m: 1
+        v: '{i|Mundane:} Remove Barrier (pg. 115)'
+      - m: 1
+        v: '{i|Mundane:} Tapping/Prodding (pg. 116)'
+      - m: 1
+        v: '{i|Mundane:} Tension Cable (pg. 116)'
+      - m: 1
+        v: '{i|Mundane:} Tripwire (pg. 116)'
+      - m: 1
+        v: '{i|Mundane:} Turn Wheel/Crank (pg. 116)'
+      - m: 1
+        v: '{i|Mundane:} Weight Sensitive Surface (pg. 116)'
+      - m: 1
+        v: '{i|Ambiguous:} Activate Light Fixture (pg. 116)'
+      - m: 1
+        v: '{i|Ambiguous:} Disturb Liquid (pg. 116)'
+      - m: 1
+        v: '{i|Ambiguous:} False Trigger (pg. 116)'
+      - m: 1
+        v: '{i|Ambiguous:} Musical/Auditory (pg. 117)'
+      - m: 1
+        v: '{i|Ambiguous:} Open/Close Book (pg. 117)'
+      - m: 1
+        v: '{i|Ambiguous:} Remove Object (pg. 117)'
+      - m: 1
+        v: '{i|Ambiguous:} Step Into Light/Darkness (pg. 117)'
+      - m: 1
+        v: '{i|Ambiguous:} Touch Object (pg. 117)'
+      - m: 1
+        v: '{i|Ambiguous:} Use Wrong Key (pg. 117)'
+      - m: 1
+        v: '{i|Ambiguous:} Wrong Combination (pg. 117)'
+      - m: 1
+        v: '{i|Magic:} Activate Rune (pg. 118)'
+      - m: 1
+        v: '{i|Magic:} Bring Object (pg. 118)'
+      - m: 1
+        v: '{i|Magic:} Cast Spell (pg. 118)'
+      - m: 1
+        v: '{i|Magic:} Command Word (pg. 118)'
+      - m: 1
+        v: '{i|Magic:} Corpse (pg. 118)'
+      - m: 1
+        v: '{i|Magic:} Creature Detector (pg. 118)'
+      - m: 1
+        v: '{i|Magic:} Detect Magic (pg. 118)'
+      - m: 1
+        v: '{i|Magic:} Draw Weapon (pg. 119)'
+      - m: 1
+        v: '{i|Magic:} Fail to Speak Password (pg. 119)'
+      - m: 1
+        v: '{i|Magic:} Insult Idol (pg. 119)'
+      - m: 1
+        v: '{i|Magic:} Look Into (pg. 119)'
+      - m: 1
+        v: '{i|Magic:} Mortal Sacrifice (pg. 119)'
+      - m: 1
+        v: '{i|Magic:} Offering (pg. 119)'
+      - m: 1
+        v: '{i|Magic:} Pass Area (pg. 120)'
+      - m: 1
+        v: '{i|Magic:} Pass Threshold (pg. 120)'
+      - m: 1
+        v: '{i|Magic:} Produce Light/Darkness (pg. 120)'
+      - m: 1
+        v: '{i|Magic:} Read Writing (pg. 120)'
+      - m: 1
+        v: '{i|Magic:} Speak Trigger Word (pg. 120)'
+      - m: 1
+        v: '{i|Magic:} Spill Blood (pg. 120)'
+      - m: 1
+        v: '{i|Magic:} Unconsciousness (pg. 120)'
+  - name: trapEffects
+    entries:
+      - m: 1
+        v: '{i|Mundane:} Barrier (pg. 123)'
+      - m: 1
+        v: '{i|Mundane:} Bolts (pg. 123)'
+      - m: 1
+        v: '{i|Mundane:} Cage (pg. 123)'
+      - m: 1
+        v: '{i|Mundane:} Crushing Ceiling/Walls (pg. 123)'
+      - m: 1
+        v: '{i|Mundane:} Darts (pg. 124)'
+      - m: 1
+        v: '{i|Mundane:} Drop (pg. 124)'
+      - m: 1
+        v: '{i|Mundane:} Falling Objects (pg. 125)'
+      - m: 1
+        v: '{i|Mundane:} Falling/Tipping Vessel (pg. 125)'
+      - m: 1
+        v: '{i|Mundane:} Falling Sand (pg. 125)'
+      - m: 1
+        v: '{i|Mundane:} Impaling Spikes (pg. 126)'
+      - m: 1
+        v: '{i|Mundane:} Net (pg. 126)'
+      - m: 1
+        v: '{i|Mundane:} Needle (pg. 126)'
+      - m: 1
+        v: '{i|Mundane:} Release Creatures (pg. 126)'
+      - m: 1
+        v: '{i|Mundane:} Rolling Boulder (pg. 126)'
+      - m: 1
+        v: '{i|Mundane:} Scything Blades (pg. 127)'
+      - m: 1
+        v: '{i|Mundane:} Snare (pg. 127)'
+      - m: 1
+        v: '{i|Mundane:} Spears (pg. 127)'
+      - m: 1
+        v: '{i|Mundane:} Spikes (pg. 127)'
+      - m: 1
+        v: '{i|Mundane:} Spring Floor (pg. 127)'
+      - m: 1
+        v: '{i|Mundane:} Swinging Object (pg. 127)'
+      - m: 1
+        v: '{i|Ambiguous:} Acid/Slime Blast (pg. 128)'
+      - m: 1
+        v: '{i|Ambiguous:} Adhesive (pg. 128)'
+      - m: 1
+        v: '{i|Ambiguous:} Animated Object (pg. 128)'
+      - m: 1
+        v: '{i|Ambiguous:} Blindness (pg. 128)'
+      - m: 1
+        v: '{i|Ambiguous:} Deafness (pg. 129)'
+      - m: 1
+        v: '{i|Ambiguous:} Elemental Blast (pg. 129)'
+      - m: 1
+        v: '{i|Ambiguous:} Exhaustion (pg. 129)'
+      - m: 1
+        v: '{i|Ambiguous:} Molten Metal (pg. 129)'
+      - m: 1
+        v: '{i|Ambiguous:} Poison Gas (pg. 130)'
+      - m: 1
+        v: '{i|Ambiguous:} Wall of Fire (pg. 130)'
+      - m: 1
+        v: '{i|Magic:} Aging (pg. 130)'
+      - m: 1
+        v: '{i|Magic:} Amnesia (pg. 130)'
+      - m: 1
+        v: '{i|Magic:} Bewitchment (pg. 131)'
+      - m: 1
+        v: '{i|Magic:} Dispel Magic (pg. 131)'
+      - m: 1
+        v: '{i|Magic:} Fear (pg. 131)'
+      - m: 1
+        v: '{i|Magic:} Heat Metal (pg. 131)'
+      - m: 1
+        v: '{i|Magic:} Invisibility (pg. 131)'
+      - m: 1
+        v: '{i|Magic:} Petrification (pg. 132)'
+      - m: 1
+        v: '{i|Magic:} Reanimate Creatures (pg. 132)'
+      - m: 1
+        v: '{i|Magic:} Restraint (pg. 132)'
+      - m: 1
+        v: '{i|Magic:} Seeming (pg. 132)'
+      - m: 1
+        v: '{i|Magic:} Sleep (pg. 133)'
+      - m: 1
+        v: '{i|Magic:} Spell Effect (pg. 133)'
+      - m: 1
+        v: '{i|Magic:} Suggestion (pg. 133)'
+      - m: 1
+        v: '{i|Magic:} Summon Creatures (pg. 133)'
+      - m: 1
+        v: '{i|Magic:} Swap (pg. 133)'
+      - m: 1
+        v: '{i|Magic:} Teleport (pg. 134)'
+      - m: 1
+        v: '{i|Magic:} Transmutation (pg. 134)'
+      - m: 1
+        v: '{i|Magic:} Wall of Force (pg. 134)'
+      - m: 1
+        v: '{i|Magic:} Wild Magic (pg. 135)'
+categories:
+  - DM
+name: Traps
