@@ -12,6 +12,7 @@ resultPattern: |-
   {b|Other feature:} {gen:NPC Library#otherFacialFeature}
 
   ==== Physical Features ====
+  {b|Physical Characteristic:} {physicalCharacteristics}
   {b|Height:} {gen:NPC Library#height}
   {b|Body:} {gen:NPC Library#body}
   {b|Hands:} {gen:NPC Library#hands}
@@ -32,12 +33,1372 @@ resultPattern: |-
   {b|Prejudice:} {gen:NPC Library#prejudice}
 
   ==== Personality ====
+  {b|Personality Characteristic:} {personalityCharacteristics}
   {b|Trait:} {gen:NPC Library#trait}
   {b|Ideal:} {gen:NPC Library#ideal}
   {b|Bond:} {gen:NPC Library#bond}
-  {b|Secret:} {gen:NPC Library#secret}
+  {b|Secret:} {secrets}
   {b|Mannerism:} {gen:NPC Library#mannerism}
   {b|Talent:} {gen:NPC Library#talent}
+  {b|Goal:} {goals}
+
+  ==== Background ====
+  {b|Background:} {backgrounds}
+  {b|Occupation:} {occupations}
+  {b|Reward:} {rewards}
+
+tables:
+  - name: backgrounds
+    entries:
+      - m: 3
+        v: Military veteran
+      - m: 3
+        v: Reformed criminal
+      - m: 3
+        v: Comes from a long line of tanners
+      - m: 3
+        v: Once owned an inn that was burnt down by bandits
+      - m: 3
+        v: Former alchemy lab assistant
+      - m: 3
+        v: Disgraced noble
+      - m: 3
+        v: Fought on losing side of civil war/revolution
+      - m: 3
+        v: Former prostitute
+      - m: 3
+        v: Refugee from land overrun by evil
+      - m: 3
+        v: Pious member of a notorious family
+      - m: 3
+        v: Ran away from a duel
+      - m: 3
+        v: Left at the altar
+      - m: 3
+        v: Criminal who retired after betraying rest of gang
+      - m: 3
+        v: Orphaned
+      - m: 3
+        v: Recovering addict
+      - m: 3
+        v: Childhood playmate of somebody important
+      - m: 3
+        v: Killed someone in self-defense
+      - m: 3
+        v: Escaped slave
+      - m: 2
+        v: Falsely convicted and then escaped from jail
+      - m: 2
+        v: Former indentured servant
+      - m: 2
+        v: Ran away as a youth and joined the circus
+      - m: 2
+        v: Abandoned spouse and children
+      - m: 2
+        v: Former sickly child who overcompensates as an adult
+      - m: 2
+        v: Failed priest
+      - m: 2
+        v: Failed merchant
+      - m: 2
+        v: Passed a guild test but too disillusioned to practice
+      - m: 2
+        v: Outwitted powerful monster
+      - m: 2
+        v: Practiced magic before a traumatizing accident
+      - m: 2
+        v: Died but came back through magic
+      - m: 2
+        v: Lost a magic item with potent abilities
+      - m: 2
+        v: Ran for office and suffered a humiliating defeat
+      - m: 2
+        v: Inadvertently saved the life of a future villain
+      - m: 2
+        v: Lost a spouse or child
+      - m: 2
+        v: Used to have to beg for food
+      - m: 2
+        v: Former artist suffering from a creative block
+      - m: 2
+        v: Raised by members of a different race
+      - m: 2
+        v: Former witch hunter
+      - m: 2
+        v: Pledged to keep a fantastic secret
+      - m: 2
+        v: Wanted for serious crime
+      - m: 2
+        v: Oppressed for race, sexuality, religion, etc.
+      - m: 2
+        v: Monster reincarnated as a human
+  - name: goals
+    entries:
+      - m: 1
+        v: Get a good night’s sleep
+      - m: 1
+        v: Sire a child
+      - m: 1
+        v: Prove noble heritage
+      - m: 1
+        v: Visit the next village
+      - m: 1
+        v: Solve a mystery no one else really cares about
+      - m: 1
+        v: Earn enough money to retire
+      - m: 1
+        v: Climb a mountain
+      - m: 1
+        v: Get a different, and better, reputation
+      - m: 1
+        v: Make friends with the PCs
+      - m: 1
+        v: Erase past failures with a single dramatic act
+      - m: 1
+        v: Move out of parents’ house
+      - m: 1
+        v: Get in better shape and learn to fight
+      - m: 1
+        v: See the ocean
+      - m: 1
+        v: See a particular holy text, fresco, or building
+      - m: 1
+        v: Find a new home for a mistreated animal
+      - m: 1
+        v: Get into the history books
+      - m: 1
+        v: Return home despite obstacles
+      - m: 1
+        v: Overcome a significant personal vice
+      - m: 1
+        v: Get proof that the afterlife exists before dying
+      - m: 1
+        v: Travel
+      - m: 1
+        v: Get married
+      - m: 1
+        v: Humiliate a rival
+      - m: 1
+        v: Find a missing child
+      - m: 1
+        v: Learn to gamble
+      - m: 1
+        v: Carry on a family tradition, like enlisting in the army
+      - m: 1
+        v: Go on a pilgrimage
+      - m: 1
+        v: Marry a childhood sweetheart
+      - m: 1
+        v: Commit a holy text to memory
+      - m: 1
+        v: Complete some sort of creative work (write a play, carve a statue, etc.)
+      - m: 1
+        v: Find a better job
+      - m: 1
+        v: Avoid bankruptcy
+      - m: 1
+        v: Impress a disapproving parent
+      - m: 1
+        v: Impress a love interest
+      - m: 1
+        v: Achieve a higher social rank
+      - m: 1
+        v: Start own business
+      - m: 1
+        v: Help child get a good start in life
+      - m: 1
+        v: Become the recipient of an actual miracle
+      - m: 1
+        v: Redeem family name
+      - m: 1
+        v: Hunt and kill a particular sort of monster
+      - m: 1
+        v: Continue to live in family estate despite danger
+      - m: 1
+        v: Solve a murder
+      - m: 1
+        v: Cross an ocean
+      - m: 1
+        v: Discover the meaning of life
+      - m: 1
+        v: See an angel
+      - m: 1
+        v: Murder someone
+      - m: 1
+        v: Get cured of a disease or other affliction
+      - m: 1
+        v: Become a monster
+      - m: 1
+        v: Become a hero
+      - m: 1
+        v: Marry a prince/princess
+      - m: 1
+        v: Rule a country
+  - name: physicalCharacteristics
+    entries:
+
+      - m: 1
+        v: Warts
+      - m: 1
+        v: Bad breath
+      - m: 1
+        v: Big nose
+      - m: 1
+        v: Long fingers
+      - m: 1
+        v: Stubby fingers
+      - m: 1
+        v: Boils
+      - m: 1
+        v: Very clean
+      - m: 1
+        v: Very white teeth
+      - m: 1
+        v: Dazzling eyes
+      - m: 1
+        v: Sweet smile
+      - m: 1
+        v: Beautiful curves/muscles
+      - m: 1
+        v: Dirty nails
+      - m: 1
+        v: Dirty hands
+      - m: 1
+        v: Calloused hands
+      - m: 1
+        v: Eye patch
+      - m: 1
+        v: Glass eye
+      - m: 1
+        v: Glasses
+      - m: 1
+        v: Enormous sideburns
+      - m: 1
+        v: Yellow teeth
+      - m: 1
+        v: Scratches a lot
+      - m: 1
+        v: Sneezes a lot
+      - m: 1
+        v: Compulsive blinking
+      - m: 1
+        v: Bites nails
+      - m: 1
+        v: Obviously dyed/unnaturally colored hair
+      - m: 1
+        v: Avoids making eye contact
+      - m: 1
+        v: Sweats a lot
+      - m: 1
+        v: Giggles
+      - m: 1
+        v: Hobbles
+      - m: 1
+        v: Jolly looking
+      - m: 1
+        v: Cracks knuckles
+      - m: 1
+        v: Whistles when talking
+      - m: 1
+        v: Cross-eyed
+      - m: 1
+        v: Harelipped
+      - m: 1
+        v: Rotten teeth
+      - m: 1
+        v: Generally filthy
+      - m: 1
+        v: Tattoo
+      - m: 1
+        v: Many tattoos
+      - m: 1
+        v: Covered in tattoos
+      - m: 1
+        v: One pierced ear
+      - m: 1
+        v: Pierced ears
+      - m: 1
+        v: Pierced nose
+      - m: 1
+        v: Pierced lip
+      - m: 1
+        v: Tribal scar on forearm
+      - m: 1
+        v: Winks a lot
+      - m: 1
+        v: Hacking cough
+      - m: 1
+        v: Spits
+      - m: 1
+        v: Dreadlocks
+      - m: 1
+        v: Different colored eyes
+      - m: 1
+        v: Missing teeth
+      - m: 1
+        v: Scarred
+      - m: 1
+        v: Twitches
+      - m: 1
+        v: Laughs nervously
+      - m: 1
+        v: Lisps
+      - m: 1
+        v: Limps
+      - m: 1
+        v: One eye
+      - m: 1
+        v: Missing a finger
+      - m: 1
+        v: Scarred face
+      - m: 1
+        v: Picks teeth nervously
+      - m: 1
+        v: No teeth
+      - m: 1
+        v: No fingers on one hand
+      - m: 1
+        v: Bald
+      - m: 1
+        v: Comb-over bald patch
+      - m: 1
+        v: Shaved head
+      - m: 1
+        v: Curly hair
+      - m: 1
+        v: Long hair
+      - m: 1
+        v: Short hair
+      - m: 1
+        v: Blonde hair
+      - m: 1
+        v: Black hair
+      - m: 1
+        v: Red hair
+      - m: 1
+        v: Gray hair
+      - m: 1
+        v: Big ears
+      - m: 1
+        v: Fat
+      - m: 1
+        v: Tall
+      - m: 1
+        v: Thin
+      - m: 1
+        v: Short
+      - m: 1
+        v: Homely
+      - m: 1
+        v: Handsome/beautiful
+      - m: 1
+        v: Moustache
+      - m: 1
+        v: Beard
+      - m: 1
+        v: Stubbly
+      - m: 1
+        v: Obscenely fat
+      - m: 1
+        v: Strangely tall
+      - m: 1
+        v: Unusually short
+      - m: 1
+        v: Double-chinned
+      - m: 1
+        v: Thin-lipped
+      - m: 1
+        v: Very hairy
+      - m: 1
+        v: Eyebrows meet
+      - m: 1
+        v: Wide mouthed
+      - m: 1
+        v: Missing a hand
+      - m: 1
+        v: Club-footed
+      - m: 1
+        v: Missing a leg
+      - m: 1
+        v: Missing an arm
+      - m: 1
+        v: Horrible facial scars
+      - m: 1
+        v: Clawed hands
+      - m: 1
+        v: Webbed hands
+      - m: 1
+        v: Scarred from pox
+      - m: 1
+        v: Terrible facial disease
+      - m: 1
+        v: Covered in cysts
+      - m: 1
+        v: Covered in pustules
+      - m: 1
+        v: Major deformity
+  - name: personalityCharacteristics
+    entries:
+      - m: 1
+        v: Always agrees (but changes mind just as easily)
+      - m: 1
+        v: Asks how much everything costs
+      - m: 1
+        v: Likes to act mysteriously
+      - m: 1
+        v: Makes snap judgments about people or situations and tries to diminish any later evidence contradicting that first impression
+      - m: 1
+        v: Makes token bets about minor things
+      - m: 1
+        v: When talking to someone says that person’s name a lot
+      - m: 1
+        v: Haggles over everything
+      - m: 1
+        v: Brings own food and drink
+      - m: 1
+        v: Says everything in a profound way
+      - m: 1
+        v: Know-it-all
+      - m: 1
+        v: Polite, but calls attention to it with elaborate bows or other gestures
+      - m: 1
+        v: Constantly apologizes as a verbal tic
+      - m: 1
+        v: Makes lots of threats but swiftly backs down if challenged
+      - m: 1
+        v: Very mellow; advises people to take a philosophical approach to both success and failure
+      - m: 1
+        v: Says as little as possible
+      - m: 1
+        v: Snickers or laughs at the misfortune of others
+      - m: 1
+        v: Gives people nicknames or uses terms of endearment
+      - m: 1
+        v: Prays a lot
+      - m: 1
+        v: Gives people treats (cookies, candy, etc.)
+      - m: 1
+        v: Often appears surprised and slightly offended when spoken to
+      - m: 1
+        v: Tosses a coin to make decisions
+      - m: 1
+        v: Has a list of numbered rules or maxims covering different situations and quotes them when appropriate
+      - m: 1
+        v: Tells people the “real” reason they do things
+      - m: 1
+        v: Asks for advice or opinions about very unlikely situations
+      - m: 1
+        v: Speaks with great formality; never uses contractions and employs bigger words than necessary
+      - m: 1
+        v: Easily distracted by minor events in the area
+      - m: 1
+        v: Usually needs someone to explain a joke or metaphor
+      - m: 1
+        v: Has a particular core belief, potentially a rather odd one, and steadfastly looks at everything through the lens of that opinion
+      - m: 1
+        v: Likes to count things and have fun with numbers
+      - m: 1
+        v: Always tries to find a compromise
+      - m: 1
+        v: Always eating
+      - m: 1
+        v: Very bad liar
+      - m: 1
+        v: Asks rude questions without realizing they cause offense
+      - m: 1
+        v: Grumbles and complains about the difficulties involved in any requested activities
+      - m: 1
+        v: Very sensitive to criticism or conflict
+      - m: 1
+        v: Absent-minded
+      - m: 1
+        v: Blames trolls for every trouble he encounters
+      - m: 1
+        v: Intellectual bully
+      - m: 1
+        v: Makes allusions to events from history or mythology without bothering to explain them
+      - m: 1
+        v: Doesn’t kill insects or other pests, gently moves them out of the way instead
+      - m: 1
+        v: Sniffs or tastes things
+      - m: 1
+        v: Makes lists and checks things off
+      - m: 1
+        v: Cannot keep a secret
+      - m: 1
+        v: Seems slightly surprised whenever anyone else has a good idea or does something productive
+      - m: 1
+        v: Easily moved to tears
+      - m: 1
+        v: Easily angered
+      - m: 1
+        v: Terrified of disease and sick people
+      - m: 1
+        v: Has a stock phrase and an accompanying gesture
+      - m: 1
+        v: Habitually mumbles a word that rhymes with the final word other people speak before they pause
+      - m: 1
+        v: Delighted by puns and other sorts of word games
+      - m: 1
+        v: Makes animal noises when feeling threatened or excited
+      - m: 1
+        v: A connoisseur of fine food and drink who insists on lecturing about it
+      - m: 1
+        v: Very superstitious; insists on carrying out elaborate practices to attract good luck and avoid bad
+      - m: 1
+        v: Never turns down a dare or challenge
+      - m: 1
+        v: Never uses one word when ten will do
+      - m: 1
+        v: Propositions any even remotely attractive person encountered but makes panicked excuses should someone accept the offer
+      - m: 1
+        v: Always has a reason why something won’t work
+      - m: 1
+        v: Careless about possessions, spends lots of time searching for overlooked nearby objects
+      - m: 1
+        v: Tells boring stories about children or other beloved young people
+      - m: 1
+        v: Constantly suggesting ways to make activities more “fun” and “exciting”
+      - m: 1
+        v: Collects small, relatively worthless objects like spoons, salt shakers, or wine corks; enthusiastically inspects any encountered and extols their “unique” qualities
+      - m: 1
+        v: Dotes on an obnoxious pet
+      - m: 1
+        v: Ignores a loyal pet
+      - m: 1
+        v: Self-loathing to an almost violent degree
+      - m: 1
+        v: Occasionally chants annoying little rhymes
+      - m: 1
+        v: Acts like someone from a lower social class as a sign of solidarity but comes across as offensive instead
+      - m: 1
+        v: Openly scornful of organized religion and believes all gods are selfish liars
+      - m: 1
+        v: Gets angrier and more determined with each setback
+      - m: 1
+        v: Thinks most objects are magical wondrous items
+      - m: 1
+        v: Seems to lack a moral compass when making plans (though not in everyday life); often proposes horrific solutions to minor problems
+      - m: 1
+        v: Quietly makes personal sacrifices to help others, including forgoing meals, “losing” warm clothing, and repaying nonexistent loans
+      - m: 1
+        v: Suffering from some terminal illness
+      - m: 1
+        v: Name-drops constantly
+      - m: 1
+        v: Does a terrible job rather than refuse an unpleasantor unwanted task
+      - m: 1
+        v: Never tires of learning new and interesting bitsof knowledge
+      - m: 1
+        v: Complains about smells no one else notices
+      - m: 1
+        v: Can’t stop drinking once starts
+      - m: 1
+        v: Trying to master some kind of performance skill like juggling or ventriloquism but not very good at it yet
+      - m: 1
+        v: Is a failed actor and blames everyone else for it
+      - m: 1
+        v: Has a seemingly endless font of gossip; never stops chattering about various rumors and scandals
+      - m: 1
+        v: Is a very distant noble and treats lower orders with disdain
+      - m: 1
+        v: Very cheerful; tries to raise downcast spirits with songs, jokes, and uplifting stories
+      - m: 1
+        v: Grows more and more relaxed the worse things get; conversely, on edge and nervous when things seem to  go well
+      - m: 1
+        v: Carries around a notebook to write down important information but has trouble reading own handwriting
+      - m: 1
+        v: Makes up seemingly arbitrary rules of etiquette (“Redheads always sit on the left side of the table!”)
+      - m: 1
+        v: Avoids making any kind of physical contact; grows noticeably repulsed if touched and tries to clean self as soon as possible
+      - m: 1
+        v: Always tries to be the center of attention
+      - m: 1
+        v: Is a little unhinged when the moon is full
+      - m: 1
+        v: Questions others about their background in order to determine if they are “suitable”
+      - m: 1
+        v: From a place with different customs; often asks for explanations of everyday things
+      - m: 1
+        v: Very jealous and possessive about a particular object or person; tends to view others as rivals and treat them  as such
+      - m: 1
+        v: Continually mentions a heroic battle he was in and how nothing else compares
+      - m: 1
+        v: Gives people little colored cards to represent the emotional state they are creating (blue for sad, red for angry, etc.)
+      - m: 1
+        v: Explains simple things that don’t need explanations
+      - m: 1
+        v: Wishes was a cat and seeks someone to polymorph him/her into one
+      - m: 1
+        v: Refers to self in third person
+      - m: 1
+        v: Has an imaginary ethereal friend
+      - m: 1
+        v: Has a habit of eating live insects without realizing it
+      - m: 1
+        v: Compulsively wipes or cleans things
+      - m: 1
+        v: Asks a kobold glove puppet its opinion at inopportune moments
+  - name: occupations
+    entries:
+      - m: 1
+        v: Acrobat
+      - m: 1
+        v: Actor
+      - m: 1
+        v: Alchemist
+      - m: 1
+        v: Almoner
+      - m: 1
+        v: Ambassador
+      - m: 1
+        v: Animal Keeper
+      - m: 1
+        v: Animal Trainer
+      - m: 1
+        v: Apothecary
+      - m: 1
+        v: Appraiser
+      - m: 1
+        v: Archer
+      - m: 1
+        v: Architect
+      - m: 1
+        v: Armorer
+      - m: 1
+        v: Artillerist
+      - m: 1
+        v: Artist
+      - m: 1
+        v: Assassin
+      - m: 1
+        v: Astrologer
+      - m: 1
+        v: Bailiff
+      - m: 1
+        v: Baker
+      - m: 1
+        v: Bandit
+      - m: 1
+        v: Banker
+      - m: 1
+        v: Barber
+      - m: 1
+        v: Bard
+      - m: 1
+        v: Barkeep
+      - m: 1
+        v: Barker
+      - m: 1
+        v: Barrister
+      - m: 1
+        v: Bearer
+      - m: 1
+        v: Beggar
+      - m: 1
+        v: Bishop
+      - m: 1
+        v: Blacksmith
+      - m: 1
+        v: Boat Builder
+      - m: 1
+        v: Boatswain
+      - m: 1
+        v: Bookbinder
+      - m: 1
+        v: Bouncer
+      - m: 1
+        v: Bounty Hunter
+      - m: 1
+        v: Bowyer
+      - m: 1
+        v: Brassworker
+      - m: 1
+        v: Brewer
+      - m: 1
+        v: Bricklayer
+      - m: 1
+        v: Builder
+      - m: 1
+        v: Busker
+      - m: 1
+        v: Butcher
+      - m: 1
+        v: Butler
+      - m: 1
+        v: Candle Maker
+      - m: 1
+        v: Captain
+      - m: 1
+        v: Carpenter
+      - m: 1
+        v: Carpet Weaver
+      - m: 1
+        v: Cartographer
+      - m: 1
+        v: Cartwright
+      - m: 1
+        v: Cask Maker
+      - m: 1
+        v: Castellan
+      - m: 1
+        v: Chamberlain
+      - m: 1
+        v: Chambermaid
+      - m: 1
+        v: Chandler
+      - m: 1
+        v: Chaplain
+      - m: 1
+        v: Chimneysweep
+      - m: 1
+        v: Chronicler
+      - m: 1
+        v: Cleaner
+      - m: 1
+        v: Clerk
+      - m: 1
+        v: Clothier
+      - m: 1
+        v: Clothworker
+      - m: 1
+        v: Cobbler
+      - m: 1
+        v: Coffinmaker
+      - m: 1
+        v: Coin Minter
+      - m: 1
+        v: Composer
+      - m: 1
+        v: Constable
+      - m: 1
+        v: Cook
+      - m: 1
+        v: Cooper
+      - m: 1
+        v: Courier
+      - m: 1
+        v: Courtesan
+      - m: 1
+        v: Custodian
+      - m: 1
+        v: Deckhand
+      - m: 1
+        v: Diplomat
+      - m: 1
+        v: Doomsayer
+      - m: 1
+        v: Dowser
+      - m: 1
+        v: Dung Sweeper
+      - m: 1
+        v: Dyer
+      - m: 1
+        v: Embalmer
+      - m: 1
+        v: Engineer
+      - m: 1
+        v: Engraver
+      - m: 1
+        v: Entertainer
+      - m: 1
+        v: Executioner
+      - m: 1
+        v: Falconer
+      - m: 1
+        v: Farmer
+      - m: 1
+        v: Farrier
+      - m: 1
+        v: Ferryman
+      - m: 1
+        v: Fire Eater
+      - m: 1
+        v: Fisherman
+      - m: 1
+        v: Fletcher
+      - m: 1
+        v: Footman
+      - m: 1
+        v: Forester
+      - m: 1
+        v: Fortune Teller
+      - m: 1
+        v: Fowler
+      - m: 1
+        v: Furrier
+      - m: 1
+        v: Gaoler
+      - m: 1
+        v: Gamekeeper
+      - m: 1
+        v: Gardener
+      - m: 1
+        v: Gatekeeper
+      - m: 1
+        v: Gemcutter
+      - m: 1
+        v: Gentleman
+      - m: 1
+        v: Glassblower
+      - m: 1
+        v: Goldsmith
+      - m: 1
+        v: Governess
+      - m: 1
+        v: Gravedigger
+      - m: 1
+        v: Grocer
+      - m: 1
+        v: Groom
+      - m: 1
+        v: Guard
+      - m: 1
+        v: Guide
+      - m: 1
+        v: Haberdasher
+      - m: 1
+        v: Harlot
+      - m: 1
+        v: Harpist
+      - m: 1
+        v: Healer
+      - m: 1
+        v: Hedge-layer
+      - m: 1
+        v: Helmsman
+      - m: 1
+        v: Herald
+      - m: 1
+        v: Herbalist
+      - m: 1
+        v: Hermit
+      - m: 1
+        v: Historian
+      - m: 1
+        v: Hornmaker
+      - m: 1
+        v: Hospitaler
+      - m: 1
+        v: Hunter
+      - m: 1
+        v: Infirmarer
+      - m: 1
+        v: Innkeeper
+      - m: 1
+        v: Interpreter
+      - m: 1
+        v: Jester
+      - m: 1
+        v: Jeweler
+      - m: 1
+        v: Judge
+      - m: 1
+        v: Juggler
+      - m: 1
+        v: Keeper
+      - m: 1
+        v: Knight
+      - m: 1
+        v: Laborer
+      - m: 1
+        v: Lackey
+      - m: 1
+        v: Lady in Waiting
+      - m: 1
+        v: Lamp
+      - m: 1
+        v: Lighter
+      - m: 1
+        v: Launderer
+      - m: 1
+        v: Leatherworker
+      - m: 1
+        v: Limner
+      - m: 1
+        v: Linkboy
+      - m: 1
+        v: Locksmith
+      - m: 1
+        v: Lookout
+      - m: 1
+        v: Madam
+      - m: 1
+        v: Magic Item Trader
+      - m: 1
+        v: Magistrate
+      - m: 1
+        v: Maid
+      - m: 1
+        v: Masseuse
+      - m: 1
+        v: Master
+      - m: 1
+        v: Master-at-Arms
+      - m: 1
+        v: Mercenary
+      - m: 1
+        v: Mercer
+      - m: 1
+        v: Messenger
+      - m: 1
+        v: Midwife
+      - m: 1
+        v: Milkmaid
+      - m: 1
+        v: Miller
+      - m: 1
+        v: Miner
+      - m: 1
+        v: Minstrel
+      - m: 1
+        v: Moneylender
+      - m: 1
+        v: Monk
+      - m: 1
+        v: Mourner
+      - m: 1
+        v: Mummer
+      - m: 1
+        v: Navigator
+      - m: 1
+        v: Nun
+      - m: 1
+        v: Nursemaid
+      - m: 1
+        v: Oarsman
+      - m: 1
+        v: Officer
+      - m: 1
+        v: Orator
+      - m: 1
+        v: Organist
+      - m: 1
+        v: Ostler
+      - m: 1
+        v: Pack Handler
+      - m: 1
+        v: Painter
+      - m: 1
+        v: Parchmenter
+      - m: 1
+        v: Pardoner
+      - m: 1
+        v: Peddler
+      - m: 1
+        v: Philosopher
+      - m: 1
+        v: Physician
+      - m: 1
+        v: Pilot
+      - m: 1
+        v: Pimp
+      - m: 1
+        v: Pitch Maker
+      - m: 1
+        v: Playwright
+      - m: 1
+        v: Poacher
+      - m: 1
+        v: Poet
+      - m: 1
+        v: Porter
+      - m: 1
+        v: Potter
+      - m: 1
+        v: Precentor
+      - m: 1
+        v: Prelate
+      - m: 1
+        v: Priest
+      - m: 1
+        v: Prostitute
+      - m: 1
+        v: Puppeteer
+      - m: 1
+        v: Quarryman
+      - m: 1
+        v: Ranger
+      - m: 1
+        v: Rat Catcher
+      - m: 1
+        v: Rent Collector
+      - m: 1
+        v: Roofer
+      - m: 1
+        v: Roustabout
+      - m: 1
+        v: Rope Maker
+      - m: 1
+        v: Sacristan
+      - m: 1
+        v: Sage
+      - m: 1
+        v: Sail Maker
+      - m: 1
+        v: Sailor
+      - m: 1
+        v: Sapper
+      - m: 1
+        v: Scholar
+      - m: 1
+        v: School Teacher
+      - m: 1
+        v: Scribe
+      - m: 1
+        v: Scrivener
+      - m: 1
+        v: Scullery Maid
+      - m: 1
+        v: Sculptor
+      - m: 1
+        v: Scop
+      - m: 1
+        v: Seer
+      - m: 1
+        v: Seneschal
+      - m: 1
+        v: Servant
+      - m: 1
+        v: Scaffolder
+      - m: 1
+        v: Shepherd
+      - m: 1
+        v: Sheriff
+      - m: 1
+        v: Shipwright
+      - m: 1
+        v: Shoemaker
+      - m: 1
+        v: Siege Engineer
+      - m: 1
+        v: Sign Maker
+      - m: 1
+        v: Silversmith
+      - m: 1
+        v: Sineater
+      - m: 1
+        v: Singer
+      - m: 1
+        v: Skinner
+      - m: 1
+        v: Slaver
+      - m: 1
+        v: Smith
+      - m: 1
+        v: Smuggler
+      - m: 1
+        v: Soapmaker
+      - m: 1
+        v: Solicitor
+      - m: 1
+        v: Soldier
+      - m: 1
+        v: Soothsayer
+      - m: 1
+        v: Spy
+      - m: 1
+        v: Squire
+      - m: 1
+        v: Stablehand
+      - m: 1
+        v: Steward
+      - m: 1
+        v: Stonecarver
+      - m: 1
+        v: Stonemason
+      - m: 1
+        v: Storyteller
+      - m: 1
+        v: Surgeon
+      - m: 1
+        v: Swineherd
+      - m: 1
+        v: Tailor
+      - m: 1
+        v: Tanner
+      - m: 1
+        v: Tax Collector
+      - m: 1
+        v: Taxidermist
+      - m: 1
+        v: Teamster
+      - m: 1
+        v: Thatcher
+      - m: 1
+        v: Tinker
+      - m: 1
+        v: Tobacconist
+      - m: 1
+        v: Tool Maker
+      - m: 1
+        v: Torturer
+      - m: 1
+        v: Tradesman
+      - m: 1
+        v: Turner
+      - m: 1
+        v: Valet
+      - m: 1
+        v: Verderer
+      - m: 1
+        v: Vicar
+      - m: 1
+        v: Vintner
+      - m: 1
+        v: Wainwright
+      - m: 1
+        v: Waller
+      - m: 1
+        v: Warrener
+      - m: 1
+        v: Watchman
+      - m: 1
+        v: Water Carrier
+      - m: 1
+        v: Weaver
+      - m: 1
+        v: Weaponsmith
+      - m: 1
+        v: Weapons Dealer
+      - m: 1
+        v: Wheelwright
+  - name: secrets
+    entries:
+      - m: 1
+        v: Knows where a magic item is buried
+      - m: 1
+        v: Knows the best fishing spot
+      - m: 1
+        v: Knows who the murderer is
+      - m: 1
+        v: Is making liquor illegally
+      - m: 1
+        v: Knows why no one swims in the millpond anymore
+      - m: 1
+        v: Knows how to safely cook a poisonous fish
+      - m: 1
+        v: Is having an affair
+      - m: 1
+        v: Steals from his neighbors
+      - m: 1
+        v: Is a habitual liar
+      - m: 1
+        v: Is secretly related to another NPC
+      - m: 1
+        v: Knows what happened to all the rats
+      - m: 1
+        v: Is being blackmailed
+      - m: 1
+        v: Drinks heavily
+      - m: 1
+        v: Has a secret stash of funds
+      - m: 1
+        v: Is beaten by his/her spouse
+      - m: 1
+        v: Knows proper way to read a treasure map
+      - m: 1
+        v: Is an obsessive collector or hoarder
+      - m: 1
+        v: Beats offspring regularly
+      - m: 1
+        v: Is quietly religious
+      - m: 1
+        v: Knows location of a bandit hideout
+      - m: 1
+        v: Knows a particular monster’s favorite snack
+      - m: 1
+        v: Is a spy
+      - m: 1
+        v: Hears voices in the graveyard
+      - m: 1
+        v: Knows who really runs the neighborhood
+      - m: 1
+        v: Knows where to contact the fey
+      - m: 1
+        v: Is an assassin
+      - m: 1
+        v: Has a secret illness
+      - m: 1
+        v: Knows why no one in the village eats meat anymore
+      - m: 1
+        v: Knows how to get the oracle to answer truthfully
+      - m: 1
+        v: Engages in some deviant behavior
+      - m: 1
+        v: Knows command word for a magic item
+      - m: 1
+        v: Owes the local moneylender substantial funds
+      - m: 1
+        v: Worships an evil deity
+      - m: 1
+        v: Knows some local secret
+      - m: 1
+        v: Has a secret identity
+      - m: 1
+        v: Was a very different creature prior to reincarnation
+      - m: 1
+        v: Knows how to placate an angry ghost
+      - m: 1
+        v: Is a member of a secret local cult
+      - m: 1
+        v: Is wanted for a crime
+      - m: 1
+        v: Murdered spouse
+      - m: 1
+        v: Makes secret donations
+      - m: 1
+        v: Lost paladinhood due to cowardice
+      - m: 1
+        v: Is a paladin working undercover
+      - m: 1
+        v: Is the bastard child of a noble
+      - m: 1
+        v: Knows when the heir to the throne sneaks away to visit an attractive peasant
+      - m: 1
+        v: Is terrified of a particular monster type
+      - m: 1
+        v: Has some orc blood in their family
+      - m: 1
+        v: Has some troll blood in their family
+      - m: 1
+        v: Knows where the meteor landed
+      - m: 1
+        v: Knows someone is not what appears to be
+      - m: 1
+        v: Forbidden love
+      - m: 1
+        v: Susceptibility to romance
+      - m: 1
+        v: Enjoys decadent pleasures
+      - m: 1
+        v: Arrogance
+      - m: 1
+        v: Envies another creatures possessions
+      - m: 1
+        v: Envies another creatures station
+      - m: 1
+        v: Overpowering greed
+      - m: 1
+        v: Prone to rage
+      - m: 1
+        v: Has a powerful enemy
+      - m: 1
+        v: Specific phobia
+      - m: 1
+        v: Shameful history
+      - m: 1
+        v: Scandalous history
+      - m: 1
+        v: Secret crime
+      - m: 1
+        v: Secret misdeed
+      - m: 1
+        v: Possession of forbidden lore
+      - m: 1
+        v: Foolhardy bravery
+  - name: rewards
+    entries:
+      - m: 1
+        v: Wash or mend your clothes and equipment
+      - m: 1
+        v: Perform a skill check for you
+      - m: 1
+        v: Offer you a pet (dog, cat, pig, etc.)
+      - m: 1
+        v: Pray for you
+      - m: 1
+        v: Tend your mount
+      - m: 1
+        v: Pay for your lodgings
+      - m: 1
+        v: Buy you a small gift
+      - m: 1
+        v: Invite you to dinner
+      - m: 1
+        v: Sharpen your weapons
+      - m: 1
+        v: Gather supplies for you
+      - m: 1
+        v: Carry your belongings
+      - m: 1
+        v: Compose a poem praising your prowess
+      - m: 1
+        v: Compose a song praising your heroic qualities
+      - m: 1
+        v: Praise you loudly in public
+      - m: 1
+        v: Pay for your meals
+      - m: 1
+        v: Introduce you to a friend
+      - m: 1
+        v: Provide shelter
+      - m: 1
+        v: Write a letter or make some other sort of appeal to an authority figure on your behalf
+      - m: 1
+        v: Buy you a reasonable gift
+      - m: 1
+        v: Boycott one of your rivals or enemies
+      - m: 1
+        v: Look after your home while you are away
+      - m: 1
+        v: Provide you with an alibi
+      - m: 1
+        v: Carry a message for you
+      - m: 1
+        v: Follow someone for you
+      - m: 1
+        v: Loan you property
+      - m: 1
+        v: Call in an important favor and use it on your behalf
+      - m: 1
+        v: Cast a spell for you at no cost
+      - m: 1
+        v: Wait for a specific event and then light a signal fire
+      - m: 1
+        v: Organize a festival or other public event
+      - m: 1
+        v: Train an animal for you
+      - m: 1
+        v: Buy you a substantial gift
+      - m: 1
+        v: Become your friend
+      - m: 1
+        v: Sell you goods at a discount
+      - m: 1
+        v: Bury or hide something dangerous
+      - m: 1
+        v: Lie or cheat for you
+      - m: 1
+        v: Name a child after you
+      - m: 1
+        v: Start a fight for you
+      - m: 1
+        v: Publicly protest against a ruler or other powerful being
+      - m: 1
+        v: Sabotage a bridge, road, or something equally important
+      - m: 1
+        v: Raise a child or care for another relatively helpless creature
+      - m: 1
+        v: Spy on your behalf
+      - m: 1
+        v: Agree to work off a major debt that you cannot pay
+      - m: 1
+        v: Take the blame (and punishment) for a minor crime
+      - m: 1
+        v: Become your servant
+      - m: 1
+        v: Become your follower
+      - m: 1
+        v: Become your squire
+      - m: 1
+        v: Become your henchman/woman
+      - m: 1
+        v: Become your cohort
+      - m: 1
+        v: Offer the hand of a relative in marriage
+      - m: 1
+        v: Marry you
 categories:
   - NPCs
 name: NPC Traits
