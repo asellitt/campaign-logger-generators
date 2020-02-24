@@ -1,34 +1,37 @@
-resultPattern: '#"{the}{tavernName}"'
+resultPattern: |-
+  '#"{the}{tavernName}"'
+
+  {b|Tavern Trait} {tavernTrait}
+
+  {b|Menu}
+  {tavernMenu}
+
+  {b|Amenity}
+  {tavernAmenities}
+
 tables:
-  - entries:
+  - name: tavernName
+    entries:
       - m: 1
-        v: '{adjective} {noun1A}'
+        v: "{adjective} {noun1}"
       - m: 1
-        v: '{adjective} {noun1B}'
+        v: "{!noun1} and {!noun1}"
       - m: 1
-        v: '{noun1A} and {noun1B}'
+        v: "{!noun1} and the {!noun1}"
       - m: 1
-        v: '{noun1A} and the {noun1B}'
+        v: "{noun1}'s {noun2}"
       - m: 1
-        v: '{noun1A}''s {noun2}'
+        v: "{noun1} and the {noun2}"
       - m: 1
-        v: '{noun1B}''s {noun2}'
+        v: "{verb} {noun1}"
+  - name: the
+    entries:
       - m: 1
-        v: '{noun1A} and the {noun2}'
+        v: "The "
       - m: 1
-        v: '{noun1B} and the {noun2}'
-      - m: 1
-        v: '{verb} {noun1A}'
-      - m: 1
-        v: '{verb} {noun1B}'
-    name: tavernName
-  - entries:
-      - m: 1
-        v: 'The '
-      - m: 1
-        v: ''
-    name: the
-  - entries:
+        v: ""
+  - name: verb
+    entries:
       - m: 1
         v: Moping
       - m: 1
@@ -229,8 +232,8 @@ tables:
         v: Digging
       - m: 1
         v: Flinging
-    name: verb
-  - entries:
+  - name: adjective
+    entries:
       - m: 1
         v: Wayward
       - m: 1
@@ -431,8 +434,8 @@ tables:
         v: Masculine
       - m: 1
         v: Supine
-    name: adjective
-  - entries:
+  - name: noun1
+    entries:
       - m: 1
         v: Warhorse
       - m: 1
@@ -633,210 +636,8 @@ tables:
         v: Tinker
       - m: 1
         v: Whale
-    name: noun1A
-  - entries:
-      - m: 1
-        v: Warhorse
-      - m: 1
-        v: Horseman
-      - m: 1
-        v: Maiden
-      - m: 1
-        v: Mage
-      - m: 1
-        v: Bachelor
-      - m: 1
-        v: King
-      - m: 1
-        v: Magistrate
-      - m: 1
-        v: Warchief
-      - m: 1
-        v: Warrior
-      - m: 1
-        v: Mare
-      - m: 1
-        v: Wolf
-      - m: 1
-        v: Fox
-      - m: 1
-        v: Lion
-      - m: 1
-        v: Lamb
-      - m: 1
-        v: Warden
-      - m: 1
-        v: Mule
-      - m: 1
-        v: Assassin
-      - m: 1
-        v: Swordsman
-      - m: 1
-        v: Lady
-      - m: 1
-        v: Knight
-      - m: 1
-        v: Soldier
-      - m: 1
-        v: Wizard
-      - m: 1
-        v: Warlock
-      - m: 1
-        v: Ranger
-      - m: 1
-        v: Bard
-      - m: 1
-        v: Druid
-      - m: 1
-        v: Monk
-      - m: 1
-        v: Paladin
-      - m: 1
-        v: Sorcerer
-      - m: 1
-        v: Rogue
-      - m: 1
-        v: Cleric
-      - m: 1
-        v: Bear
-      - m: 1
-        v: Goblin
-      - m: 1
-        v: Kobold
-      - m: 1
-        v: Gnome
-      - m: 1
-        v: Halfling
-      - m: 1
-        v: Dwarf
-      - m: 1
-        v: Fool
-      - m: 1
-        v: Virgin
-      - m: 1
-        v: Horde
-      - m: 1
-        v: Squire
-      - m: 1
-        v: Eagle
-      - m: 1
-        v: Rooster
-      - m: 1
-        v: Piglet
-      - m: 1
-        v: Thief
-      - m: 1
-        v: Priest
-      - m: 1
-        v: Friar
-      - m: 1
-        v: Blacksmith
-      - m: 1
-        v: Guard
-      - m: 1
-        v: Stag
-      - m: 1
-        v: Hag
-      - m: 1
-        v: Devil
-      - m: 1
-        v: Angel
-      - m: 1
-        v: Serpent
-      - m: 1
-        v: Snake
-      - m: 1
-        v: Rat
-      - m: 1
-        v: Mouse
-      - m: 1
-        v: Bandit
-      - m: 1
-        v: Chieftain
-      - m: 1
-        v: Griffon
-      - m: 1
-        v: Dragon
-      - m: 1
-        v: Lizard
-      - m: 1
-        v: Pony
-      - m: 1
-        v: Baron
-      - m: 1
-        v: Heifer
-      - m: 1
-        v: Bull
-      - m: 1
-        v: Hound
-      - m: 1
-        v: Goat
-      - m: 1
-        v: Toad
-      - m: 1
-        v: Stallion
-      - m: 1
-        v: Monster
-      - m: 1
-        v: Vermin
-      - m: 1
-        v: Beholder
-      - m: 1
-        v: Monkey
-      - m: 1
-        v: Elephant
-      - m: 1
-        v: Boar
-      - m: 1
-        v: Beagle
-      - m: 1
-        v: Bat
-      - m: 1
-        v: Demon
-      - m: 1
-        v: Imp
-      - m: 1
-        v: Sprite
-      - m: 1
-        v: Fey
-      - m: 1
-        v: Spirit
-      - m: 1
-        v: Bitch
-      - m: 1
-        v: Starling
-      - m: 1
-        v: Minotaur
-      - m: 1
-        v: Barbarian
-      - m: 1
-        v: Prophet
-      - m: 1
-        v: Merchant
-      - m: 1
-        v: Cobbler
-      - m: 1
-        v: Unicorn
-      - m: 1
-        v: Ogre
-      - m: 1
-        v: Nymph
-      - m: 1
-        v: Butcher
-      - m: 1
-        v: Captain
-      - m: 1
-        v: Angler
-      - m: 1
-        v: Lover
-      - m: 1
-        v: Mason
-      - m: 1
-        v: Tinker
-      - m: 1
-        v: Whale
-    name: noun1B
-  - entries:
+  - name: noun2
+    entries:
       - m: 1
         v: Mount
       - m: 1
@@ -1037,7 +838,329 @@ tables:
         v: Boot
       - m: 1
         v: Gauntlet
-    name: noun2
+  - name: tavernTrait
+    entries:
+      - m: 3
+        v: Only opens on public holidays
+      - m: 3
+        v: In a former church
+      - m: 3
+        v: In a former theater
+      - m: 3
+        v: In a farmhouse
+      - m: 3
+        v: In a cellar
+      - m: 3
+        v: Partly ruined
+      - m: 3
+        v: Stocks or gallows inside
+      - m: 3
+        v: Magical lighting that slowly shifts hues
+      - m: 3
+        v: Full of the owner’s dogs
+      - m: 3
+        v: Previous owner is buried in the cellar
+      - m: 2
+        v: Full of cats
+      - m: 2
+        v: Mounted monster head
+      - m: 2
+        v: Haunted grandfather clock that strikes thirteen
+      - m: 2
+        v: Recently was partially burnt down
+      - m: 2
+        v: Central pit for entertainment
+      - m: 2
+        v: A fortified keep with its own armory
+      - m: 2
+        v: Furniture is made from stone
+      - m: 2
+        v: Drinks delivered by magical or mechanical means
+      - m: 2
+        v: In a lighthouse
+      - m: 2
+        v: Extremely low ceilings
+      - m: 2
+        v: Bar is made from a sunken warship
+      - m: 2
+        v: Stuffed heads and antlers on every wall
+      - m: 2
+        v: Run by five sisters
+      - m: 2
+        v: Haunted
+      - m: 2
+        v: Once run by a succubus
+      - m: 2
+        v: Holds prayers every day
+      - m: 2
+        v: Unusual beverages bubbling behind the bar
+      - m: 2
+        v: Assigns seats at random
+      - m: 2
+        v: Adorned with numerous banners and weapons
+      - m: 2
+        v: Full of small caged animals
+      - m: 2
+        v: Collectively owned by the locals
+      - m: 2
+        v: Pentagram is carved on one wall
+      - m: 2
+        v: Every stranger who arrives must sing to be served
+      - m: 2
+        v: Mummified remains of a local hero are on display
+      - m: 2
+        v: Requires bar tabs signed in blood
+      - m: 2
+        v: Has an unusual mascot
+      - m: 2
+        v: Small, labyrinthine halls and rooms
+      - m: 2
+        v: Permanent recurring illusion
+      - m: 2
+        v: Patrons must spin the wheel to choose their drink
+      - m: 2
+        v: Original owner stuffed and mounted above bar
+      - m: 2
+        v: Home of “endless stew” (kept simmering for 30 years)
+      - m: 2
+        v: Fruit growing just outside is free for the plucking
+      - m: 2
+        v: Obnoxious patrons get thrown off the balcony
+      - m: 2
+        v: Lit with magic lanterns or bioluminescent creatures
+      - m: 2
+        v: Has a tree growing through the taproom
+  - name: tavernMenu
+    entries:
+      - m: 1
+        v: '- {menuItem}'
+      - m: 1
+        v: |-
+          - {menuItem}
+          - {menuItem}
+      - m: 1
+        v: |-
+          - {menuItem}
+          - {menuItem}
+          - {menuItem}
+  - name: menuItem
+    entries:
+      - m: 1
+        v: Apple cake ($"2CP")
+      - m: 1
+        v: Aunt Polly’s pudding ($"1SP")
+      - m: 1
+        v: Boiled eels ($"2SP")
+      - m: 1
+        v: Boiled rabbit ($"1SP")
+      - m: 1
+        v: Boiled salmon ($"3SP")
+      - m: 1
+        v: Boiled trotters ($"1SP")
+      - m: 1
+        v: Boiled turnips ($"5CP")
+      - m: 1
+        v: Bread and butter pudding ($"3CP")
+      - m: 1
+        v: Broiled mackerel ($"3SP")
+      - m: 1
+        v: Clear soup ($"2CP")
+      - m: 1
+        v: Crab, whole fresh ($"3SP")
+      - m: 1
+        v: Crayfish soup ($"4CP")
+      - m: 1
+        v: Fried cow-heel ($"8CP")
+      - m: 1
+        v: Fried woodcock with wine sauce ($"4SP")
+      - m: 1
+        v: Game pie ($"5SP")
+      - m: 1
+        v: Gosling with damson cheese ($"5SP")
+      - m: 1
+        v: Grouse with gooseberry jam ($"4SP")
+      - m: 1
+        v: Haggis ($"2SP")
+      - m: 1
+        v: Hare soup ($"6CP")
+      - m: 1
+        v: Hashed mutton ($"1SP")
+      - m: 1
+        v: Hotch potch ($"1SP")
+      - m: 1
+        v: Jugged hare ($"3SP")
+      - m: 1
+        v: Lamb cutlets ($"3SP")
+      - m: 1
+        v: Leg of mutton ($"4SP")
+      - m: 1
+        v: Marrow dumplings ($"8CP")
+      - m: 1
+        v: Meat pie ($"1SP")
+      - m: 1
+        v: Mutton pudding ($"1SP")
+      - m: 1
+        v: Oxtail soup ($"8CP")
+      - m: 1
+        v: Oyster soup ($"2SP")
+      - m: 1
+        v: Pie ($"1SP")
+      - m: 1
+        v: Potted partridge ($"4SP")
+      - m: 1
+        v: Ptarmigan ($"5SP")
+      - m: 1
+        v: Rissoles of game ($"4SP")
+      - m: 1
+        v: Roast fowl ($"6SP")
+      - m: 1
+        v: Roast goose with apple sauce ($"7SP")
+      - m: 1
+        v: Roast landrail ($"4SP")
+      - m: 1
+        v: Roast ribs of beef ($"3SP")
+      - m: 1
+        v: Roast suckling pig ($"1GP")
+      - m: 1
+        v: Rumpsteak and mushrooms ($"5SP")
+      - m: 1
+        v: Sausages ($"1SP")
+      - m: 1
+        v: Simmered gurnet ($"3SP")
+      - m: 1
+        v: Skate in caper sauce ($"3SP")
+      - m: 1
+        v: Stew ($"5CP")
+      - m: 1
+        v: Stewed kidneys ($"4SP")
+      - m: 1
+        v: Stewed pigeons ($"2SP")
+      - m: 1
+        v: Trout ($"3SP")
+      - m: 1
+        v: Turbot with truffles ($"2GP")
+      - m: 1
+        v: Veal cutlets ($"1GP")
+      - m: 1
+        v: Vegetable broth ($"3CP")
+      - m: 1
+        v: Whole local cheese ($"1GP")
+  - name: tavernAmenities
+    entries:
+      - m: 1
+        v: '- {amenityItem}'
+      - m: 1
+        v: |-
+          - {amenityItem}
+          - {amenityItem}
+      - m: 1
+        v: |-
+          - {amenityItem}
+          - {amenityItem}
+          - {amenityItem}
+  - name: amenityItem
+    entries:
+       - m: 4
+         v: Bath, cold ($"2CP")
+       - m: 4
+         v: Bath, hot ($"6CP")
+       - m: 2
+         v: Blanket, extra (loan of) ($"5CP")
+       - m: 2
+         v: Camping/caravan pitch (per tent/wagon) ($"1SP")
+       - m: 2
+         v: Chamber pot (loan of) ($"2CP")
+       - m: 2
+         v: Chest hire, with very simple lock ($"2SP")
+       - m: 2
+         v: Chest hire, with average lock ($"4SP")
+       - m: 2
+         v: Chest hire, with good lock ($"8SP")
+       - m: 2
+         v: Chest hire, with superior lock ($"15SP")
+       - m: 2
+         v: Coach house (coach storage) ($"5SP")
+       - m: 2
+         v: Cobbling (2% cost of clothing)
+       - m: 2
+         v: Companionship ($"1GP+")
+       - m: 2
+         v: Feather mattress (loan of) ($"2SP")
+       - m: 2
+         v: Feather pillow (loan of) ($"1SP")
+       - m: 2
+         v: Fire in room ($"5CP")
+       - m: 2
+         v: Guard dog (loan of) ($"2SP")
+       - m: 2
+         v: Guard (1st level warrior) ($"3SP")
+       - m: 2
+         v: Guide (per day) ($"3SP")
+       - m: 2
+         v: Hot water, bucket/pan (loan of) ($"3CP")
+       - m: 2
+         v: Ironing (per item) ($"2CP")
+       - m: 2
+         v: Lamp (loan of) ($"1CP")
+       - m: 2
+         v: Massage ($"1SP")
+       - m: 2
+         v: Meals in room ($"1SP")
+       - m: 2
+         v: Mirror (loan of) ($"1SP")
+       - m: 2
+         v: Paddock (per horse) ($"5CP")
+       - m: 2
+         v: Private room for meetings (per hour) ($"5SP+")
+       - m: 2
+         v: Room, common ($"2SP")
+       - m: 2
+         v: Room, shared ($"5SP")
+       - m: 2
+         v: Room, private ($"1GP")
+       - m: 2
+         v: Room, private, with very simple lock ($"15SP")
+       - m: 2
+         v: Room, private, with average lock ($"2GP")
+       - m: 2
+         v: Room, private, with good lock ($"4GP")
+       - m: 2
+         v: Room, private, with superior lock ($"8GP")
+       - m: 2
+         v: Sewing kit (loan of) ($"1SP")
+       - m: 2
+         v: Sleeping space, floor, away from fire ($"1CP")
+       - m: 2
+         v: Sleeping space, floor, next to fire ($"5CP")
+       - m: 2
+         v: Soap (loan of) ($"1SP")
+       - m: 2
+         v: Stabling, self-service ($"1SP")
+       - m: 2
+         v: Stabling, part livery (grooming, feeding) ($"2SP")
+       - m: 2
+         v: Stabling, full livery  ($"5SP")
+       - m: 2
+         v: Suite, small (with good lock, fire)  ($"4GP")
+       - m: 2
+         v: Suite, average (with good lock, fire, bigger) ($"8GP")
+       - m: 2
+         v: Suite, good (with superior lock, fire, bigger) ($"16GP")
+       - m: 2
+         v: Suite, luxurious (with superior lock, fire, bigger, servants) ($"32GP+")
+       - m: 2
+         v: Tailoring (per item) (2% cost of clothing)
+       - m: 2
+         v: Warming pan (loan of) ($"5CP")
+       - m: 2
+         v: Washing (per item) ($"3CP")
+       - m: 4
+         v: Washstand with cold water  ($"3CP")
+       - m: 4
+         v: Washstand with hot water ($"7CP")
+       - m: 2
+         v: Writing set (loan of) ($"2SP")
 categories:
   - Locations
-name: BehindTheTables Tavern Name
+name: Tavern
+
