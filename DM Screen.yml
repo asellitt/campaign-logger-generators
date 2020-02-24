@@ -1,16 +1,16 @@
 resultPattern: |-
 
-  {b|Quick Finds:} {quickFinds}
-  {b|Something Happened:} {somethingHappens}
-  {b|Quest Macguffins:} {questMacguffins}
-  {b|Dungeon Setting:} {dungeonSetting}
-  {b|Dungeon Type:} {dungeonType}
+  ==== Plots ====
   {b|Plots:} {plots}
   {b|Plot Twists:} {plotTwists}
+  {b|Quest Macguffins:} {questMacguffins}
+
+  {b|Quick Finds:} {quickFinds}
+  {b|Something Happened:} {somethingHappens}
   {b|Scenic Spots:} {scenicSpots}
   {b|Roadside Encounters:} {roadsideEncounters}
   {b|Weather:} {weather}
-
+  {b|Planar Portal:} {planarPortals}
 tables:
   - name: quickFinds
     entries:
@@ -188,192 +188,6 @@ tables:
         v: True love
       - m: 1
         v: Answers
-  - name: dungeonSetting
-    entries:
-      - m: 2
-        v: Underground river
-      - m: 2
-        v: Part of forgotten labyrinth
-      - m: 2
-        v: Under the docks
-      - m: 2
-        v: Underground canal
-      - m: 2
-        v: In a giant tree
-      - m: 2
-        v: Below a graveyard
-      - m: 2
-        v: Built into an arena
-      - m: 2
-        v: Insane asylum
-      - m: 2
-        v: Sunken ruin
-      - m: 2
-        v: Ice floe
-      - m: 2
-        v: Under a tavern
-      - m: 2
-        v: Sewers
-      - m: 2
-        v: Cliff village
-      - m: 2
-        v: Under a tower
-      - m: 2
-        v: River dam
-      - m: 2
-        v: Hollow mountain
-      - m: 2
-        v: Part of a frozen city
-      - m: 2
-        v: Deep in a desert of shifting tunnels
-      - m: 2
-        v: Abutting to a secret escape route
-      - m: 2
-        v: Inside a painting
-      - m: 2
-        v: Under a roc nest
-      - m: 2
-        v: Pyramid
-      - m: 2
-        v: Under a castle
-      - m: 2
-        v: Below a mausoleum
-      - m: 2
-        v: Connecting to a beast’s den
-      - m: 2
-        v: In a prison
-      - m: 2
-        v: In a lighthouse
-      - m: 2
-        v: In a museum
-      - m: 2
-        v: In a cathedral
-      - m: 2
-        v: Amid the ruble of a ruined citadel
-      - m: 2
-        v: In earthquake prone caverns
-      - m: 2
-        v: Part of a menagerie
-      - m: 2
-        v: In a gigantic statue
-      - m: 2
-        v: Formed in a massive fossil
-      - m: 2
-        v: In another dimension or demiplane
-      - m: 1
-        v: Amid the rubble of a ruined giant city
-      - m: 1
-        v: Crashed space vessel
-      - m: 1
-        v: Unearthed by a giant ant nest
-      - m: 1
-        v: Grown within a deity’s corpse
-      - m: 1
-        v: On an island in a volcano
-      - m: 1
-        v: Inside a moon, star, or another planet
-  - name: dungeonType
-    entries:
-      - m: 1
-        v: Hedge maze
-      - m: 1
-        v: Riverboat
-      - m: 1
-        v: Floating bog containing sunken tombs
-      - m: 1
-        v: Partially submerged clock tower
-      - m: 1
-        v: Wizard’s tomb
-      - m: 1
-        v: Bandit lair
-      - m: 1
-        v: Vast long abandoned mine
-      - m: 1
-        v: Moving clockwork dungeon
-      - m: 1
-        v: Giant’s castle
-      - m: 1
-        v: Melting iceberg
-      - m: 1
-        v: Abandoned casino
-      - m: 1
-        v: Graveyard of giant skeletons
-      - m: 1
-        v: Old theater
-      - m: 1
-        v: Volcanic tomb
-      - m: 1
-        v: Fog shrouded dungeon traps the PCs
-      - m: 1
-        v: Sunken ancient green byways linking fey lands
-      - m: 1
-        v: Narrow limestone gorges
-      - m: 1
-        v: Ancient dragon's skull
-      - m: 1
-        v: Massive, partially hollow, slowly melting candle
-      - m: 1
-        v: Giant tree with crevices and hollows
-      - m: 1
-        v: Chambers where gravity reverses
-      - m: 1
-        v: Belly of a ship swallowing sea creature
-      - m: 1
-        v: Planes linked by portals
-      - m: 1
-        v: Giant insect infested temple
-      - m: 1
-        v: Tangled forest of thorny trees
-      - m: 1
-        v: Glacier of poisoned water
-      - m: 1
-        v: Bog and quicksand filled mire
-      - m: 1
-        v: Giant rat tunnels
-      - m: 1
-        v: Solid storm cloud
-      - m: 1
-        v: Living iron maze
-      - m: 1
-        v: Rapids and river channels sweeping through a valley
-      - m: 1
-        v: Endless stone bridges across a void of purple fog
-      - m: 1
-        v: Living iron ship
-      - m: 1
-        v: Huge web
-      - m: 1
-        v: Sinking maze
-      - m: 1
-        v: Sunken ship
-      - m: 1
-        v: Floating castle that appears only at night
-      - m: 1
-        v: What’s down the plug-hole of a wizard’s sink
-      - m: 1
-        v: Slowly flooding
-      - m: 1
-        v: Palace of glass
-      - m: 1
-        v: The afterlife
-      - m: 1
-        v: A dream
-      - m: 1
-        v: Undead town where life goes on
-      - m: 1
-        v: Garden of poisonous living fungi
-      - m: 1
-        v: Colossal walking iron man
-      - m: 1
-        v: Slavers’ headquarters
-      - m: 1
-        v: A nightmare
-      - m: 1
-        v: Sentient tomb
-      - m: 1
-        v: Iron obelisk of great size
-      - m: 1
-        v: Giant hourglass filling with sand
   - name: plots
     entries:
       - m: 1
@@ -729,105 +543,207 @@ tables:
   - name: weather
     entries:
       - m: 1
-        v: Balmy
+        v: '{i|Balmy:} mild and pleasant weather'
       - m: 1
-        v: Humid
+        v: '{i|Blizzard:} a dense snowstorm'
       - m: 1
-        v: Blizzard
+        v: '{i|Bluster:} strong wind'
       - m: 1
-        v: Hurricane
+        v: '{i|Breeze:} light wind'
       - m: 1
-        v: Bluster
+        v: '{i|Calm:} no wind'
       - m: 1
-        v: Mild
+        v: '{i|Chill:} unpleasantly cold'
       - m: 1
-        v: Breeze
+        v: '{i|Cool:} moderately cold'
       - m: 1
-        v: Mist
+        v: '{i|Cyclone:} violent, destructive storm'
       - m: 1
-        v: Calm
+        v: '{i|Damp:} moisture in the air'
       - m: 1
-        v: Monsoon
+        v: '{i|Deluge:} sudden heavy rainfall'
       - m: 1
-        v: Chill
+        v: '{i|Dew:} condensation forming just above the ground'
       - m: 1
-        v: Muggy
+        v: '{i|Downpour:} heavy rainfall'
       - m: 1
-        v: Cool
+        v: '{i|Draft:} current of air'
       - m: 1
-        v: Overcast
+        v: '{i|Drizzle:} fine rain'
       - m: 1
-        v: Cyclone
+        v: '{i|Drought:} continuous dry weather'
       - m: 1
-        v: Pea soup
+        v: '{i|Dust }storm: severe windstorm lifting dust and sand'
       - m: 1
-        v: Damp
+        v: '{i|Fair:} pleasant weather'
       - m: 1
-        v: Rain shower
+        v: '{i|Fog:} thick mist or cloud'
       - m: 1
-        v: Deluge
+        v: '{i|Freezing }rain: rain that freezes when it lands'
       - m: 1
-        v: Rainfall
+        v: '{i|Frigid:} intensely cold'
       - m: 1
-        v: Dew
+        v: '{i|Frost:} frozen dew'
       - m: 1
-        v: Sleet
+        v: '{i|Gale:} strong wind'
       - m: 1
-        v: Downpour
+        v: '{i|Hail:} pellets of frozen rain'
       - m: 1
-        v: Smog
+        v: '{i|Haze:} condensing ground vapor caused by heat'
       - m: 1
-        v: Draft
+        v: '{i|Heat }wave: prolonged period of warm weather'
       - m: 1
-        v: Snow flurry
+        v: '{i|Humid:} warm, moist air'
       - m: 1
-        v: Drizzle
+        v: '{i|Hurricane:} windstorm moving around a central point'
       - m: 1
-        v: Snowstorm
+        v: '{i|Mild:} moderately warm weather without rain'
       - m: 1
-        v: Drought
+        v: '{i|Mist:} water vapor in the air'
       - m: 1
-        v: Squall
+        v: '{i|Monsoon:} heavy, prolonged seasonal rain'
       - m: 1
-        v: Dust storm
+        v: '{i|Muggy:} damp, warm, oppressive weather'
       - m: 1
-        v: Storm
+        v: '{i|Overcast:} heavy cloud cover'
       - m: 1
-        v: Fair
+        v: '{i|Pea }soup: thick yellow fog'
       - m: 1
-        v: Sunny
+        v: '{i|Rain }shower: short period of rainfall'
       - m: 1
-        v: Fog
+        v: '{i|Rainfall:} prolonged period of rain'
       - m: 1
-        v: Temperate
+        v: '{i|Sleet:} ice pellets mixed with rain or snow'
       - m: 1
-        v: Freezing rain
+        v: '{i|Smog:} smoky fog'
       - m: 1
-        v: Tropical storm
+        v: '{i|Snow }flurry: short period of light snow'
       - m: 1
-        v: Frigid
+        v: '{i|Snowstorm:} prolonged heavy snow'
       - m: 1
-        v: Tornado
+        v: '{i|Squall:} sudden, localized storm'
       - m: 1
-        v: Frost
+        v: '{i|Storm:} violet wind and rain'
       - m: 1
-        v: Thunderstorm
+        v: '{i|Sunny:} bright, clear weather'
       - m: 1
-        v: Gale
+        v: '{i|Temperate:} without extremes of warm or cold'
       - m: 1
-        v: Typhoon
+        v: '{i|Thunderstorm:} storm with thunder and lightning'
       - m: 1
-        v: Hail
+        v: '{i|Tornado:} destructive, rotating windstorm'
       - m: 1
-        v: Warm
+        v: '{i|Tropical }storm: cyclonic storm from the tropics'
       - m: 1
-        v: Haze
+        v: '{i|Typhoon:} violent cyclonic storm'
       - m: 1
-        v: Whirlwind
+        v: '{i|Warm:} moderately hot temperature'
       - m: 1
-        v: Heatwave
+        v: '{i|Whirlwind:} violent wind moving in a circular motion'
       - m: 1
-        v: Whiteout
+        v: '{i|Whiteout:} heavy snow, causing visibility problems'
+  - name: planarPortals
+    entries:
+      - m: 1
+        v: A cascade of silver and copper coins
+      - m: 1
+        v: A rectangle of deepest blue that ripples like a flag
+      - m: 1
+        v: A carved circular hole in a great dolmen
+      - m: 1
+        v: A circular opening covered by rusted swords that open on demand
+      - m: 1
+        v: A huge mouth with a gale rushing from within
+      - m: 1
+        v: A giant keyhole
+      - m: 1
+        v: A great tome filled with pictures of exotic locations
+      - m: 1
+        v: A shimmering pool of greenish light
+      - m: 1
+        v: A black swirling fog with dancing lights within
+      - m: 1
+        v: A fountain of sparkling motes of light
+      - m: 1
+        v: A fresco
+      - m: 1
+        v: A giant drawer which tugs back strongly
+      - m: 1
+        v: A waterfall of singing angels
+      - m: 1
+        v: A horizontal oval of crystal-clear water
+      - m: 1
+        v: An ornate wardrobe
+      - m: 1
+        v: A curtain of dripping wax
+      - m: 1
+        v: A well that seems to descend forever
+      - m: 1
+        v: A gaping hole that oozes strands of sticky goo
+      - m: 1
+        v: A wicker man
+      - m: 1
+        v: A doorway that disappears if viewed directly
+      - m: 1
+        v: A cave entrance wreathed in moss-covered statues
+      - m: 1
+        v: A curtain of tiny ivory flakes carved to look like snow
+      - m: 1
+        v: A stone arch carved with runes
+      - m: 1
+        v: A triangle that glows and emits the faint odor of fruit
+      - m: 1
+        v: A dancing globe of ball lightning
+      - m: 1
+        v: A shadow of a door that looms tall on a nearby wall
+      - m: 1
+        v: A clockwork puzzle door
+      - m: 1
+        v: A carriage
+      - m: 1
+        v: A magical cabinet that seems impossible to open
+      - m: 1
+        v: A golden haze that smells of baking bread
+      - m: 1
+        v: An ornate mirror held by three stone golems
+      - m: 1
+        v: A table-sized ball of almost blinding light
+      - m: 1
+        v: An opening in an ancient hedgerow
+      - m: 1
+        v: An empty picture frame floating in mid-air
+      - m: 1
+        v: A black whirlpool
+      - m: 1
+        v: An orb that cycles through images of the constellations
+      - m: 1
+        v: A gate made of screaming severed heads
+      - m: 1
+        v: A lighthouse that casts a beam of solid light
+      - m: 1
+        v: An oily black chute with the sound of sobbing below
+      - m: 1
+        v: A pool of frantically waving severed arms
+      - m: 1
+        v: A statue of a yawning, grotesquely bloated old woman
+      - m: 1
+        v: A floating red egg about the size of a rearing horse
+      - m: 1
+        v: An iron tower with only one high window
+      - m: 1
+        v: A vivid, ever-changing landscape
+      - m: 1
+        v: A stone maw of grinding teeth
+      - m: 1
+        v: A giant stylized scroll that matter passes through
+      - m: 1
+        v: A corridor of whirling blades leading to a black slit
+      - m: 1
+        v: A whirlpool of bubbling chocolate
+      - m: 1
+        v: A black rainbow
+      - m: 1
+        v: An iron mouth that snaps shut at irregular intervals
 categories:
   - DM
 name: DM Screen
