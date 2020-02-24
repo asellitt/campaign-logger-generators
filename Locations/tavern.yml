@@ -1,0 +1,1043 @@
+resultPattern: '#"{the}{tavernName}"'
+tables:
+  - entries:
+      - m: 1
+        v: '{adjective} {noun1A}'
+      - m: 1
+        v: '{adjective} {noun1B}'
+      - m: 1
+        v: '{noun1A} and {noun1B}'
+      - m: 1
+        v: '{noun1A} and the {noun1B}'
+      - m: 1
+        v: '{noun1A}''s {noun2}'
+      - m: 1
+        v: '{noun1B}''s {noun2}'
+      - m: 1
+        v: '{noun1A} and the {noun2}'
+      - m: 1
+        v: '{noun1B} and the {noun2}'
+      - m: 1
+        v: '{verb} {noun1A}'
+      - m: 1
+        v: '{verb} {noun1B}'
+    name: tavernName
+  - entries:
+      - m: 1
+        v: 'The '
+      - m: 1
+        v: ''
+    name: the
+  - entries:
+      - m: 1
+        v: Moping
+      - m: 1
+        v: Drowning
+      - m: 1
+        v: Hanging
+      - m: 1
+        v: Belching
+      - m: 1
+        v: Running
+      - m: 1
+        v: Walking
+      - m: 1
+        v: Hunting
+      - m: 1
+        v: Fighting
+      - m: 1
+        v: Swinging
+      - m: 1
+        v: Breaking
+      - m: 1
+        v: Working
+      - m: 1
+        v: Fermenting
+      - m: 1
+        v: Flowering
+      - m: 1
+        v: Worrying
+      - m: 1
+        v: Following
+      - m: 1
+        v: Flowing
+      - m: 1
+        v: Complaining
+      - m: 1
+        v: Standing
+      - m: 1
+        v: Joking
+      - m: 1
+        v: Laughing
+      - m: 1
+        v: Panting
+      - m: 1
+        v: Boarding
+      - m: 1
+        v: Lounging
+      - m: 1
+        v: Cutting
+      - m: 1
+        v: Singing
+      - m: 1
+        v: Staring
+      - m: 1
+        v: Goading
+      - m: 1
+        v: Disappointing
+      - m: 1
+        v: Faltering
+      - m: 1
+        v: Binding
+      - m: 1
+        v: Winding
+      - m: 1
+        v: Sundering
+      - m: 1
+        v: Longing
+      - m: 1
+        v: Fumbling
+      - m: 1
+        v: Bumbling
+      - m: 1
+        v: Stumbling
+      - m: 1
+        v: Pining
+      - m: 1
+        v: Whining
+      - m: 1
+        v: Flying
+      - m: 1
+        v: Hoarding
+      - m: 1
+        v: Whoring
+      - m: 1
+        v: Warring
+      - m: 1
+        v: Winking
+      - m: 1
+        v: Skittering
+      - m: 1
+        v: Slithering
+      - m: 1
+        v: Snoring
+      - m: 1
+        v: Snorting
+      - m: 1
+        v: Playing
+      - m: 1
+        v: Practicing
+      - m: 1
+        v: Grappling
+      - m: 1
+        v: Burning
+      - m: 1
+        v: Flaming
+      - m: 1
+        v: Freezing
+      - m: 1
+        v: Poisoning
+      - m: 1
+        v: Burying
+      - m: 1
+        v: Throwing
+      - m: 1
+        v: Sparking
+      - m: 1
+        v: Steaming
+      - m: 1
+        v: Smiting
+      - m: 1
+        v: Chittering
+      - m: 1
+        v: Chattering
+      - m: 1
+        v: Mumbling
+      - m: 1
+        v: Grating
+      - m: 1
+        v: Plowing
+      - m: 1
+        v: Biting
+      - m: 1
+        v: Howling
+      - m: 1
+        v: Roaring
+      - m: 1
+        v: Shouting
+      - m: 1
+        v: Pouring
+      - m: 1
+        v: Squeaking
+      - m: 1
+        v: Stinging
+      - m: 1
+        v: Charging
+      - m: 1
+        v: Bleating
+      - m: 1
+        v: Stabbing
+      - m: 1
+        v: Goring
+      - m: 1
+        v: Poking
+      - m: 1
+        v: Swallowing
+      - m: 1
+        v: Sucking
+      - m: 1
+        v: Drinking
+      - m: 1
+        v: Sneaking
+      - m: 1
+        v: Hiding
+      - m: 1
+        v: Slashing
+      - m: 1
+        v: Limping
+      - m: 1
+        v: Tripping
+      - m: 1
+        v: Shifting
+      - m: 1
+        v: Sliding
+      - m: 1
+        v: Blinding
+      - m: 1
+        v: Piercing
+      - m: 1
+        v: Bludgeoning
+      - m: 1
+        v: Crushing
+      - m: 1
+        v: Hopping
+      - m: 1
+        v: Thundering
+      - m: 1
+        v: Hushing
+      - m: 1
+        v: Crying
+      - m: 1
+        v: Wailing
+      - m: 1
+        v: Mourning
+      - m: 1
+        v: Darkening
+      - m: 1
+        v: Piling
+      - m: 1
+        v: Digging
+      - m: 1
+        v: Flinging
+    name: verb
+  - entries:
+      - m: 1
+        v: Wayward
+      - m: 1
+        v: Quiet
+      - m: 1
+        v: Jolly
+      - m: 1
+        v: Good
+      - m: 1
+        v: Crooked
+      - m: 1
+        v: White
+      - m: 1
+        v: Gray
+      - m: 1
+        v: Blackened
+      - m: 1
+        v: Harried
+      - m: 1
+        v: Crimson
+      - m: 1
+        v: Silver
+      - m: 1
+        v: Golden
+      - m: 1
+        v: Disturbed
+      - m: 1
+        v: Filthy
+      - m: 1
+        v: Ugly
+      - m: 1
+        v: Bastard
+      - m: 1
+        v: Faltering
+      - m: 1
+        v: Glorious
+      - m: 1
+        v: Beautiful
+      - m: 1
+        v: Handsome
+      - m: 1
+        v: Wrinkled
+      - m: 1
+        v: Unhappy
+      - m: 1
+        v: Intelligent
+      - m: 1
+        v: Lovely
+      - m: 1
+        v: Ignorant
+      - m: 1
+        v: Senile
+      - m: 1
+        v: Sour
+      - m: 1
+        v: Sweet
+      - m: 1
+        v: Lonely
+      - m: 1
+        v: Green
+      - m: 1
+        v: Blind
+      - m: 1
+        v: Hungry
+      - m: 1
+        v: Worried
+      - m: 1
+        v: Educated
+      - m: 1
+        v: Stupid
+      - m: 1
+        v: Emboldened
+      - m: 1
+        v: Honorary
+      - m: 1
+        v: Stinky
+      - m: 1
+        v: Bottomless
+      - m: 1
+        v: Greasy
+      - m: 1
+        v: Sloppy
+      - m: 1
+        v: Stylish
+      - m: 1
+        v: Distressed
+      - m: 1
+        v: Harrowed
+      - m: 1
+        v: Tormented
+      - m: 1
+        v: Mortified
+      - m: 1
+        v: Lopsided
+      - m: 1
+        v: Broken
+      - m: 1
+        v: Moldy
+      - m: 1
+        v: Gooey
+      - m: 1
+        v: Fermented
+      - m: 1
+        v: Blighted
+      - m: 1
+        v: Ornate
+      - m: 1
+        v: Drowned
+      - m: 1
+        v: Murdered
+      - m: 1
+        v: Widowed
+      - m: 1
+        v: Hanged
+      - m: 1
+        v: Angry
+      - m: 1
+        v: Lusty
+      - m: 1
+        v: Haunted
+      - m: 1
+        v: Strong
+      - m: 1
+        v: Withered
+      - m: 1
+        v: Comely
+      - m: 1
+        v: Pious
+      - m: 1
+        v: Penitent
+      - m: 1
+        v: Patient
+      - m: 1
+        v: Drunk
+      - m: 1
+        v: Worthy
+      - m: 1
+        v: Wealthy
+      - m: 1
+        v: Loathsome
+      - m: 1
+        v: Weak
+      - m: 1
+        v: Miniscule
+      - m: 1
+        v: Miniature
+      - m: 1
+        v: Enormous
+      - m: 1
+        v: Enlarged
+      - m: 1
+        v: Engorged
+      - m: 1
+        v: Lecherous
+      - m: 1
+        v: Despicable
+      - m: 1
+        v: Lewd
+      - m: 1
+        v: Portly
+      - m: 1
+        v: Violent
+      - m: 1
+        v: Bumbling
+      - m: 1
+        v: Faulty
+      - m: 1
+        v: Pristine
+      - m: 1
+        v: Cleanly
+      - m: 1
+        v: Cracked
+      - m: 1
+        v: Splintered
+      - m: 1
+        v: Jeweled
+      - m: 1
+        v: Superior
+      - m: 1
+        v: Flawless
+      - m: 1
+        v: Common
+      - m: 1
+        v: Exquisite
+      - m: 1
+        v: Elegant
+      - m: 1
+        v: Fine
+      - m: 1
+        v: Dull
+      - m: 1
+        v: Brittle
+      - m: 1
+        v: Fragile
+      - m: 1
+        v: Effeminate
+      - m: 1
+        v: Masculine
+      - m: 1
+        v: Supine
+    name: adjective
+  - entries:
+      - m: 1
+        v: Warhorse
+      - m: 1
+        v: Horseman
+      - m: 1
+        v: Maiden
+      - m: 1
+        v: Mage
+      - m: 1
+        v: Bachelor
+      - m: 1
+        v: King
+      - m: 1
+        v: Magistrate
+      - m: 1
+        v: Warchief
+      - m: 1
+        v: Warrior
+      - m: 1
+        v: Mare
+      - m: 1
+        v: Wolf
+      - m: 1
+        v: Fox
+      - m: 1
+        v: Lion
+      - m: 1
+        v: Lamb
+      - m: 1
+        v: Warden
+      - m: 1
+        v: Mule
+      - m: 1
+        v: Assassin
+      - m: 1
+        v: Swordsman
+      - m: 1
+        v: Lady
+      - m: 1
+        v: Knight
+      - m: 1
+        v: Soldier
+      - m: 1
+        v: Wizard
+      - m: 1
+        v: Warlock
+      - m: 1
+        v: Ranger
+      - m: 1
+        v: Bard
+      - m: 1
+        v: Druid
+      - m: 1
+        v: Monk
+      - m: 1
+        v: Paladin
+      - m: 1
+        v: Sorcerer
+      - m: 1
+        v: Rogue
+      - m: 1
+        v: Cleric
+      - m: 1
+        v: Bear
+      - m: 1
+        v: Goblin
+      - m: 1
+        v: Kobold
+      - m: 1
+        v: Gnome
+      - m: 1
+        v: Halfling
+      - m: 1
+        v: Dwarf
+      - m: 1
+        v: Fool
+      - m: 1
+        v: Virgin
+      - m: 1
+        v: Horde
+      - m: 1
+        v: Squire
+      - m: 1
+        v: Eagle
+      - m: 1
+        v: Rooster
+      - m: 1
+        v: Piglet
+      - m: 1
+        v: Thief
+      - m: 1
+        v: Priest
+      - m: 1
+        v: Friar
+      - m: 1
+        v: Blacksmith
+      - m: 1
+        v: Guard
+      - m: 1
+        v: Stag
+      - m: 1
+        v: Hag
+      - m: 1
+        v: Devil
+      - m: 1
+        v: Angel
+      - m: 1
+        v: Serpent
+      - m: 1
+        v: Snake
+      - m: 1
+        v: Rat
+      - m: 1
+        v: Mouse
+      - m: 1
+        v: Bandit
+      - m: 1
+        v: Chieftain
+      - m: 1
+        v: Griffon
+      - m: 1
+        v: Dragon
+      - m: 1
+        v: Lizard
+      - m: 1
+        v: Pony
+      - m: 1
+        v: Baron
+      - m: 1
+        v: Heifer
+      - m: 1
+        v: Bull
+      - m: 1
+        v: Hound
+      - m: 1
+        v: Goat
+      - m: 1
+        v: Toad
+      - m: 1
+        v: Stallion
+      - m: 1
+        v: Monster
+      - m: 1
+        v: Vermin
+      - m: 1
+        v: Beholder
+      - m: 1
+        v: Monkey
+      - m: 1
+        v: Elephant
+      - m: 1
+        v: Boar
+      - m: 1
+        v: Beagle
+      - m: 1
+        v: Bat
+      - m: 1
+        v: Demon
+      - m: 1
+        v: Imp
+      - m: 1
+        v: Sprite
+      - m: 1
+        v: Fey
+      - m: 1
+        v: Spirit
+      - m: 1
+        v: Bitch
+      - m: 1
+        v: Starling
+      - m: 1
+        v: Minotaur
+      - m: 1
+        v: Barbarian
+      - m: 1
+        v: Prophet
+      - m: 1
+        v: Merchant
+      - m: 1
+        v: Cobbler
+      - m: 1
+        v: Unicorn
+      - m: 1
+        v: Ogre
+      - m: 1
+        v: Nymph
+      - m: 1
+        v: Butcher
+      - m: 1
+        v: Captain
+      - m: 1
+        v: Angler
+      - m: 1
+        v: Lover
+      - m: 1
+        v: Mason
+      - m: 1
+        v: Tinker
+      - m: 1
+        v: Whale
+    name: noun1A
+  - entries:
+      - m: 1
+        v: Warhorse
+      - m: 1
+        v: Horseman
+      - m: 1
+        v: Maiden
+      - m: 1
+        v: Mage
+      - m: 1
+        v: Bachelor
+      - m: 1
+        v: King
+      - m: 1
+        v: Magistrate
+      - m: 1
+        v: Warchief
+      - m: 1
+        v: Warrior
+      - m: 1
+        v: Mare
+      - m: 1
+        v: Wolf
+      - m: 1
+        v: Fox
+      - m: 1
+        v: Lion
+      - m: 1
+        v: Lamb
+      - m: 1
+        v: Warden
+      - m: 1
+        v: Mule
+      - m: 1
+        v: Assassin
+      - m: 1
+        v: Swordsman
+      - m: 1
+        v: Lady
+      - m: 1
+        v: Knight
+      - m: 1
+        v: Soldier
+      - m: 1
+        v: Wizard
+      - m: 1
+        v: Warlock
+      - m: 1
+        v: Ranger
+      - m: 1
+        v: Bard
+      - m: 1
+        v: Druid
+      - m: 1
+        v: Monk
+      - m: 1
+        v: Paladin
+      - m: 1
+        v: Sorcerer
+      - m: 1
+        v: Rogue
+      - m: 1
+        v: Cleric
+      - m: 1
+        v: Bear
+      - m: 1
+        v: Goblin
+      - m: 1
+        v: Kobold
+      - m: 1
+        v: Gnome
+      - m: 1
+        v: Halfling
+      - m: 1
+        v: Dwarf
+      - m: 1
+        v: Fool
+      - m: 1
+        v: Virgin
+      - m: 1
+        v: Horde
+      - m: 1
+        v: Squire
+      - m: 1
+        v: Eagle
+      - m: 1
+        v: Rooster
+      - m: 1
+        v: Piglet
+      - m: 1
+        v: Thief
+      - m: 1
+        v: Priest
+      - m: 1
+        v: Friar
+      - m: 1
+        v: Blacksmith
+      - m: 1
+        v: Guard
+      - m: 1
+        v: Stag
+      - m: 1
+        v: Hag
+      - m: 1
+        v: Devil
+      - m: 1
+        v: Angel
+      - m: 1
+        v: Serpent
+      - m: 1
+        v: Snake
+      - m: 1
+        v: Rat
+      - m: 1
+        v: Mouse
+      - m: 1
+        v: Bandit
+      - m: 1
+        v: Chieftain
+      - m: 1
+        v: Griffon
+      - m: 1
+        v: Dragon
+      - m: 1
+        v: Lizard
+      - m: 1
+        v: Pony
+      - m: 1
+        v: Baron
+      - m: 1
+        v: Heifer
+      - m: 1
+        v: Bull
+      - m: 1
+        v: Hound
+      - m: 1
+        v: Goat
+      - m: 1
+        v: Toad
+      - m: 1
+        v: Stallion
+      - m: 1
+        v: Monster
+      - m: 1
+        v: Vermin
+      - m: 1
+        v: Beholder
+      - m: 1
+        v: Monkey
+      - m: 1
+        v: Elephant
+      - m: 1
+        v: Boar
+      - m: 1
+        v: Beagle
+      - m: 1
+        v: Bat
+      - m: 1
+        v: Demon
+      - m: 1
+        v: Imp
+      - m: 1
+        v: Sprite
+      - m: 1
+        v: Fey
+      - m: 1
+        v: Spirit
+      - m: 1
+        v: Bitch
+      - m: 1
+        v: Starling
+      - m: 1
+        v: Minotaur
+      - m: 1
+        v: Barbarian
+      - m: 1
+        v: Prophet
+      - m: 1
+        v: Merchant
+      - m: 1
+        v: Cobbler
+      - m: 1
+        v: Unicorn
+      - m: 1
+        v: Ogre
+      - m: 1
+        v: Nymph
+      - m: 1
+        v: Butcher
+      - m: 1
+        v: Captain
+      - m: 1
+        v: Angler
+      - m: 1
+        v: Lover
+      - m: 1
+        v: Mason
+      - m: 1
+        v: Tinker
+      - m: 1
+        v: Whale
+    name: noun1B
+  - entries:
+      - m: 1
+        v: Mount
+      - m: 1
+        v: Saddle
+      - m: 1
+        v: Guild
+      - m: 1
+        v: Fangs
+      - m: 1
+        v: Man
+      - m: 1
+        v: Pardon
+      - m: 1
+        v: Pleasure
+      - m: 1
+        v: Belt
+      - m: 1
+        v: Staff
+      - m: 1
+        v: Shield
+      - m: 1
+        v: Prince
+      - m: 1
+        v: Master
+      - m: 1
+        v: Servant
+      - m: 1
+        v: Meal
+      - m: 1
+        v: Prince
+      - m: 1
+        v: Favor
+      - m: 1
+        v: Love
+      - m: 1
+        v: Word
+      - m: 1
+        v: Scribe
+      - m: 1
+        v: Apprentice
+      - m: 1
+        v: Acolyte
+      - m: 1
+        v: Dress
+      - m: 1
+        v: Goddess
+      - m: 1
+        v: God
+      - m: 1
+        v: Gold
+      - m: 1
+        v: Purse
+      - m: 1
+        v: Trap
+      - m: 1
+        v: King
+      - m: 1
+        v: Son
+      - m: 1
+        v: Sister
+      - m: 1
+        v: Mother
+      - m: 1
+        v: Daughter
+      - m: 1
+        v: Cry
+      - m: 1
+        v: Shout
+      - m: 1
+        v: Cupboard
+      - m: 1
+        v: Pantry
+      - m: 1
+        v: Queen
+      - m: 1
+        v: Wealth
+      - m: 1
+        v: Star
+      - m: 1
+        v: Void
+      - m: 1
+        v: Woman
+      - m: 1
+        v: Man
+      - m: 1
+        v: Whore
+      - m: 1
+        v: Butcher
+      - m: 1
+        v: Anvil
+      - m: 1
+        v: Tome
+      - m: 1
+        v: Sacrifice
+      - m: 1
+        v: Armor
+      - m: 1
+        v: Cup
+      - m: 1
+        v: Pot
+      - m: 1
+        v: Stove
+      - m: 1
+        v: Stool
+      - m: 1
+        v: Princess
+      - m: 1
+        v: Chain
+      - m: 1
+        v: Sword
+      - m: 1
+        v: Pork
+      - m: 1
+        v: Grain
+      - m: 1
+        v: Tooth
+      - m: 1
+        v: Lance
+      - m: 1
+        v: Axe
+      - m: 1
+        v: Scabbard
+      - m: 1
+        v: Knife
+      - m: 1
+        v: Dagger
+      - m: 1
+        v: Spear
+      - m: 1
+        v: Bow
+      - m: 1
+        v: Crossbow
+      - m: 1
+        v: Quarterstaff
+      - m: 1
+        v: Staff
+      - m: 1
+        v: Fire
+      - m: 1
+        v: Ice
+      - m: 1
+        v: Wind
+      - m: 1
+        v: Earth
+      - m: 1
+        v: Water
+      - m: 1
+        v: Stone
+      - m: 1
+        v: Ladle
+      - m: 1
+        v: Monastery
+      - m: 1
+        v: Chalice
+      - m: 1
+        v: Goblet
+      - m: 1
+        v: Dungeon
+      - m: 1
+        v: Lust
+      - m: 1
+        v: Lantern
+      - m: 1
+        v: Bone
+      - m: 1
+        v: Life
+      - m: 1
+        v: Stone
+      - m: 1
+        v: Mistress
+      - m: 1
+        v: Mind
+      - m: 1
+        v: Treasure
+      - m: 1
+        v: Barter
+      - m: 1
+        v: Armorer
+      - m: 1
+        v: Butler
+      - m: 1
+        v: Page
+      - m: 1
+        v: Tome
+      - m: 1
+        v: Feather
+      - m: 1
+        v: Shadow
+      - m: 1
+        v: Friend
+      - m: 1
+        v: Labyrinth
+      - m: 1
+        v: Mountain
+      - m: 1
+        v: Hope
+      - m: 1
+        v: Boot
+      - m: 1
+        v: Gauntlet
+    name: noun2
+categories:
+  - Locations
+name: BehindTheTables Tavern Name
