@@ -1,7 +1,8 @@
 resultPattern: |-
   '#"{the}{tavernName}"'
 
-  {b|Tavern Trait} {tavernTrait}
+  {b|Innkeeper:} {gen:NPC Name and Race}
+  {b|Tavern Trait:} {tavernTrait}
 
   {b|Menu}
   {tavernMenu}
