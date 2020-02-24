@@ -1,0 +1,1116 @@
+resultPattern: |-
+  ==== Dungeons ====
+  {b|Dungeon Location:} {dungeonLocation}
+  {b|Dungeon Type:} {dungeonType}
+  {b|Dungeon Entrance:} {dungeonEntrance}
+
+  {dungeonRooms}
+tables:
+  - name: dungeonLocation
+    entries:
+      - m: 2
+        v: Underground river
+      - m: 2
+        v: Part of forgotten labyrinth
+      - m: 2
+        v: Under the docks
+      - m: 2
+        v: Underground canal
+      - m: 2
+        v: In a giant tree
+      - m: 2
+        v: Below a graveyard
+      - m: 2
+        v: Built into an arena
+      - m: 2
+        v: Insane asylum
+      - m: 2
+        v: Sunken ruin
+      - m: 2
+        v: Ice floe
+      - m: 2
+        v: Under a tavern
+      - m: 2
+        v: Sewers
+      - m: 2
+        v: Cliff village
+      - m: 2
+        v: Under a tower
+      - m: 2
+        v: River dam
+      - m: 2
+        v: Hollow mountain
+      - m: 2
+        v: Part of a frozen city
+      - m: 2
+        v: Deep in a desert of shifting tunnels
+      - m: 2
+        v: Abutting to a secret escape route
+      - m: 2
+        v: Inside a painting
+      - m: 2
+        v: Under a roc nest
+      - m: 2
+        v: Pyramid
+      - m: 2
+        v: Under a castle
+      - m: 2
+        v: Below a mausoleum
+      - m: 2
+        v: Connecting to a beast’s den
+      - m: 2
+        v: In a prison
+      - m: 2
+        v: In a lighthouse
+      - m: 2
+        v: In a museum
+      - m: 2
+        v: In a cathedral
+      - m: 2
+        v: Amid the ruble of a ruined citadel
+      - m: 2
+        v: In earthquake prone caverns
+      - m: 2
+        v: Part of a menagerie
+      - m: 2
+        v: In a gigantic statue
+      - m: 2
+        v: Formed in a massive fossil
+      - m: 2
+        v: In another dimension or demiplane
+      - m: 1
+        v: Amid the rubble of a ruined giant city
+      - m: 1
+        v: Crashed space vessel
+      - m: 1
+        v: Unearthed by a giant ant nest
+      - m: 1
+        v: Grown within a deity’s corpse
+      - m: 1
+        v: On an island in a volcano
+      - m: 1
+        v: Inside a moon, star, or another planet
+  - name: dungeonType
+    entries:
+      - m: 1
+        v: Hedge maze
+      - m: 1
+        v: Riverboat
+      - m: 1
+        v: Floating bog containing sunken tombs
+      - m: 1
+        v: Partially submerged clock tower
+      - m: 1
+        v: Wizard’s tomb
+      - m: 1
+        v: Bandit lair
+      - m: 1
+        v: Vast long abandoned mine
+      - m: 1
+        v: Moving clockwork dungeon
+      - m: 1
+        v: Giant’s castle
+      - m: 1
+        v: Melting iceberg
+      - m: 1
+        v: Abandoned casino
+      - m: 1
+        v: Graveyard of giant skeletons
+      - m: 1
+        v: Old theater
+      - m: 1
+        v: Volcanic tomb
+      - m: 1
+        v: Fog shrouded dungeon traps the PCs
+      - m: 1
+        v: Sunken ancient green byways linking fey lands
+      - m: 1
+        v: Narrow limestone gorges
+      - m: 1
+        v: Ancient dragon's skull
+      - m: 1
+        v: Massive, partially hollow, slowly melting candle
+      - m: 1
+        v: Giant tree with crevices and hollows
+      - m: 1
+        v: Chambers where gravity reverses
+      - m: 1
+        v: Belly of a ship swallowing sea creature
+      - m: 1
+        v: Planes linked by portals
+      - m: 1
+        v: Giant insect infested temple
+      - m: 1
+        v: Tangled forest of thorny trees
+      - m: 1
+        v: Glacier of poisoned water
+      - m: 1
+        v: Bog and quicksand filled mire
+      - m: 1
+        v: Giant rat tunnels
+      - m: 1
+        v: Solid storm cloud
+      - m: 1
+        v: Living iron maze
+      - m: 1
+        v: Rapids and river channels sweeping through a valley
+      - m: 1
+        v: Endless stone bridges across a void of purple fog
+      - m: 1
+        v: Living iron ship
+      - m: 1
+        v: Huge web
+      - m: 1
+        v: Sinking maze
+      - m: 1
+        v: Sunken ship
+      - m: 1
+        v: Floating castle that appears only at night
+      - m: 1
+        v: What’s down the plug-hole of a wizard’s sink
+      - m: 1
+        v: Slowly flooding
+      - m: 1
+        v: Palace of glass
+      - m: 1
+        v: The afterlife
+      - m: 1
+        v: A dream
+      - m: 1
+        v: Undead town where life goes on
+      - m: 1
+        v: Garden of poisonous living fungi
+      - m: 1
+        v: Colossal walking iron man
+      - m: 1
+        v: Slavers’ headquarters
+      - m: 1
+        v: A nightmare
+      - m: 1
+        v: Sentient tomb
+      - m: 1
+        v: Iron obelisk of great size
+      - m: 1
+        v: Giant hourglass filling with sand
+  - name: dungeonEntrance
+    entries:
+      - m: 1
+        v: A well
+      - m: 1
+        v: A mineshaft
+      - m: 1
+        v: A rope-bridge between tidal stacks
+      - m: 1
+        v: In a tavern cellar
+      - m: 1
+        v: A cave shaped like a skull
+      - m: 1
+        v: A chimney
+      - m: 1
+        v: The mouth of a large statue
+      - m: 1
+        v: A slide
+      - m: 1
+        v: A cold, bottomless pit
+      - m: 1
+        v: A ruined road descends into an ivy covered hole
+      - m: 1
+        v: A mausoleum
+      - m: 1
+        v: A knight’s sarcophagus
+      - m: 1
+        v: An ancient door carved with warnings
+      - m: 1
+        v: A stone valve covered in runes
+      - m: 1
+        v: A grinning demon mouth
+      - m: 1
+        v: A portal filled with shimmering green light
+      - m: 1
+        v: An almost-impossible-to-reach cave in a cliff
+      - m: 1
+        v: A bulette skull
+      - m: 1
+        v: Heavy rain seeps into a hidden slough
+      - m: 1
+        v: A sunken greenway
+      - m: 1
+        v: An iron puzzle door
+      - m: 1
+        v: A volcano vent
+      - m: 1
+        v: A tidal cave
+      - m: 1
+        v: A church steeple rising out of the ground
+      - m: 1
+        v: An arch of huge thorns
+      - m: 1
+        v: An oven with a collapsed back wall
+      - m: 1
+        v: A large wine barrel clawed open from the inside
+      - m: 1
+        v: A slippery metal ladder nailed behind a waterfall
+      - m: 1
+        v: A fountain that reaches down to an underground river
+      - m: 1
+        v: A door reached via a giant set of scales
+      - m: 1
+        v: A pit of quicksand
+      - m: 1
+        v: A whirlpool
+      - m: 1
+        v: A hole suddenly opens in the city streets
+      - m: 1
+        v: Mist
+      - m: 1
+        v: A snapping dragon turtle skull
+      - m: 1
+        v: A mudslide opens up a hidden cave system
+      - m: 1
+        v: Hurricane in huge doorway appears once a year
+      - m: 1
+        v: A summoned imp can lead the way to portal
+      - m: 1
+        v: A doorway that can only be summoned by incantation
+      - m: 1
+        v: A building collapses overnight into hidden dungeon
+      - m: 1
+        v: A stone that draws aside at midnight
+      - m: 1
+        v: A maelstrom deep at sea
+      - m: 1
+        v: A catapult that throws person through a portal
+      - m: 1
+        v: A magic mirror
+      - m: 1
+        v: A wall safe opening onto an extradimensional vault
+      - m: 1
+        v: Magical wood that, when burned, creates a staircase
+      - m: 1
+        v: A magically animated maw
+      - m: 1
+        v: A lighthouse that casts a solid beam
+      - m: 1
+        v: A bridge made from rainbows
+      - m: 1
+        v: A moonbeam reveals a door in a stone circle
+  - name: dungeonRoom
+    entries:
+      - m: 1
+        v: Antechamber
+      - m: 1
+        v: Armory
+      - m: 1
+        v: Audience chamber
+      - m: 1
+        v: Banquet hall
+      - m: 1
+        v: Barracks
+      - m: 1
+        v: Bestiary/menagerie
+      - m: 1
+        v: Choke point (ambushes, controlling flow of invaders)
+      - m: 1
+        v: Closet
+      - m: 1
+        v: Cold room (storage of perishable goods)
+      - m: 1
+        v: Common room
+      - m: 1
+        v: Crypt
+      - m: 1
+        v: Dining hall
+      - m: 1
+        v: Elevator
+      - m: 1
+        v: Gallery
+      - m: 1
+        v: Garbage pit
+      - m: 1
+        v: Great hall
+      - m: 1
+        v: Greenhouse
+      - m: 1
+        v: Guard room
+      - m: 1
+        v: Guest room
+      - m: 1
+        v: Inf irmary
+      - m: 1
+        v: Jail
+      - m: 1
+        v: Kennel
+      - m: 1
+        v: Kitchen
+      - m: 1
+        v: Laboratory
+      - m: 1
+        v: Library
+      - m: 1
+        v: Living quarters (communal)
+      - m: 1
+        v: Living quarters (family)
+      - m: 1
+        v: Living quarters (personal)
+      - m: 1
+        v: Map room
+      - m: 1
+        v: Nursery
+      - m: 1
+        v: Observatory
+      - m: 1
+        v: Pantry
+      - m: 1
+        v: Pool
+      - m: 1
+        v: Privy
+      - m: 1
+        v: Shrine
+      - m: 1
+        v: Slave pit
+      - m: 1
+        v: Smithy
+      - m: 1
+        v: Spring
+      - m: 1
+        v: Stable
+      - m: 1
+        v: Storeroom
+      - m: 1
+        v: Target range
+      - m: 1
+        v: Temple
+      - m: 1
+        v: Throne room
+      - m: 1
+        v: Torture chamber
+      - m: 1
+        v: Training hall
+      - m: 1
+        v: Trophy room
+      - m: 1
+        v: Vault
+      - m: 1
+        v: Well
+      - m: 1
+        v: Workroom
+      - m: 1
+        v: Workshop
+  - name: mundaneCharacteristic
+    entries:
+      - m: 1
+        v: Slopes (up or down)
+      - m: 1
+        v: Dampness on walls/floor
+      - m: 1
+        v: Steady drip from ceiling
+      - m: 1
+        v: Puddles on floor
+      - m: 1
+        v: Covered in bite marks
+      - m: 1
+        v: Slippery
+      - m: 1
+        v: Chocked with webs
+      - m: 1
+        v: Open crevice or pit
+      - m: 1
+        v: Littered with bones
+      - m: 1
+        v: Full of strange echoes
+      - m: 1
+        v: Bridge or plank
+      - m: 1
+        v: Littered with broken pottery
+      - m: 1
+        v: Curtain
+      - m: 1
+        v: Lots of dried blood
+      - m: 1
+        v: Filled with droppings
+      - m: 1
+        v: Wreathed in strange black ivy
+      - m: 1
+        v: Full of unsettling fungi
+      - m: 1
+        v: Filthy
+      - m: 1
+        v: Infested with vermin
+      - m: 1
+        v: Pipes drip slimy brackish water onto floor
+      - m: 1
+        v: Covered in lichens
+      - m: 1
+        v: Small, rusty-iron section of wall
+      - m: 1
+        v: Covered in mold
+      - m: 1
+        v: Walls made of curious hexagonal stones
+      - m: 1
+        v: Cobbled floor made of gravestones
+      - m: 1
+        v: Slimy
+      - m: 1
+        v: Very slimy
+      - m: 1
+        v: Has butcher’s hooks hanging from ceiling
+      - m: 1
+        v: Wall exude yellowish, foul smelling discharge
+      - m: 1
+        v: Scratches on walls
+      - m: 1
+        v: Covered in graffiti
+      - m: 1
+        v: Water can be heard rushing immediately below
+      - m: 1
+        v: Chalk warnings appear on walls
+      - m: 1
+        v: Half filled with water
+      - m: 1
+        v: Full of rusty weapons and skeletons
+      - m: 1
+        v: Secret door behind fireplace
+      - m: 1
+        v: Burned
+      - m: 1
+        v: Cracks across floor
+      - m: 1
+        v: Cracks across ceiling
+      - m: 1
+        v: Cracks along walls
+      - m: 1
+        v: Held up by pit-props that look very weak
+      - m: 1
+        v: Has an overbearing smell of rotting fruit
+      - m: 1
+        v: Strange tapping sounds heard behind walls
+      - m: 1
+        v: Weeping heard occasionally
+      - m: 1
+        v: Full of empty gibbets
+      - m: 1
+        v: Iron maidens that line the walls are rusted shut
+      - m: 1
+        v: Floor moves in one direction
+      - m: 1
+        v: Floor drops suddenly by  feet for no obvious reason
+      - m: 1
+        v: Totally submerged
+      - m: 1
+        v: Full of flames
+  - name: exoticCharacteristic
+    entries:
+      - m: 1
+        v:
+          Fresco depicts grisly death of viewer
+      - m: 1
+        v:
+          Filled with the sound of sobbing, coming from a crypt
+      - m: 1
+        v:
+          Carved with faces depicting different alignments
+      - m: 1
+        v:
+          Candelabrum sheds black light from violet candles
+      - m: 1
+        v:
+          Statue on rotating pedestal
+      - m: 1
+        v:
+          Is a huge trap
+      - m: 1
+        v:
+          Walls like a rib cage
+      - m: 1
+        v:
+          Crammed with mummified frogs
+      - m: 1
+        v:
+          Iron spears rise randomly from a sieve-like floor
+      - m: 1
+        v:
+          Fire bursts randomly from a floor covered in holes
+      - m: 1
+        v:
+          Covered in pictures of evil peacock eyes
+      - m: 1
+        v:
+          Has a huge violet eye fresco in its center
+      - m: 1
+        v:
+          Appears to be the roots of some vast tree
+      - m: 1
+        v:
+          Boiling mud crossed by very narrow stone bridges
+      - m: 1
+        v:
+          Filled with giant spider husks of increasing size
+      - m: 1
+        v:
+          Is filled with a huge cage
+      - m: 1
+        v:
+          Has doors in the ceiling
+      - m: 1
+        v:
+          Fountains carved to resemble hydras
+      - m: 1
+        v:
+          Floor appears like a black lake but is actually glass
+      - m: 1
+        v:
+          Raised terraces lead to central carving of bat-god
+      - m: 1
+        v:
+          Slips sharply into a black pit of nothingness
+      - m: 1
+        v:
+          Filled with the sounds of thunder
+      - m: 1
+        v:
+          Is a huge shaft crossed by boughs of trees
+      - m: 1
+        v:
+          Faceless statues point at one PC upon entry
+      - m: 1
+        v:
+          Roof is a stained glass window depicting spiders
+      - m: 1
+        v:
+          Black fog appears suddenly
+      - m: 1
+        v:
+          Iron weights drop from roof at random times
+      - m: 1
+        v:
+          Endless stairway descends in room’s center
+      - m: 1
+        v:
+          Waterfall in room’s center powers waterwheel
+      - m: 1
+        v:
+          Magical voices sing hymns as the PCs enter
+      - m: 1
+        v:
+          Is filled with explosive gas that is otherwise harmless
+      - m: 1
+        v:
+          Is completely covered in tentacle carvings
+      - m: 1
+        v:
+          Has eight huge bells suspended above the floor
+      - m: 1
+        v:
+          Has a carving of a black devil-headed elephant
+      - m: 1
+        v:
+          Every inch covered in angels
+      - m: 1
+        v:
+          Iron devil statue speaks
+      - m: 1
+        v:
+          Goes up and down
+      - m: 1
+        v:
+          Entire floor pivots, dropping those who enter
+      - m: 1
+        v:
+          Ceiling begins to sink upon entry
+      - m: 1
+        v:
+          Archways lead to other places
+      - m: 1
+        v:
+          Sculptures of gargoyles tearing apart angels
+      - m: 1
+        v:
+          The walls are covered in mirrors that reflect nothing
+      - m: 1
+        v:
+          Rotates faster and faster once entered
+      - m: 1
+        v:
+          Gargoyles along ceiling shout abuse
+      - m: 1
+        v:
+          Randomly dimension doors those that cross it
+      - m: 1
+        v:
+          Altar attacks characters with magic
+      - m: 1
+        v:
+          Has a magic pool
+      - m: 1
+        v:
+          Is the stomach of a creature
+      - m: 1
+        v:
+          Weeps to itself
+      - m: 1
+        v:
+          Is alive
+  - name: minorDungeonDressing
+    entries:
+      - m: 1
+        v: Abacus
+      - m: 1
+        v: Ashtray
+      - m: 1
+        v: Astrolabe
+      - m: 1
+        v: Barrel
+      - m: 1
+        v: Basin
+      - m: 1
+        v: Basket
+      - m: 1
+        v: Bellows
+      - m: 1
+        v: Blanket
+      - m: 1
+        v: Bloodstain
+      - m: 1
+        v: Bones
+      - m: 1
+        v: Books
+      - m: 1
+        v: Boots
+      - m: 1
+        v: Bottle
+      - m: 1
+        v: Box
+      - m: 1
+        v: Broken weapons
+      - m: 1
+        v: Brush
+      - m: 1
+        v: Bucket
+      - m: 1
+        v: Calendar
+      - m: 1
+        v: Candle
+      - m: 1
+        v: Cane
+      - m: 1
+        v: Cards
+      - m: 1
+        v: Carrying case
+      - m: 1
+        v: Chamber pot
+      - m: 1
+        v: Clothing
+      - m: 1
+        v: Cobwebs
+      - m: 1
+        v: Cosmetics
+      - m: 1
+        v: Dice
+      - m: 1
+        v: Dishes
+      - m: 1
+        v: Dried blood
+      - m: 1
+        v: Dust
+      - m: 1
+        v: Fan
+      - m: 1
+        v: Fire starting kit
+      - m: 1
+        v: Fishing rod
+      - m: 1
+        v: Flask
+      - m: 1
+        v: Food (edible)
+      - m: 1
+        v: Food (spoiled)
+      - m: 1
+        v: Fungus
+      - m: 1
+        v: Game board
+      - m: 1
+        v: Glass
+      - m: 1
+        v: Globe
+      - m: 1
+        v: Gloves
+      - m: 1
+        v: Hair
+      - m: 1
+        v: Hammer
+      - m: 1
+        v: Hand mirror
+      - m: 1
+        v: Hat
+      - m: 1
+        v: Helm
+      - m: 1
+        v: Horseshoe
+      - m: 1
+        v: Hourglass
+      - m: 1
+        v: Ink
+      - m: 1
+        v: Insects
+      - m: 1
+        v: Key
+      - m: 1
+        v: Knife
+      - m: 1
+        v: Kettle
+      - m: 1
+        v: Lamp
+      - m: 1
+        v: Lantern
+      - m: 1
+        v: Letter opener
+      - m: 1
+        v: Leash
+      - m: 1
+        v: Lock
+      - m: 1
+        v: Manacles
+      - m: 1
+        v: Model ship
+      - m: 1
+        v: Mop
+      - m: 1
+        v: Mud
+      - m: 1
+        v: Nest
+      - m: 1
+        v: Oil
+      - m: 1
+        v: Paint
+      - m: 1
+        v: Pen/paper
+      - m: 1
+        v: Pipe/pouch
+      - m: 1
+        v: Plate
+      - m: 1
+        v: Pole
+      - m: 1
+        v: Portable instrument
+      - m: 1
+        v: Pots and pans
+      - m: 1
+        v: Pottery fragments
+      - m: 1
+        v: Papers
+      - m: 1
+        v: Parasol
+      - m: 1
+        v: Pouch
+      - m: 1
+        v: Prosthetic limb
+      - m: 1
+        v: Rope
+      - m: 1
+        v: Rusty chain
+      - m: 1
+        v: Rusty nails
+      - m: 1
+        v: Sack/bag
+      - m: 1
+        v: Scissors
+      - m: 1
+        v: Scale
+      - m: 1
+        v: Shaving kit
+      - m: 1
+        v: Shovel
+      - m: 1
+        v: Spent torch
+      - m: 1
+        v: Straw bedding
+      - m: 1
+        v: Ruler
+      - m: 1
+        v: Tray
+      - m: 1
+        v: Tongs
+      - m: 1
+        v: Torch
+      - m: 1
+        v: Toy
+      - m: 1
+        v: Tuning fork
+      - m: 1
+        v: Urn
+      - m: 1
+        v: Utensil
+      - m: 1
+        v: Vase
+      - m: 1
+        v: Wall fixtures
+      - m: 1
+        v: Wall markings
+      - m: 1
+        v: Wax
+      - m: 1
+        v: Wheelbarrow
+      - m: 1
+        v: Whistle
+  - name: majorDungeonDressing
+    entries:
+      - m: 1
+        v: Alcove
+      - m: 1
+        v: Altar
+      - m: 1
+        v: Anvil
+      - m: 1
+        v: Archway
+      - m: 1
+        v: Balcony
+      - m: 1
+        v: Bar
+      - m: 1
+        v: Bed
+      - m: 1
+        v: Bell/gong
+      - m: 1
+        v: Bench
+      - m: 1
+        v: Bookcase
+      - m: 1
+        v: Brazier
+      - m: 1
+        v: Bridge
+      - m: 1
+        v: Bunk
+      - m: 1
+        v: Cabinet
+      - m: 1
+        v: Cage
+      - m: 1
+        v: Candelabrum
+      - m: 1
+        v: Carpet
+      - m: 1
+        v: Casket
+      - m: 1
+        v: Cauldron
+      - m: 1
+        v: Chair/stool
+      - m: 1
+        v: Chair with straps
+      - m: 1
+        v: Chandelier
+      - m: 1
+        v: Chariot/wagon
+      - m: 1
+        v: Chest
+      - m: 1
+        v: Chimes
+      - m: 1
+        v: Clock
+      - m: 1
+        v: Cot
+      - m: 1
+        v: Couch
+      - m: 1
+        v: Crate
+      - m: 1
+        v: Crib
+      - m: 1
+        v: Crucible
+      - m: 1
+        v: Cupboard
+      - m: 1
+        v: Curtain/tapestry
+      - m: 1
+        v: Dais
+      - m: 1
+        v: Dome
+      - m: 1
+        v: Door
+      - m: 1
+        v: Divan
+      - m: 1
+        v: Dresser
+      - m: 1
+        v: Drysink
+      - m: 1
+        v: Fetters
+      - m: 1
+        v: File cabinet
+      - m: 1
+        v: Fireplace/fire pit
+      - m: 1
+        v: Font
+      - m: 1
+        v: Forge
+      - m: 1
+        v: Fountain
+      - m: 1
+        v: Fresco
+      - m: 1
+        v: Furnace
+      - m: 1
+        v: Gallows/guillotine
+      - m: 1
+        v: Gibbet
+      - m: 1
+        v: Grindstone
+      - m: 1
+        v: Hogshead
+      - m: 1
+        v: Hookah
+      - m: 1
+        v: Horn
+      - m: 1
+        v: Idol
+      - m: 1
+        v: Instrument (large)
+      - m: 1
+        v: Iron maiden
+      - m: 1
+        v: Keg
+      - m: 1
+        v: Ladder
+      - m: 1
+        v: Loom
+      - m: 1
+        v: Mat
+      - m: 1
+        v: Millwheel
+      - m: 1
+        v: Mirror
+      - m: 1
+        v: Mosaics
+      - m: 1
+        v: Mounting block
+      - m: 1
+        v: Pallet
+      - m: 1
+        v: Pedestal
+      - m: 1
+        v: Pentagram
+      - m: 1
+        v: Pew
+      - m: 1
+        v: Pillar
+      - m: 1
+        v: Pillory
+      - m: 1
+        v: Pit
+      - m: 1
+        v: Podium
+      - m: 1
+        v: Pool
+      - m: 1
+        v: Rack
+      - m: 1
+        v: Rubble
+      - m: 1
+        v: Saddle
+      - m: 1
+        v: Safe
+      - m: 1
+        v: Sconce
+      - m: 1
+        v: Screen
+      - m: 1
+        v: Shelf
+      - m: 1
+        v: Shrine
+      - m: 1
+        v: Sideboard
+      - m: 1
+        v: Spiral stair
+      - m: 1
+        v: Stand
+      - m: 1
+        v: Statue
+      - m: 1
+        v: Steeple
+      - m: 1
+        v: Stool
+      - m: 1
+        v: Stove
+      - m: 1
+        v: Table
+      - m: 1
+        v: Tapestry
+      - m: 1
+        v: Throne
+      - m: 1
+        v: Torture equipment
+      - m: 1
+        v: Trunk
+      - m: 1
+        v: Tub
+      - m: 1
+        v: Tun
+      - m: 1
+        v: Urn
+      - m: 1
+        v: Washstand
+      - m: 1
+        v: Well
+      - m: 1
+        v: Winch
+      - m: 1
+        v: Wood bench
+  - name: dungeonRooms
+    entries:
+      - m: 1
+        v: |-
+          {rollDungeonRoom}
+          {rollDungeonRoom}
+          {rollDungeonRoom}
+          {rollDungeonRoom}
+          {roll1d4DungeonRooms}
+  - name: roll1d4DungeonRooms
+    entries:
+      - m: 1
+        v: '{rollDungeonRoom}'
+      - m: 1
+        v: |-
+          {rollDungeonRoom}
+          {rollDungeonRoom}
+      - m: 1
+        v: |-
+          {rollDungeonRoom}
+          {rollDungeonRoom}
+          {rollDungeonRoom}
+      - m: 1
+        v: |-
+          {rollDungeonRoom}
+          {rollDungeonRoom}
+          {rollDungeonRoom}
+          {rollDungeonRoom}
+  - name: rollDungeonRoom
+    entries:
+      - m: 1
+        v: |-
+
+          ==== Dungeon Room ====
+          {b|Room:} {dungeonRoom}
+          {b|Minor Dressings:} {!minorDungeonDressing}{roll1d4MinorDungeonDressings}
+          {rollMajorDungeonDressings}
+  - name: roll1d4MinorDungeonDressings
+    entries:
+      - m: 1
+        v: ', {!minorDungeonDressing}'
+      - m: 1
+        v: ', {!minorDungeonDressing}, {!minorDungeonDressing}'
+      - m: 1
+        v: ', {!minorDungeonDressing}, {!minorDungeonDressing}, {!minorDungeonDressing}'
+      - m: 1
+        v: ', {!minorDungeonDressing}, {!minorDungeonDressing}, {!minorDungeonDressing}, {!minorDungeonDressing}'
+  - name: rollMajorDungeonDressings
+    entries:
+      - m: 10
+        v:
+      - m: 5
+        v: |-
+          {b|Major Dressing:} {!majorDungeonDressing}
+      - m: 1
+        v: |-
+          {b|Major Dressings:} {!majorDungeonDressing}, {!majorDungeonDressing}
+categories:
+  - Locations
+name: Dungeon
