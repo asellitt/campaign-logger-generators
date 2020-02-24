@@ -5,11 +5,15 @@ resultPattern: |-
   {b|Plot Twists:} {plotTwists}
   {b|Quest Macguffins:} {questMacguffins}
 
+  ==== Wilderness ====
+  {b|Roadside Encounters:} {roadsideEncounters}
+  {b|Scenic Spots:} {scenicSpots}
+  {b|Weather:} {weather}
+  {b|Terrain:} {terrain}
+
+  ==== Other ====
   {b|Quick Finds:} {quickFinds}
   {b|Something Happened:} {somethingHappens}
-  {b|Scenic Spots:} {scenicSpots}
-  {b|Roadside Encounters:} {roadsideEncounters}
-  {b|Weather:} {weather}
   {b|Planar Portal:} {planarPortals}
 tables:
   - name: quickFinds
@@ -642,6 +646,108 @@ tables:
         v: '{i|Whirlwind:} violent wind moving in a circular motion'
       - m: 1
         v: '{i|Whiteout:} heavy snow, causing visibility problems'
+  - name: terrain
+    entries:
+      - m: 1
+        v: '{i|Antarctic:} southerly area of extreme cold'
+      - m: 1
+        v: '{i|Arctic:} northerly area of intense cold'
+      - m: 1
+        v: '{i|Basin:} tract of land drained by a river'
+      - m: 1
+        v: '{i|Beach:} shoreline along a body of water'
+      - m: 1
+        v: '{i|Bog:} wet ground made up of decayed vegetation'
+      - m: 1
+        v: '{i|Butte:} isolated hill with steep sides'
+      - m: 1
+        v: '{i|Caldera:} cauldron-like bowl caused by a volcano'
+      - m: 1
+        v: '{i|Canyon:} deep gorge or ravine with steep sides'
+      - m: 1
+        v: '{i|Cave:} small subterranean opening'
+      - m: 1
+        v: '{i|Cavern:} large subterranean chamber'
+      - m: 1
+        v: '{i|Cliff:} steep-sided rock formation'
+      - m: 1
+        v: '{i|Coast:} tidal shore'
+      - m: 1
+        v: '{i|Crater }lake: lake formed in crater of a volcano'
+      - m: 1
+        v: '{i|Desert:} arid, barren land'
+      - m: 1
+        v: '{i|Dunes:} hills of sand in deserts'
+      - m: 1
+        v: '{i|Farmland:} agricultural land, often enclosed'
+      - m: 1
+        v: '{i|Fen:} low marshy or flooded area of land'
+      - m: 1
+        v: '{i|Forest,} coniferous: chiefly evergreen forest'
+      - m: 1
+        v: '{i|Forest,} deciduous: forest of trees that shed leaves'
+      - m: 1
+        v: '{i|Glacier:} slow-moving mass or river of ice'
+      - m: 1
+        v: '{i|Hills:} landforms that rise above the surrounding land'
+      - m: 1
+        v: '{i|Icecap:} permanent covering of thick ice'
+      - m: 1
+        v: '{i|Isthmus:} narrow strip of land connecting two areas'
+      - m: 1
+        v: '{i|Jungle:} land overgrown with vegetation'
+      - m: 1
+        v: '{i|Knoll:} small natural hill'
+      - m: 1
+        v: '{i|Lake:} large, inland body of water'
+      - m: 1
+        v: '{i|Limestone }upland: exposed limestone outcrop on hill'
+      - m: 1
+        v: '{i|Meadow:} land that periodically floods'
+      - m: 1
+        v: '{i|Mesa:} elevated area of flat land'
+      - m: 1
+        v: '{i|Mire:} swampy ground'
+      - m: 1
+        v: '{i|Moors:} upland landmass usually covered in heather'
+      - m: 1
+        v: '{i|Mountain:} prominent landmass of exposed rock'
+      - m: 1
+        v: '{i|Mountain,} high: mountain with permanent glaciers'
+      - m: 1
+        v: '{i|Mountain }pass: saddle point between mountains'
+      - m: 1
+        v: '{i|Ocean:} large body of water'
+      - m: 1
+        v: '{i|Oxbow }lake: U-shaped body of water'
+      - m: 1
+        v: '{i|Peninsula:} point of land almost surrounded by water'
+      - m: 1
+        v: '{i|Plains:} level tract of land'
+      - m: 1
+        v: '{i|Plateau:} elevated tract of relatively flat land'
+      - m: 1
+        v: '{i|Ravine:} small valley'
+      - m: 1
+        v: '{i|Ridge:} a continuous elevated crest'
+      - m: 1
+        v: '{i|River:} large watercourse'
+      - m: 1
+        v: '{i|Scree:} broken rock fragments at a mountain’s base'
+      - m: 1
+        v: '{i|Stream:} small watercourse'
+      - m: 1
+        v: '{i|Subterranean:} below the surface, usually caverns'
+      - m: 1
+        v: '{i|Swamp:} wet, spongy ground'
+      - m: 1
+        v: '{i|Tundra:} vast, treeless region in arctic or antarctic area'
+      - m: 1
+        v: '{i|Valley:} long depression or hollow between hills'
+      - m: 1
+        v: '{i|Volcanic:} region with volcanic activity'
+      - m: 1
+        v: '{i|Wetlands:} wet, soggy, seasonally waterlogged area'
   - name: planarPortals
     entries:
       - m: 1
