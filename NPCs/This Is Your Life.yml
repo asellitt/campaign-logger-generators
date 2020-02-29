@@ -1,0 +1,549 @@
+resultPattern: |-
+   ==== Origins ====
+
+   {i|Birthplace}: {birthplace}
+   {i|Family}: {family}
+
+   ==== Parents ====
+
+   {i|Mother}: {parent}
+
+   {i|Father}: {parent}
+
+   ==== Siblings ====
+
+   {siblings}
+tables:
+  - name: npc
+    entries:
+      - |-
+        Name: @"{gen:NPC Library#firstname} {gen:NPC Library#lastname}"
+        Alignment: {alignment}
+        Occupation: {occupation}
+        Race: {race}
+        Relationship: {relationship}
+        Status: {status}
+  - name: parent
+    entries:
+      - m: 19
+        v: |-
+          You know who your parent is or was.
+          {npc}
+      - m: 1
+        v: |-
+          You do not know who your parent is.
+          {absentParent}
+  - name: absentParent
+    entries:
+      - m: 3
+        v: "Your parent died. Cause of death: {causeOfDeath}"
+      - m: 1
+        v: Your parent was imprisoned.
+      - m: 1
+        v: Your parent was enslaved.
+      - m: 1
+        v: Your parent was taken away.
+      - m: 3
+        v: Your parent abandoned you.
+      - m: 3
+        v: Your parent disappeared to an unknown fate.
+  - name: causeOfDeath
+    entries:
+      - m: 2
+        v: Unknown.
+      - m: 2
+        v: Murdered.
+      - m: 2
+        v: Killed in battle.
+      - m: 2
+        v: Accident related to class or occupation.
+      - m: 2
+        v: Accident unrelated to class or occupation.
+      - m: 4
+        v: Disease.
+      - m: 4
+        v: Old age.
+      - m: 2
+        v: Apparent suicide.
+      - m: 1
+        v: Torn apart by an animal.
+      - m: 1
+        v: Torn apart by a natural disaster.
+      - m: 2
+        v: Consumed by a monster.
+      - m: 1
+        v: Executed for a crime.
+      - m: 1
+        v: Tortured to death.
+      - m: 2
+        v: Bizarre event.
+  - name: siblings
+    entries:
+      - m: 1
+        v: None
+      - m: 1
+        v: '{sibling}'
+      - m: 2
+        v: |-
+          {sibling}
+
+          {sibling}
+      - m: 3
+        v: |-
+          {sibling}
+
+          {sibling}
+
+          {sibling}
+      - m: 3
+        v: |-
+          {sibling}
+
+          {sibling}
+
+          {sibling}
+
+          {sibling}
+      - m: 3
+        v: |-
+          {sibling}
+
+          {sibling}
+
+          {sibling}
+
+          {sibling}
+
+          {sibling}
+      - m: 2
+        v: |-
+          {sibling}
+
+          {sibling}
+
+          {sibling}
+
+          {sibling}
+
+          {sibling}
+
+          {sibling}
+      - m: 2
+        v: |-
+          {sibling}
+
+          {sibling}
+
+          {sibling}
+
+          {sibling}
+
+          {sibling}
+
+          {sibling}
+
+          {sibling}
+      - m: 2
+        v: |-
+          {sibling}
+
+          {sibling}
+
+          {sibling}
+
+          {sibling}
+
+          {sibling}
+
+          {sibling}
+
+          {sibling}
+
+          {sibling}
+      - m: 1
+        v: |-
+          {sibling}
+
+          {sibling}
+
+          {sibling}
+
+          {sibling}
+
+          {sibling}
+
+          {sibling}
+
+          {sibling}
+
+          {sibling}
+
+          {sibling}
+      - m: 1
+        v: |-
+          {sibling}
+
+          {sibling}
+
+          {sibling}
+
+          {sibling}
+
+          {sibling}
+
+          {sibling}
+
+          {sibling}
+
+          {sibling}
+
+          {sibling}
+
+          {sibling}
+      - m: 1
+        v: |-
+          {sibling}
+
+          {sibling}
+
+          {sibling}
+
+          {sibling}
+
+          {sibling}
+
+          {sibling}
+
+          {sibling}
+
+          {sibling}
+
+          {sibling}
+
+          {sibling}
+
+          {sibling}
+  - name: sibling
+    entries:
+      - |-
+        {npc}
+        Birth Order: {birthOrder}
+  - name: birthOrder
+    entries:
+      - m: 15
+        v: Older
+      - m: 1
+        v: Twin
+      - m: 1
+        v: Triplet
+      - m: 1
+        v: Quadruplet
+      - m: 15
+        v: Younger
+  - name: family
+    entries:
+      - m: 25
+        v: Adoptive family (same race)
+      - m: 25
+        v: Adoptive family (different race)
+      - m: 8
+        v: Aunt
+      - m: 8
+        v: Uncle
+      - m: 8
+        v: Aunt and uncle
+      - m: 8
+        v: Tribe
+      - m: 8
+        v: Clan
+      - m: 10
+        v: Guardian
+      - m: 5
+        v: Institution
+      - m: 125
+        v: Mother and father
+      - m: 5
+        v: None
+      - m: 10
+        v: Orphanage
+      - m: 25
+        v: Maternal grandparents
+      - m: 25
+        v: Paternal grandparents
+      - m: 50
+        v: Stepfather
+      - m: 50
+        v: Single father
+      - m: 50
+        v: Single mother
+      - m: 50
+        v: Stepmother
+      - m: 5
+        v: Temple
+  - name: birthplace
+    entries:
+      - m: 17
+        v: Alley
+      - m: 17
+        v: Street
+      - m: 51
+        v: Among people of a different race
+      - m: 26
+        v: Barn
+      - m: 25
+        v: Shed
+      - m: 17
+        v: Battlefield
+      - m: 11
+        v: Brothel
+      - m: 11
+        v: Tavern
+      - m: 12
+        v: Inn
+      - m: 11
+        v: Carriage
+      - m: 11
+        v: Cart
+      - m: 12
+        v: Wagon
+      - m: 8
+        v: Castle
+      - m: 8
+        v: Keep
+      - m: 8
+        v: Tower
+      - m: 8
+        v: Palace
+      - m: 34
+        v: Cave
+      - m: 34
+        v: Field
+      - m: 34
+        v: Forest
+      - m: 85
+        v: Home of a family friend
+      - m: 68
+        v: Home of a healer
+      - m: 68
+        v: Home of a midwife
+      - m: 255
+        v: Home
+      - m: 255
+        v: Home
+      - m: 255
+        v: Home
+      - m: 85
+        v: Home
+      - m: 17
+        v: In a prison
+      - m: 17
+        v: In the headquarters of a secret organisation
+      - m: 34
+        v: In a sage's laboratory
+      - m: 1
+        v: In Celestia
+      - m: 1
+        v: In Bytopia
+      - m: 1
+        v: In Elysium
+      - m: 1
+        v: In Beastlands
+      - m: 1
+        v: In Arborea
+      - m: 1
+        v: In Arcadia
+      - m: 1
+        v: In Ysgard
+      - m: 1
+        v: In Mechanus
+      - m: 1
+        v: In Outlands
+      - m: 1
+        v: In Limbo
+      - m: 1
+        v: In Acheron
+      - m: 1
+        v: In Pandemonium
+      - m: 1
+        v: In Baator
+      - m: 1
+        v: In Gehenna
+      - m: 1
+        v: In Hades
+      - m: 1
+        v: In Carceri
+      - m: 1
+        v: In Abyss
+      - m: 4
+        v: In the Elemental Plane of Earth
+      - m: 4
+        v: In the Elemental Plane of Fire
+      - m: 4
+        v: In the Elemental Plane of Air
+      - m: 4
+        v: In the Elemental Plane of Water
+      - m: 17
+        v: In the Feywild
+      - m: 17
+        v: In the Shadowfell
+      - m: 25
+        v: On board a boat
+      - m: 25
+        v: On board a ship
+      - m: 8
+        v: On the Ethereal Plane
+      - m: 9
+        v: On the Astral Plane
+      - m: 8
+        v: Sewer
+      - m: 9
+        v: Rubbish Heap
+      - m: 51
+        v: Temple
+  - name: status
+    entries:
+      - m: 3
+        v: 'Dead ({causeOfDeath})'
+      - m: 6
+        v: Missing/Unknown
+      - m: 2
+        v: 'Alive, but doing poorly due to injury'
+      - m: 2
+        v: 'Alive, but doing poorly due to financial trouble'
+      - m: 2
+        v: 'Alive, but doing poorly due to relationship difficulties'
+      - m: 12
+        v: Alive and well
+      - m: 9
+        v: Alive and quite successful
+      - m: 6
+        v: Alive and infamous
+      - m: 3
+        v: Alive and famous
+  - name: relationship
+    entries:
+      - m: 1
+        v: Hostile
+      - m: 3
+        v: Neutral
+      - m: 1
+        v: Indifferent
+  - name: race
+    entries:
+      - m: 8
+        v: Human
+      - m: 2
+        v: Dwarf
+      - m: 2
+        v: Elf
+      - m: 2
+        v: Halfling
+      - m: 1
+        v: Dragonborn
+      - m: 1
+        v: Gnome
+      - m: 1
+        v: Half-elf
+      - m: 1
+        v: Half-orc
+      - m: 1
+        v: Tiefling
+  - name: occupation
+    entries:
+      - m: 15
+        v: Academic
+      - m: 3
+        v: Aristocrat
+      - m: 23
+        v: Artisan
+      - m: 22
+        v: Guild Member
+      - m: 15
+        v: Criminal
+      - m: 15
+        v: Entertainer
+      - m: 2
+        v: Exile
+      - m: 2
+        v: Hermit
+      - m: 2
+        v: Refuge
+      - m: 8
+        v: Explorer
+      - m: 7
+        v: Wanderer
+      - m: 18
+        v: Farmer
+      - m: 18
+        v: Herder
+      - m: 8
+        v: Hunter
+      - m: 7
+        v: Trapper
+      - m: 45
+        v: Labourer
+      - m: 15
+        v: Merchant
+      - m: 8
+        v: Politician
+      - m: 7
+        v: Bureaucrat
+      - m: 15
+        v: Priest
+      - m: 15
+        v: Sailor
+      - m: 15
+        v: Soldier
+      - m: 15
+        v: '{class}'
+  - name: class
+    entries:
+      - m: 7
+        v: Barbarian
+      - m: 7
+        v: Bard
+      - m: 15
+        v: Cleric
+      - m: 7
+        v: Druid
+      - m: 16
+        v: Fighter
+      - m: 6
+        v: Monk
+      - m: 6
+        v: Paladin
+      - m: 6
+        v: Ranger
+      - m: 14
+        v: Rogue
+      - m: 5
+        v: Sorcerer
+      - m: 5
+        v: Warlock
+      - m: 6
+        v: Wizard
+  - name: alignment
+    entries:
+      - m: 1
+        v: Chaotic Evil
+      - m: 1
+        v: Chaotic Neutral
+      - m: 4
+        v: Lawful Evil
+      - m: 6
+        v: Neutral Evil
+      - m: 8
+        v: Neutral
+      - m: 6
+        v: Neutral Good
+      - m: 4
+        v: Lawful Good
+      - m: 4
+        v: Lawful Neutral
+      - m: 2
+        v: Chaotic Good
+      - m: 2
+        v: Chaotic Neutral
+categories:
+  - NPCs
+name: This Is Your Life
